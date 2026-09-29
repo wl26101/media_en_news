@@ -2,7 +2,7 @@ import logging
 import os
 
 # settings
-LOG_LEVEL = logging.INFO
+LOG_LEVEL = logging.DEBUG
 LOG_DIR = "logs"
 LOG_FILE = "app.log"
 
