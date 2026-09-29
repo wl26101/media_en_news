@@ -1,0 +1,41 @@
+2026-09-19 20:16:12 - agent_core.tracing - INFO - LangSmith tracing disabled (set LANGCHAIN_TRACING_V2 and LANGCHAIN_API_KEY to enable)
+2026-09-19 20:16:12 - __main__ - INFO - --no-launch: using the model servers as they are
+2026-09-19 20:16:12 - __main__ - INFO - running the news-video workflow on /home/wl26/project/media_en_news/resource/text/source.txt
+2026-09-19 20:16:12 - agent_core.tools.llm - WARNING - LLM call failed (attempt 1/2): HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8080): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:16:14 - agent_core.tools.llm - WARNING - LLM call failed (attempt 2/2): HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8080): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:16:14 - agent_core.graph - ERROR - summarize failed
+Traceback (most recent call last):
+  File "/home/wl26/project/media_en_news/agent_core/graph.py", line 41, in summarize_node
+    script = llm.write_script(source_text, feedback=state.get("feedback", ""))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wl26/project/media_en_news/agent_core/tools/llm.py", line 83, in write_script
+    return chat(prompt)
+           ^^^^^^^^^^^^
+  File "/home/wl26/project/media_en_news/agent_core/tools/llm.py", line 67, in chat
+    raise RuntimeError(f"LLM call failed after {retries} attempts: {last_error}")
+RuntimeError: LLM call failed after 2 attempts: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8080): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:16:14 - agent_core.graph - INFO - done: 0/0 sentences complete, video=no
+2026-09-19 20:16:14 - __main__ - INFO - manifest: /home/wl26/project/media_en_news/resource/video/news_manifest.json
+2026-09-19 20:16:14 - __main__ - INFO - done: 0/0 sentences complete, video=no
+2026-09-19 20:16:14 - __main__ - ERROR - no video was produced; see the errors above
+2026-09-19 20:16:18 - agent_core.tracing - INFO - LangSmith tracing disabled (set LANGCHAIN_TRACING_V2 and LANGCHAIN_API_KEY to enable)
+2026-09-19 20:16:18 - __main__ - INFO - --no-launch: using the model servers as they are
+2026-09-19 20:16:18 - __main__ - INFO - cleaned 0 artifact(s) from the previous run
+2026-09-19 20:16:18 - __main__ - INFO - running the news-video workflow on /home/wl26/project/media_en_news/resource/text/source.txt
+2026-09-19 20:16:18 - agent_core.tools.llm - WARNING - LLM call failed (attempt 1/2): HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8080): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:16:20 - agent_core.tools.llm - WARNING - LLM call failed (attempt 2/2): HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8080): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:16:20 - agent_core.graph - ERROR - summarize failed
+Traceback (most recent call last):
+  File "/home/wl26/project/media_en_news/agent_core/graph.py", line 41, in summarize_node
+    script = llm.write_script(source_text, feedback=state.get("feedback", ""))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/wl26/project/media_en_news/agent_core/tools/llm.py", line 83, in write_script
+    return chat(prompt)
+           ^^^^^^^^^^^^
+  File "/home/wl26/project/media_en_news/agent_core/tools/llm.py", line 67, in chat
+    raise RuntimeError(f"LLM call failed after {retries} attempts: {last_error}")
+RuntimeError: LLM call failed after 2 attempts: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8080): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:16:20 - agent_core.graph - INFO - done: 0/0 sentences complete, video=no
+2026-09-19 20:16:20 - __main__ - INFO - manifest: /home/wl26/project/media_en_news/resource/video/news_manifest.json
+2026-09-19 20:16:20 - __main__ - INFO - done: 0/0 sentences complete, video=no
+2026-09-19 20:16:20 - __main__ - ERROR - no video was produced; see the errors above

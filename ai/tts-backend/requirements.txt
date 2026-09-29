@@ -1,0 +1,18 @@
+# Qwen3-TTS backend dependencies.
+# Best installed into the `tts` conda env (Python 3.10):
+#   /home/wl26/miniconda3/envs/tts/bin/pip install -r requirements.txt
+#
+# torch / torchaudio must match your CUDA driver; the env already has
+# torch 2.11.0+cu126. If you install fresh, pick the right index URL:
+#   https://download.pytorch.org/whl/cu126
+qwen-tts>=0.1.1
+transformers>=4.57
+torch>=2.4
+torchaudio
+librosa
+soundfile>=0.14
+numpy
+scipy
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart

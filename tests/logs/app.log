@@ -1,0 +1,592 @@
+2026-09-04 22:42:40 - __main__ - INFO - Logger is set up successfully.
+2026-09-04 22:42:40 - __main__ - WARNING - This is a warning message.
+2026-09-04 22:42:40 - __main__ - ERROR - This is an error message.
+2026-09-06 00:39:00 - __main__ - INFO - Logger is set up successfully.
+2026-09-06 00:39:00 - __main__ - WARNING - This is a warning message.
+2026-09-06 00:39:00 - __main__ - ERROR - This is an error message.
+2026-09-06 00:44:23 - __main__ - INFO - Logger is set up successfully.
+2026-09-06 00:44:23 - __main__ - WARNING - This is a warning message.
+2026-09-06 00:44:23 - __main__ - ERROR - This is an error message.
+2026-09-06 00:44:23 - __main__ - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-06 00:44:23 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-06 00:44:54 - __main__ - INFO - Logger is set up successfully.
+2026-09-06 00:44:54 - __main__ - WARNING - This is a warning message.
+2026-09-06 00:44:54 - __main__ - ERROR - This is an error message.
+2026-09-06 00:44:54 - __main__ - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-06 00:44:54 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-06 00:45:54 - __main__ - INFO - Logger is set up successfully.
+2026-09-06 00:45:54 - __main__ - WARNING - This is a warning message.
+2026-09-06 00:45:54 - __main__ - ERROR - This is an error message.
+2026-09-06 00:45:54 - __main__ - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-06 00:45:54 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-06 00:49:01 - __main__ - INFO - Logger is set up successfully.
+2026-09-06 00:49:01 - __main__ - WARNING - This is a warning message.
+2026-09-06 00:49:01 - __main__ - ERROR - This is an error message.
+2026-09-06 00:49:01 - __main__ - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-06 00:49:01 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-06 00:49:01 - __main__ - INFO - Model status after launching LLM: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-06 00:49:01 - ai.manage_model - ERROR - Failed to send prompt: 'NoneType' object has no attribute 'write'
+2026-09-06 00:49:01 - ai.manage_model - ERROR - Failed to get result: 'NoneType' object has no attribute 'read'
+2026-09-06 00:49:01 - __main__ - INFO - LLM result: None
+2026-09-06 00:49:01 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-06 00:49:01 - __main__ - INFO - Model status after closing LLM: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-06 21:53:30 - __main__ - INFO - Logger is set up successfully.
+2026-09-06 21:53:30 - __main__ - WARNING - This is a warning message.
+2026-09-06 21:53:30 - __main__ - ERROR - This is an error message.
+2026-09-06 21:53:30 - __main__ - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-06 21:53:30 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-06 21:53:30 - __main__ - INFO - Model status after launching LLM: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-06 21:53:30 - ai.manage_model - ERROR - Failed to send prompt: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8080): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-06 21:53:30 - ai.manage_model - ERROR - Failed to get result: 'NoneType' object has no attribute 'read'
+2026-09-06 21:53:30 - __main__ - INFO - LLM result: None
+2026-09-06 21:53:30 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-06 21:53:30 - __main__ - INFO - Model status after closing LLM: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-06 21:54:38 - __main__ - INFO - Logger is set up successfully.
+2026-09-06 21:54:38 - __main__ - WARNING - This is a warning message.
+2026-09-06 21:54:38 - __main__ - ERROR - This is an error message.
+2026-09-06 21:54:38 - __main__ - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-06 21:54:38 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-06 21:54:38 - __main__ - INFO - Model status after launching LLM: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-06 21:54:38 - ai.manage_model - ERROR - Failed to send prompt: HTTPConnectionPool(host='127.0.0.1', port=8080): Max retries exceeded with url: /v1/chat/completions (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8080): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-06 21:54:38 - __main__ - INFO - LLM result: None
+2026-09-06 21:54:38 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-06 21:54:38 - __main__ - INFO - Model status after closing LLM: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-06 21:58:39 - __main__ - INFO - Logger is set up successfully.
+2026-09-06 21:58:39 - __main__ - WARNING - This is a warning message.
+2026-09-06 21:58:39 - __main__ - ERROR - This is an error message.
+2026-09-06 21:58:39 - __main__ - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-06 21:58:39 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-06 21:58:39 - __main__ - INFO - Model status after launching LLM: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-06 22:01:22 - __main__ - INFO - Logger is set up successfully.
+2026-09-06 22:01:22 - __main__ - WARNING - This is a warning message.
+2026-09-06 22:01:22 - __main__ - ERROR - This is an error message.
+2026-09-06 22:01:22 - __main__ - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-06 22:01:22 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-06 22:01:22 - ai.manage_model - INFO - llm 服务就绪
+2026-09-06 22:01:22 - __main__ - INFO - Model status after launching LLM: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-06 22:01:32 - __main__ - INFO - Logger is set up successfully.
+2026-09-06 22:01:32 - __main__ - WARNING - This is a warning message.
+2026-09-06 22:01:32 - __main__ - ERROR - This is an error message.
+2026-09-06 22:01:32 - __main__ - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-06 22:01:32 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-06 22:01:32 - ai.manage_model - INFO - llm 服务就绪
+2026-09-06 22:01:32 - __main__ - INFO - Model status after launching LLM: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-06 22:01:32 - ai.manage_model - INFO - llm 服务就绪
+2026-09-06 22:01:36 - __main__ - INFO - LLM result: Apple is a multinational technology company headquartered in Cupertino, California. It was founded in 1977 by Steve Jobs, Steve Wozniak, and Ronald Wayne. Apple is known for its innovative products and services, including the iPhone, iPad, Mac computers, Apple Watch, and Apple TV. 
+
+Here are some key points about Apple:
+
+1. **Products**: Apple offers a wide range of products including smartphones, tablets, computers, wearables, and home entertainment devices.
+
+2. **Operating System**: Apple's operating system for Mac computers is macOS, and for iOS devices (like iPhones and iPads) is iOS. Apple also developed its own operating system for Apple Watch called watchOS.
+
+3. **Services**: Apple offers various services including the App Store for downloading apps, the Apple Music music streaming service, Apple Pay for contactless payments, and iCloud for cloud storage and synchronization.
+
+4. **Design and Innovation**: Apple is known for its sleek and innovative design. The company is also famous for its focus on user experience and design, often setting industry standards in these areas.
+
+5. **Philanthropy**: Apple has a strong commitment to philanthropy, particularly in the areas of education and healthcare. The company is also known for its environmental initiatives.
+
+6. **Brand**: Apple has built a strong brand identity, known for its iconic products and sleek, modern design. The company is also recognized for its marketing strategies, which often focus on simplicity and elegance.
+
+Apple continues to be
+2026-09-06 22:01:36 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-06 22:01:36 - __main__ - INFO - Model status after closing LLM: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-06 22:02:06 - __main__ - INFO - Logger is set up successfully.
+2026-09-06 22:02:06 - __main__ - WARNING - This is a warning message.
+2026-09-06 22:02:06 - __main__ - ERROR - This is an error message.
+2026-09-06 22:02:06 - __main__ - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-06 22:02:06 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-06 22:02:06 - ai.manage_model - INFO - llm 服务就绪
+2026-09-06 22:02:06 - __main__ - INFO - Model status after launching LLM: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-06 22:02:09 - __main__ - INFO - LLM result: Apple is a multinational technology company headquartered in Cupertino, California. It was founded in 1977 by Steve Jobs, Steve Wozniak, and Ronald Wayne. The company is renowned for its innovative products and services, which include the Apple iPhone, Apple iPad, Apple Mac, Apple Watch, and Apple TV. 
+
+Apple's products are known for their sleek design, user-friendly interfaces, and integration capabilities, which allow users to connect their devices and access a wide range of services. The company is also known for its strong commitment to privacy and security, particularly with its iOS and macOS operating systems.
+
+In addition to its hardware products, Apple is also a leader in the development of software and services, including the Apple App Store, Apple Music, Apple Pay, and the Apple Arcade gaming service. Apple's ecosystem, which includes its hardware, software, and services, is designed to work seamlessly together, creating a cohesive user experience.
+
+Apple is also known for its philanthropic efforts, including its support of education, environmental causes, and social justice initiatives.
+2026-09-06 22:02:09 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-06 22:02:09 - __main__ - INFO - Model status after closing LLM: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-06 22:26:24 - test - INFO - Logger is set up successfully.
+2026-09-06 22:26:24 - test - WARNING - This is a warning message.
+2026-09-06 22:26:24 - test - ERROR - This is an error message.
+2026-09-06 22:26:24 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-06 22:26:24 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-06 22:26:24 - ai.manage_model - INFO - llm 服务就绪
+2026-09-06 22:26:24 - test - INFO - Model status after launching LLM: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-06 22:26:28 - test - INFO - LLM result: Apple is a multinational technology company headquartered in Cupertino, California. It was founded in 1977 by Steve Jobs, Steve Wozniak, and Ronald Wayne. Apple is best known for its Apple iOS operating system, which powers the iPhone, iPad, and iPod, as well as the Apple Watch and Apple TV. Here are some key points about Apple:
+
+1. **Products**: Apple offers a wide range of products including smartphones (iPhone), tablets (iPad), computers (Mac), wearables (Apple Watch), and home devices (Apple TV).
+
+2. **Operating System**: The company's flagship operating system is macOS, which runs on its Mac computers. iOS runs on the iPhone and iPad, and watchOS runs on the Apple Watch.
+
+3. **Services**: Apple also offers a variety of services including the App Store, Apple Music, Apple Pay, iCloud, and Apple Arcade.
+
+4. **Design**: Apple is known for its sleek and minimalist design, which is often praised for its user interface and user experience.
+
+5. **Innovation**: The company is renowned for its innovative products and technologies, including the introduction of the first mass-produced personal computer (the Apple II), the iPod, the iPhone, and the iPad.
+
+6. **Philanthropy**: Apple has a strong commitment to philanthropy and has donated billions of dollars to various causes, including education, healthcare, and environmental conservation.
+
+7. **Stock**: Apple is one of the largest and most valuable companies in the
+2026-09-06 22:26:28 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-06 22:26:28 - test - INFO - Model status after closing LLM: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-06 22:28:00 - test - INFO - Logger is set up successfully.
+2026-09-06 22:28:00 - test - WARNING - This is a warning message.
+2026-09-06 22:28:00 - test - ERROR - This is an error message.
+2026-09-06 22:28:00 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-06 22:28:00 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-06 22:28:00 - ai.manage_model - INFO - llm 服务就绪
+2026-09-06 22:28:00 - test - INFO - Model status after launching LLM: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-06 22:28:04 - test - INFO - LLM result: Apple is a multinational technology company headquartered in Cupertino, California. It is known for its innovative products and services, including the iPhone, iPad, Mac, Apple Watch, and Apple TV. Here are some key points about Apple:
+
+1. **Products**: Apple offers a wide range of consumer electronics, computers, and services. Its products are designed to work seamlessly together, creating a cohesive ecosystem.
+
+2. **Services**: Apple also provides a variety of services, including the Apple App Store for apps, Apple Music for music streaming, and Apple Pay for mobile payments.
+
+3. **Design**: Apple is renowned for its sleek and minimalist design, which often sets it apart from its competitors. The company is known for its attention to detail and user experience.
+
+4. **Technology**: Apple is at the forefront of many technological advancements, including touch technology, voice recognition, and augmented reality.
+
+5. **Philosophy**: Apple is known for its commitment to privacy and security, as well as its focus on user experience and design.
+
+6. **Innovation**: The company has a strong history of innovation, with many of its products and services being groundbreaking in their time.
+
+7. **Brand**: Apple is one of the most recognizable and valuable brands globally, known for its marketing campaigns and iconic product launches.
+
+Apple's products and services have significantly impacted the technology industry and consumer electronics market, and the company continues to be a leader in both innovation and market presence.
+2026-09-06 22:28:04 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-06 22:28:04 - test - INFO - Model status after closing LLM: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 22:32:25 - test - INFO - Logger is set up successfully.
+2026-09-09 22:32:25 - test - WARNING - This is a warning message.
+2026-09-09 22:32:25 - test - ERROR - This is an error message.
+2026-09-09 22:32:25 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 22:32:25 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-09 22:32:25 - ai.manage_model - INFO - llm 服务就绪
+2026-09-09 22:32:25 - test - INFO - Model status after launching LLM: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-09 22:32:35 - ai.manage_model - ERROR - Failed to send prompt: HTTPConnectionPool(host='127.0.0.1', port=8080): Read timed out. (read timeout=10)
+2026-09-09 22:32:35 - test - INFO - LLM result: None
+2026-09-09 22:32:36 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 22:32:36 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-09 22:33:37 - ai.manage_model - ERROR - TTS启动超时，未就绪
+2026-09-09 22:33:37 - test - INFO - Model status after launching TTS: {'llm': 0, 'tts': 1, 'image': 0}
+2026-09-09 22:33:37 - ai.manage_model - ERROR - Failed to generate TTS: HTTPConnectionPool(host='127.0.0.1', port=8081): Max retries exceeded with url: /v1/tts (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8081): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-09 22:33:37 - test - INFO - TTS result saved to out.wav: None
+2026-09-09 22:36:56 - test - INFO - Logger is set up successfully.
+2026-09-09 22:36:56 - test - WARNING - This is a warning message.
+2026-09-09 22:36:56 - test - ERROR - This is an error message.
+2026-09-09 22:36:56 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 22:36:56 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-09 22:36:56 - ai.manage_model - INFO - llm 服务就绪
+2026-09-09 22:36:56 - test - INFO - Model status after launching LLM: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-09 22:37:06 - ai.manage_model - ERROR - Failed to send prompt: HTTPConnectionPool(host='127.0.0.1', port=8080): Read timed out. (read timeout=10)
+2026-09-09 22:37:06 - test - INFO - LLM result: None
+2026-09-09 22:40:26 - test - INFO - Logger is set up successfully.
+2026-09-09 22:40:26 - test - WARNING - This is a warning message.
+2026-09-09 22:40:26 - test - ERROR - This is an error message.
+2026-09-09 22:40:26 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 22:40:26 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-09 22:40:26 - ai.manage_model - INFO - llm 服务就绪
+2026-09-09 22:40:26 - test - INFO - Model status after launching LLM: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-09 22:40:30 - test - INFO - LLM result: Apple is a multinational technology company headquartered in Cupertino, California. It was founded in 1977 by Steve Jobs, Steve Wozniak, and Ronald Wayne. The company is renowned for its innovative products and services, which include the Apple iPhone, Apple iPad, Apple Mac, Apple Watch, and Apple TV. 
+
+Apple's products are known for their sleek design, user-friendly interfaces, and integration of various services. The company also offers a wide range of software products, including the macOS operating system for Mac computers, iOS for Apple devices, and watchOS for Apple Watch. 
+
+In addition to its hardware and software, Apple is also known for its music streaming service, Apple Music, and its e-commerce platform, Apple Store. 
+
+Apple has a strong presence in the music industry, owning the music streaming service, Apple Music, and also the music distribution platform, the iTunes Store. 
+
+Apple is also known for its commitment to environmental sustainability and has implemented various initiatives to reduce its carbon footprint and promote renewable energy use. 
+
+Overall, Apple is a leading technology company that has significantly impacted the technology industry and consumer electronics market.
+2026-09-09 22:40:30 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-09 22:40:30 - test - INFO - Model status after closing LLM: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 22:41:45 - test - INFO - Logger is set up successfully.
+2026-09-09 22:41:45 - test - WARNING - This is a warning message.
+2026-09-09 22:41:45 - test - ERROR - This is an error message.
+2026-09-09 22:41:45 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 22:41:45 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-09 22:41:45 - ai.manage_model - INFO - llm 服务就绪
+2026-09-09 22:41:45 - test - INFO - Model status after launching LLM: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-09 22:41:47 - test - INFO - LLM result: Apple is a multinational technology company headquartered in Cupertino, California. It is known for its innovative products and services, including the iPhone, iPad, Mac, Apple Watch, and Apple TV. Apple also produces software such as macOS, iOS, watchOS, and tvOS, which are used on its devices. 
+
+The company was founded in 1977 by Steve Jobs, Steve Wozniak, and Ronald Wayne. Apple has a strong focus on design, user experience, and intellectual property. It is also famous for its retail stores, which are known for their distinctive architecture and in-store experiences.
+
+Apple is known for its commitment to environmental sustainability and has implemented various initiatives to reduce its carbon footprint. The company has a significant influence on popular culture and technology trends, and it is one of the most valuable companies in the world.
+2026-09-09 22:41:47 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-09 22:41:47 - test - INFO - Model status after closing LLM: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 22:41:55 - test - INFO - Logger is set up successfully.
+2026-09-09 22:41:55 - test - WARNING - This is a warning message.
+2026-09-09 22:41:55 - test - ERROR - This is an error message.
+2026-09-09 22:41:55 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 22:41:55 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-09 22:41:55 - ai.manage_model - INFO - TTS 服务就绪
+2026-09-09 22:41:55 - test - INFO - Model status after launching TTS: {'llm': 0, 'tts': 1, 'image': 0}
+2026-09-09 22:41:55 - ai.manage_model - ERROR - Failed to generate TTS: 422 Client Error: Unprocessable Entity for url: http://127.0.0.1:8081/v1/tts
+2026-09-09 22:41:55 - test - INFO - TTS result saved to out.wav: None
+2026-09-09 23:02:56 - test - INFO - Logger is set up successfully.
+2026-09-09 23:02:56 - test - WARNING - This is a warning message.
+2026-09-09 23:02:56 - test - ERROR - This is an error message.
+2026-09-09 23:02:56 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:02:56 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-09 23:03:14 - ai.manage_model - INFO - TTS 服务就绪
+2026-09-09 23:03:14 - test - INFO - Model status after launching TTS: {'llm': 0, 'tts': 1, 'image': 0}
+2026-09-09 23:03:14 - ai.manage_model - WARNING - TTS backend model 'base' does not support tone control; ignoring tone='cheerful'.
+2026-09-09 23:03:22 - test - INFO - TTS result saved to out.wav: out2.wav
+2026-09-09 23:03:22 - ai.manage_model - INFO - Closing the model tts with provider local.
+2026-09-09 23:03:22 - test - INFO - Model status after closing TTS: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:18:31 - test - INFO - Logger is set up successfully.
+2026-09-09 23:18:31 - test - WARNING - This is a warning message.
+2026-09-09 23:18:31 - test - ERROR - This is an error message.
+2026-09-09 23:18:31 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:18:31 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-09 23:19:31 - ai.manage_model - ERROR - TTS启动超时，未就绪
+2026-09-09 23:19:31 - test - INFO - Model status after launching TTS: {'llm': 0, 'tts': 1, 'image': 0}
+2026-09-09 23:19:31 - ai.manage_model - WARNING - TTS service is not running.
+2026-09-09 23:19:31 - test - INFO - TTS result saved to out.wav: None
+2026-09-09 23:19:31 - ai.manage_model - INFO - Closing the model tts with provider local.
+2026-09-09 23:19:31 - test - INFO - Model status after closing TTS: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:19:49 - test - INFO - Logger is set up successfully.
+2026-09-09 23:19:49 - test - WARNING - This is a warning message.
+2026-09-09 23:19:49 - test - ERROR - This is an error message.
+2026-09-09 23:19:49 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:19:49 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-09 23:20:49 - ai.manage_model - ERROR - TTS启动超时，未就绪
+2026-09-09 23:20:49 - test - INFO - Model status after launching TTS: {'llm': 0, 'tts': 1, 'image': 0}
+2026-09-09 23:20:49 - ai.manage_model - WARNING - TTS service is not running.
+2026-09-09 23:20:49 - test - INFO - TTS result saved to out.wav: None
+2026-09-09 23:20:49 - ai.manage_model - INFO - Closing the model tts with provider local.
+2026-09-09 23:20:49 - test - INFO - Model status after closing TTS: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:25:09 - test - INFO - Logger is set up successfully.
+2026-09-09 23:25:09 - test - WARNING - This is a warning message.
+2026-09-09 23:25:09 - test - ERROR - This is an error message.
+2026-09-09 23:25:09 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:25:09 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-09 23:25:21 - ai.manage_model - INFO - TTS 服务就绪
+2026-09-09 23:25:21 - test - INFO - Model status after launching TTS: {'llm': 0, 'tts': 1, 'image': 0}
+2026-09-09 23:25:21 - ai.manage_model - WARNING - TTS backend model 'base' does not support tone control; ignoring tone='cheerful'.
+2026-09-09 23:25:28 - test - INFO - TTS result saved to out.wav: out2.wav
+2026-09-09 23:25:28 - ai.manage_model - INFO - Closing the model tts with provider local.
+2026-09-09 23:25:28 - test - INFO - Model status after closing TTS: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:25:39 - test - INFO - Logger is set up successfully.
+2026-09-09 23:25:39 - test - WARNING - This is a warning message.
+2026-09-09 23:25:39 - test - ERROR - This is an error message.
+2026-09-09 23:25:39 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:25:39 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-09 23:25:39 - ai.manage_model - INFO - llm 服务就绪
+2026-09-09 23:25:39 - test - INFO - Model status after launching LLM: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-09 23:25:44 - test - INFO - LLM result: Apple is a multinational technology company headquartered in Cupertino, California. It was founded in 1977 by Steve Jobs, Steve Wozniak, and Ronald Wayne. The company is renowned for its innovative products and services, which include the iPhone, iPad, Mac computers, Apple Watch, Apple TV, and various software applications such as the iOS and macOS operating systems, as well as the Apple Music streaming service.
+
+Here are some key points about Apple:
+
+1. **Products**: Apple's product lineup includes smartphones, tablets, computers, and wearables. The iPhone, which was first introduced in 2007, has become one of the most popular and influential smartphones in the world.
+
+2. **Software and Services**: Apple's software ecosystem, known as the Apple Ecosystem, includes iOS, macOS, watchOS, and tvOS, which are designed to work seamlessly together. Apple also offers a wide range of digital services, including the App Store, Apple Music, Apple Pay, and iCloud.
+
+3. **Design and Innovation**: Apple is known for its sleek and user-friendly designs, as well as its commitment to innovation. The company often sets trends in design and technology, influencing not only its own products but also the broader tech industry.
+
+4. **Philanthropy**: Apple is known for its philanthropic efforts, particularly through the Apple Foundation, which supports education, healthcare, and environmental causes.
+
+5. **Brand**: Apple has built a strong brand identity, known for its
+2026-09-09 23:25:44 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-09 23:25:44 - test - INFO - Model status after closing LLM: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:25:44 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:25:44 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-09 23:25:44 - ai.manage_model - INFO - TTS 服务就绪
+2026-09-09 23:25:44 - test - INFO - Model status after launching TTS: {'llm': 0, 'tts': 1, 'image': 0}
+2026-09-09 23:25:44 - ai.manage_model - WARNING - TTS backend model 'base' does not support tone control; ignoring tone='cheerful'.
+2026-09-09 23:25:48 - test - INFO - TTS result saved to out.wav: out2.wav
+2026-09-09 23:25:48 - ai.manage_model - INFO - Closing the model tts with provider local.
+2026-09-09 23:25:48 - test - INFO - Model status after closing TTS: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:26:34 - test - INFO - Logger is set up successfully.
+2026-09-09 23:26:34 - test - WARNING - This is a warning message.
+2026-09-09 23:26:34 - test - ERROR - This is an error message.
+2026-09-09 23:26:34 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:26:34 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-09 23:26:34 - ai.manage_model - INFO - llm 服务就绪
+2026-09-09 23:26:34 - test - INFO - Model status after launching LLM: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-09 23:26:38 - test - INFO - LLM result: Apple is a multinational technology company headquartered in Cupertino, California. It is known for its innovative products and services, including the iPhone, iPad, Mac, Apple Watch, and Apple TV. Here are some key points about Apple:
+
+1. **iPhone**: Apple's flagship product, the iPhone, has revolutionized the mobile phone industry. It features a touch screen, a variety of sensors, and a high-resolution display.
+
+2. **iPad**: Apple's tablet computer, the iPad, is designed for both work and entertainment. It is highly versatile and can be used for a wide range of applications, from browsing the web to creating documents.
+
+3. **Mac**: Apple's line of personal computers, known as Macs, are designed to be powerful and user-friendly. They are popular among professionals and creative professionals due to their performance and design.
+
+4. **Apple Watch**: This is a smartwatch that integrates with the iPhone ecosystem. It can track health metrics, receive notifications, and control other Apple devices.
+
+5. **Apple TV**: This is a streaming media device that allows users to watch movies, TV shows, and other content from various streaming services.
+
+6. **Services**: Apple also offers a range of services including the App Store, Apple Music, Apple Pay, and iCloud, which provide users with a seamless experience across all their devices.
+
+7. **Design and Innovation**: Apple is known for its sleek and minimalist design, and its products often come with advanced features and user-friendly interfaces.
+
+8
+2026-09-09 23:26:38 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-09 23:26:38 - test - INFO - Model status after closing LLM: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:26:38 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:26:38 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-09 23:26:38 - ai.manage_model - INFO - TTS 服务就绪
+2026-09-09 23:26:38 - test - INFO - Model status after launching TTS: {'llm': 0, 'tts': 1, 'image': 0}
+2026-09-09 23:26:38 - ai.manage_model - WARNING - TTS backend model 'base' does not support tone control; ignoring tone='cheerful'.
+2026-09-09 23:26:44 - test - INFO - TTS result saved to out.wav: out2.wav
+2026-09-09 23:26:44 - ai.manage_model - INFO - Closing the model tts with provider local.
+2026-09-09 23:26:44 - test - INFO - Model status after closing TTS: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:34:25 - test - INFO - Logger is set up successfully.
+2026-09-09 23:34:25 - test - WARNING - This is a warning message.
+2026-09-09 23:34:25 - test - ERROR - This is an error message.
+2026-09-09 23:34:25 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:34:25 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-09 23:34:25 - ai.manage_model - INFO - llm 服务就绪
+2026-09-09 23:34:25 - test - INFO - Model status after launching LLM: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-09 23:34:30 - test - INFO - LLM result: Apple is a multinational technology company headquartered in Cupertino, California. It was founded in 1977 by Steve Jobs, Steve Wozniak, and Ronald Wayne. The company is renowned for its innovative products, including the iPhone, iPad, Apple Watch, and Mac computers. Apple is also known for its design, user interface, software, and online services.
+
+Here are some key points about Apple:
+
+1. **Products**: Apple offers a wide range of consumer electronics, computers, and services. Its products include the iPhone, which is one of the best-selling smartphones globally, the iPad, which is a popular tablet computer, and the Apple Watch, a smartwatch. Apple also produces Mac computers, which are popular among professionals and enthusiasts.
+
+2. **Software**: Apple is known for its macOS, iOS, watchOS, and tvOS operating systems, which are used on its devices. These operating systems are designed to be integrated and work seamlessly with each other.
+
+3. **Services**: Apple provides a variety of services, including the App Store for downloading apps, the Apple Music music streaming service, iCloud for cloud storage and synchronization, and Apple Pay for contactless payments.
+
+4. **Design**: Apple is famous for its sleek and minimalist design, which is often praised for its aesthetic appeal and user experience.
+
+5. **Philosophy**: Apple is known for its focus on user experience and design, often emphasizing simplicity and elegance in its products and services.
+
+6. **Innovation**:
+2026-09-09 23:34:30 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-09 23:34:30 - test - INFO - Model status after closing LLM: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:34:30 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:34:30 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-09 23:34:38 - ai.manage_model - INFO - TTS 服务就绪
+2026-09-09 23:34:38 - test - INFO - Model status after launching TTS: {'llm': 0, 'tts': 1, 'image': 0}
+2026-09-09 23:34:38 - ai.manage_model - WARNING - TTS backend model 'base' does not support tone control; ignoring tone='cheerful'.
+2026-09-09 23:34:44 - test - INFO - TTS result saved to out.wav: out2.wav
+2026-09-09 23:34:44 - ai.manage_model - INFO - Closing the model tts with provider local.
+2026-09-09 23:34:44 - test - INFO - Model status after closing TTS: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:38:19 - test - INFO - Logger is set up successfully.
+2026-09-09 23:38:19 - test - WARNING - This is a warning message.
+2026-09-09 23:38:19 - test - ERROR - This is an error message.
+2026-09-09 23:38:19 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:38:19 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-09 23:38:25 - ai.manage_model - INFO - llm 服务就绪
+2026-09-09 23:38:25 - test - INFO - Model status after launching LLM: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-09 23:38:29 - test - INFO - LLM result: Apple is a multinational technology company headquartered in Cupertino, California. It was founded in 1977 by Steve Jobs, Steve Wozniak, and Ronald Wayne. Apple is best known for its innovative products and services, including the iPhone, iPad, Mac computers, Apple Watch, and Apple TV. 
+
+Here are some key points about Apple:
+
+1. **Products**: Apple offers a wide range of products including smartphones (iPhone), tablets (iPad), computers (Mac), wearables (Apple Watch), and streaming media players (Apple TV). 
+
+2. **Software**: Apple's operating systems, including macOS for Mac computers, iOS for iPhones and iPads, and watchOS for Apple Watches, are widely popular for their user-friendly interfaces and security features.
+
+3. **Services**: Apple provides a variety of services such as the App Store for downloading apps, Apple Music for music streaming, and Apple Pay for contactless payments.
+
+4. **Design**: Apple is known for its sleek and minimalist design, often incorporating advanced technology in a way that is both functional and aesthetically pleasing.
+
+5. **Philosophy**: Apple is known for its focus on design, innovation, and user experience. The company often emphasizes simplicity and efficiency in its products and services.
+
+6. **Innovation**: Apple has been at the forefront of many technological advancements, including the introduction of the first multi-touch interface with the iPhone, and the development of the iPad, which revolutionized the tablet market.
+
+Apple's
+2026-09-09 23:38:29 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-09 23:38:29 - test - INFO - Model status after closing LLM: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:38:29 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:38:29 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-09 23:38:38 - ai.manage_model - INFO - TTS 服务就绪
+2026-09-09 23:38:38 - test - INFO - Model status after launching TTS: {'llm': 0, 'tts': 1, 'image': 0}
+2026-09-09 23:38:38 - ai.manage_model - WARNING - TTS backend model 'base' does not support tone control; ignoring tone='cheerful'.
+2026-09-09 23:38:43 - test - INFO - TTS result saved to out.wav: out2.wav
+2026-09-09 23:38:43 - ai.manage_model - INFO - Closing the model tts with provider local.
+2026-09-09 23:38:43 - test - INFO - Model status after closing TTS: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:38:56 - test - INFO - Logger is set up successfully.
+2026-09-09 23:38:56 - test - WARNING - This is a warning message.
+2026-09-09 23:38:56 - test - ERROR - This is an error message.
+2026-09-09 23:38:56 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:38:56 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-09 23:39:01 - ai.manage_model - INFO - llm 服务就绪
+2026-09-09 23:39:01 - test - INFO - Model status after launching LLM: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-09 23:39:05 - test - INFO - LLM result: Apple is a multinational technology company headquartered in Cupertino, California. It was founded in 1977 by Steve Jobs, Steve Wozniak, and Ronald Wayne. Apple is renowned for its innovative products and services, which include the iPhone, iPad, Mac computers, Apple Watch, and Apple TV. 
+
+Here are some key points about Apple:
+
+1. **Products**: Apple's product lineup includes not only the popular iPhone and iPad but also the Apple Watch, Apple TV, Mac computers, and various accessories like the AirPods and Apple Pencil.
+
+2. **Software**: Apple is also known for its operating systems, including macOS for Mac computers, iOS for iPhones and iPads, and watchOS for Apple Watches.
+
+3. **Services**: Apple offers a range of services including the Apple Music music streaming service, Apple Pay for contactless payments, and Apple Arcade for gaming.
+
+4. **Design**: Apple is known for its sleek and minimalist design, which is often praised for its aesthetic appeal and user experience.
+
+5. **Philosophy**: The company is known for its focus on design, user experience, and innovation. Apple is also famous for its marketing strategies, which often emphasize simplicity and elegance.
+
+6. **Innovation**: Apple has been a pioneer in many technological fields, including touch screen technology, mobile operating systems, and wearable technology.
+
+7. **Brand**: Apple has built a strong brand identity, known for its high-quality products and commitment to design and user experience
+2026-09-09 23:39:05 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-09 23:39:05 - test - INFO - Model status after closing LLM: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:39:05 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-09 23:39:05 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-09 23:39:13 - ai.manage_model - INFO - TTS 服务就绪
+2026-09-09 23:39:13 - test - INFO - Model status after launching TTS: {'llm': 0, 'tts': 1, 'image': 0}
+2026-09-09 23:39:13 - ai.manage_model - WARNING - TTS backend model 'base' does not support tone control; ignoring tone='cheerful'.
+2026-09-09 23:39:19 - test - INFO - TTS result saved to out.wav: out2.wav
+2026-09-09 23:39:19 - ai.manage_model - INFO - Closing the model tts with provider local.
+2026-09-09 23:39:20 - test - INFO - Model status after closing TTS: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-15 23:16:18 - test - INFO - Logger is set up successfully.
+2026-09-15 23:16:18 - test - WARNING - This is a warning message.
+2026-09-15 23:16:18 - test - ERROR - This is an error message.
+2026-09-15 23:16:18 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-15 23:16:18 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-15 23:16:18 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /health (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 23:16:48 - test - INFO - Model status after launching Image: {'llm': 0, 'tts': 0, 'image': 1}
+2026-09-15 23:16:48 - test - INFO - Image health: None
+2026-09-15 23:16:48 - ai.manage_model - INFO - Closing the model image with provider local.
+2026-09-15 23:16:48 - test - INFO - Model status after closing Image: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-15 23:20:01 - test - INFO - Logger is set up successfully.
+2026-09-15 23:20:01 - test - WARNING - This is a warning message.
+2026-09-15 23:20:01 - test - ERROR - This is an error message.
+2026-09-15 23:20:01 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-15 23:20:01 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-15 23:20:01 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 23:20:31 - test - INFO - Model status after launching Image: {'llm': 0, 'tts': 0, 'image': 1}
+2026-09-15 23:20:31 - test - INFO - Image health: None
+2026-09-15 23:20:31 - ai.manage_model - INFO - Closing the model image with provider local.
+2026-09-15 23:20:31 - test - INFO - Model status after closing Image: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-15 23:29:41 - test - INFO - Logger is set up successfully.
+2026-09-15 23:29:41 - test - WARNING - This is a warning message.
+2026-09-15 23:29:41 - test - ERROR - This is an error message.
+2026-09-15 23:29:41 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-15 23:29:41 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-15 23:29:41 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 23:29:42 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 23:29:43 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 23:29:44 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 23:29:45 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 23:29:46 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 23:29:47 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 23:29:48 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 23:29:49 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 23:29:50 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 23:29:51 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 23:29:52 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 23:29:52 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 23:29:53 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 23:29:54 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 23:29:55 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 23:29:56 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 23:29:57 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-15 23:29:58 - test - INFO - Model status after launching Image: {'llm': 0, 'tts': 0, 'image': 1}
+2026-09-15 23:29:58 - test - INFO - Image health: {'system': {'os': 'linux', 'ram_total': 12385411072, 'ram_free': 8476860416, 'comfyui_version': '0.34.0', 'required_frontend_version': '1.51.9', 'installed_templates_version': '0.11.48', 'required_templates_version': '0.11.48', 'comfy_package_versions': [{'name': 'comfyui-frontend-package', 'installed': '1.51.9', 'required': '1.51.9'}, {'name': 'comfyui-workflow-templates', 'installed': '0.11.48', 'required': '0.11.48'}, {'name': 'comfyui-embedded-docs', 'installed': '0.5.10', 'required': '0.5.10'}, {'name': 'comfy-kitchen', 'installed': '0.2.31', 'required': '0.2.31'}, {'name': 'comfy-aimdo', 'installed': '0.4.15', 'required': '0.4.15'}], 'python_version': '3.10.20 (main, Jun 11 2026, 15:17:37) [GCC 14.3.0]', 'pytorch_version': '2.13.0+cu126', 'embedded_python': False, 'deploy_environment': 'local-git', 'argv': ['main.py', '--port', '8188']}, 'devices': [{'name': 'cuda:0 NVIDIA GeForce RTX 4060 Laptop GPU : cudaMallocAsync', 'type': 'cuda', 'index': 0, 'vram_total': 8585216000, 'vram_free': 7440695296, 'torch_vram_total': 0, 'torch_vram_free': 0}]}
+2026-09-15 23:29:58 - ai.manage_model - INFO - Closing the model image with provider local.
+2026-09-15 23:29:58 - test - INFO - Model status after closing Image: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-16 22:36:12 - test - INFO - Logger is set up successfully.
+2026-09-16 22:36:12 - test - WARNING - This is a warning message.
+2026-09-16 22:36:12 - test - ERROR - This is an error message.
+2026-09-16 22:36:12 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-16 22:36:12 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-16 22:36:12 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:36:13 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:36:14 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:36:15 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:36:16 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:36:18 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:36:19 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:36:20 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:36:21 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:36:22 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:36:23 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:36:24 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:36:25 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:36:26 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:36:27 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:36:28 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:36:29 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:36:27 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:36:28 - test - INFO - Model status after launching Image: {'llm': 0, 'tts': 0, 'image': 1}
+2026-09-16 22:36:28 - test - INFO - Image health: {'system': {'os': 'linux', 'ram_total': 12385411072, 'ram_free': 7966633984, 'comfyui_version': '0.34.0', 'required_frontend_version': '1.51.9', 'installed_templates_version': '0.11.48', 'required_templates_version': '0.11.48', 'comfy_package_versions': [{'name': 'comfyui-frontend-package', 'installed': '1.51.9', 'required': '1.51.9'}, {'name': 'comfyui-workflow-templates', 'installed': '0.11.48', 'required': '0.11.48'}, {'name': 'comfyui-embedded-docs', 'installed': '0.5.10', 'required': '0.5.10'}, {'name': 'comfy-kitchen', 'installed': '0.2.31', 'required': '0.2.31'}, {'name': 'comfy-aimdo', 'installed': '0.4.15', 'required': '0.4.15'}], 'python_version': '3.10.20 (main, Jun 11 2026, 15:17:37) [GCC 14.3.0]', 'pytorch_version': '2.13.0+cu126', 'embedded_python': False, 'deploy_environment': 'local-git', 'argv': ['main.py', '--port', '8188']}, 'devices': [{'name': 'cuda:0 NVIDIA GeForce RTX 4060 Laptop GPU : cudaMallocAsync', 'type': 'cuda', 'index': 0, 'vram_total': 8585216000, 'vram_free': 7440695296, 'torch_vram_total': 0, 'torch_vram_free': 0}]}
+2026-09-16 22:36:58 - ai.manage_model - INFO - Generated images info: [{'filename': 'out_00001_.png', 'subfolder': '', 'type': 'output'}]
+2026-09-16 22:36:58 - ai.manage_model - INFO - Image saved to out.png (seed=3147644781445295795)
+2026-09-16 22:36:58 - test - INFO - Generated image saved to out.png: out.png
+2026-09-16 22:36:58 - ai.manage_model - INFO - Closing the model image with provider local.
+2026-09-16 22:36:59 - test - INFO - Model status after closing Image: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-16 22:44:58 - test - INFO - Logger is set up successfully.
+2026-09-16 22:44:58 - test - WARNING - This is a warning message.
+2026-09-16 22:44:58 - test - ERROR - This is an error message.
+2026-09-16 22:44:58 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-16 22:44:58 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-16 22:45:04 - ai.manage_model - INFO - llm 服务就绪
+2026-09-16 22:45:04 - test - INFO - Model status after launching LLM: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-16 22:45:08 - test - INFO - LLM result: Apple is a multinational technology company headquartered in Cupertino, California. It is best known for its innovative products and services, including the iPhone, iPad, Mac, Apple Watch, and Apple TV. The company was founded in 1977 by Steve Jobs, Steve Wozniak, and Ronald Wayne. 
+
+Here are some key points about Apple:
+
+1. **Products**: Apple offers a wide range of consumer electronics, computers, and services. Its products are designed to be user-friendly and often incorporate advanced technologies.
+
+2. **Operating System**: Apple's flagship operating system is macOS, which is used on its Mac computers. iOS is used on Apple's mobile devices, including iPhones, iPads, and iPods. Apple also developed its own server operating system called macOS Server.
+
+3. **Services**: Apple offers a variety of services, including the App Store for apps, the Apple Music music streaming service, Apple Pay for mobile payments, and iCloud for cloud storage and synchronization.
+
+4. **Design and Innovation**: Apple is known for its sleek and innovative design, often setting trends in the tech industry. The company is also known for its commitment to environmental sustainability and ethical business practices.
+
+5. **Brand**: Apple has a strong brand identity, known for its iconic products and marketing strategies. The company is also famous for its annual product launches, which are often highly anticipated events.
+
+Apple's products and services have significantly influenced the tech industry and consumer electronics market, and the company continues to be a
+2026-09-16 22:45:08 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-16 22:45:09 - test - INFO - Model status after closing LLM: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-16 22:45:09 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-16 22:45:09 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-16 22:45:26 - ai.manage_model - INFO - TTS 服务就绪
+2026-09-16 22:45:26 - test - INFO - Model status after launching TTS: {'llm': 0, 'tts': 1, 'image': 0}
+2026-09-16 22:45:27 - ai.manage_model - WARNING - TTS backend model 'base' does not support tone control; ignoring tone='cheerful'.
+2026-09-16 22:45:32 - test - INFO - TTS result saved to out.wav: out2.wav
+2026-09-16 22:45:32 - ai.manage_model - INFO - Closing the model tts with provider local.
+2026-09-16 22:45:29 - test - INFO - Model status after closing TTS: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-16 22:45:29 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-16 22:45:29 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-16 22:45:29 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:45:30 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:45:31 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:45:32 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:45:33 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:45:34 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:45:35 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:45:36 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:45:37 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:45:38 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:45:39 - test - INFO - Model status after launching Image: {'llm': 0, 'tts': 0, 'image': 1}
+2026-09-16 22:45:39 - test - INFO - Image health: {'system': {'os': 'linux', 'ram_total': 12385411072, 'ram_free': 8022827008, 'comfyui_version': '0.34.0', 'required_frontend_version': '1.51.9', 'installed_templates_version': '0.11.48', 'required_templates_version': '0.11.48', 'comfy_package_versions': [{'name': 'comfyui-frontend-package', 'installed': '1.51.9', 'required': '1.51.9'}, {'name': 'comfyui-workflow-templates', 'installed': '0.11.48', 'required': '0.11.48'}, {'name': 'comfyui-embedded-docs', 'installed': '0.5.10', 'required': '0.5.10'}, {'name': 'comfy-kitchen', 'installed': '0.2.31', 'required': '0.2.31'}, {'name': 'comfy-aimdo', 'installed': '0.4.15', 'required': '0.4.15'}], 'python_version': '3.10.20 (main, Jun 11 2026, 15:17:37) [GCC 14.3.0]', 'pytorch_version': '2.13.0+cu126', 'embedded_python': False, 'deploy_environment': 'local-git', 'argv': ['main.py', '--port', '8188']}, 'devices': [{'name': 'cuda:0 NVIDIA GeForce RTX 4060 Laptop GPU : cudaMallocAsync', 'type': 'cuda', 'index': 0, 'vram_total': 8585216000, 'vram_free': 7440695296, 'torch_vram_total': 0, 'torch_vram_free': 0}]}
+2026-09-16 22:46:06 - ai.manage_model - INFO - Generated images info: [{'filename': 'out_00002_.png', 'subfolder': '', 'type': 'output'}]
+2026-09-16 22:46:06 - ai.manage_model - INFO - Image saved to out.png (seed=6896952061129806323)
+2026-09-16 22:46:06 - test - INFO - Generated image saved to out.png: out.png
+2026-09-16 22:46:06 - ai.manage_model - INFO - Closing the model image with provider local.
+2026-09-16 22:46:07 - test - INFO - Model status after closing Image: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-16 22:46:07 - test - INFO - Initial model status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-16 22:46:07 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-16 22:46:10 - ai.manage_model - INFO - llm 服务就绪
+2026-09-16 22:46:10 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-16 22:46:23 - ai.manage_model - INFO - TTS 服务就绪
+2026-09-16 22:46:23 - test - INFO - Model status after launching LLM and TTS: {'llm': 1, 'tts': 1, 'image': 0}
+2026-09-16 22:46:23 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-16 22:46:23 - ai.manage_model - INFO - LLM model is running. Launching Image may affect performance.Close llm serve.
+2026-09-16 22:46:24 - ai.manage_model - INFO - TTS model is running. Launching Image may affect performance.Close tts serve.
+2026-09-16 22:46:25 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:46:26 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:46:27 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:46:28 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:46:29 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:46:30 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:46:31 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:46:32 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:46:33 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:46:34 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-16 22:46:33 - test - INFO - Model status after launching Image: {'llm': 0, 'tts': 0, 'image': 1}
+2026-09-16 22:46:33 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-16 22:46:33 - ai.manage_model - INFO - Image model is running. Launching TTS may affect performance.Close image serve.
+2026-09-16 22:46:41 - ai.manage_model - INFO - TTS 服务就绪
+2026-09-16 22:46:41 - test - INFO - Model status after launching TTS again: {'llm': 0, 'tts': 1, 'image': 0}
+2026-09-16 22:46:41 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-16 22:46:41 - ai.manage_model - INFO - LLM model is not running.
+2026-09-16 22:46:41 - ai.manage_model - INFO - Closing the model tts with provider local.
+2026-09-16 22:46:41 - ai.manage_model - INFO - Closing the model image with provider local.
+2026-09-16 22:46:41 - ai.manage_model - INFO - Image model is not running.
+2026-09-16 22:46:41 - test - INFO - Model status after closing LLM, TTS, and Image: {'llm': 0, 'tts': 0, 'image': 0}

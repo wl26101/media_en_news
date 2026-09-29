@@ -1,0 +1,996 @@
+2026-09-19 20:16:56 - agent_core.tracing - INFO - LangSmith tracing disabled (set LANGCHAIN_TRACING_V2 and LANGCHAIN_API_KEY to enable)
+2026-09-19 20:16:56 - agent_core.tools.models - INFO - Starting llm server...
+2026-09-19 20:17:02 - ai.manage_model - INFO - llm 服务就绪
+2026-09-19 20:17:02 - agent_core.tools.models - INFO - llm server ready
+2026-09-19 20:17:02 - agent_core.tools.models - INFO - Starting tts server...
+2026-09-19 20:17:17 - ai.manage_model - INFO - TTS 服务就绪
+2026-09-19 20:17:17 - agent_core.tools.models - INFO - tts server ready
+2026-09-19 20:17:17 - agent_core.tools.models - INFO - Starting image server...
+2026-09-19 20:17:17 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:17:18 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:17:19 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:17:20 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:17:21 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:17:22 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:17:23 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:17:24 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:17:25 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:17:26 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:17:27 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:17:28 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:17:29 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:17:30 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:17:31 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:17:32 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-19 20:17:33 - agent_core.tools.models - INFO - image server ready
+2026-09-19 20:17:33 - __main__ - INFO - cleaned 0 artifact(s) from the previous run
+2026-09-19 20:17:33 - __main__ - INFO - running the news-video workflow on /home/wl26/project/media_en_news/resource/text/source.txt
+2026-09-19 20:17:37 - agent_core.graph - INFO - script attempt 1: 21 words, 5 sentences
+2026-09-19 20:17:40 - agent_core.graph - INFO - script attempt 2: 13 words, 3 sentences
+2026-09-19 20:17:42 - agent_core.graph - INFO - script attempt 3: 13 words, 4 sentences
+2026-09-19 20:17:42 - agent_core.graph - WARNING - script not approved after 3 attempts; using the last draft
+2026-09-19 20:17:46 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-19 20:17:49 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-19 20:17:55 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-19 20:22:54 - agent_core.tools.video - INFO - segment 1/4: news_001.png + news_001.wav
+2026-09-19 20:22:55 - agent_core.tools.video - INFO - segment 2/4: news_002.png + news_002.wav
+2026-09-19 20:22:56 - agent_core.tools.video - INFO - segment 3/4: news_003.png + news_003.wav
+2026-09-19 20:22:56 - agent_core.tools.video - INFO - segment 4/4: news_004.png + news_004.wav
+2026-09-19 20:22:57 - agent_core.tools.video - INFO - video /home/wl26/project/media_en_news/resource/video/news.mp4 (68.9s, 4 segments)
+2026-09-19 20:22:58 - agent_core.graph - INFO - done: 4/4 sentences complete, video=yes (68.9s)
+2026-09-19 20:23:02 - agent_core.tools.models - INFO - llm server stopped
+2026-09-19 20:23:04 - agent_core.tools.models - INFO - tts server stopped
+2026-09-19 20:23:05 - agent_core.tools.models - INFO - image server stopped
+2026-09-19 20:23:05 - __main__ - INFO - attempt 1: 21 words, 5 sentences
+2026-09-19 20:23:05 - __main__ - INFO - review: rejected — the script is 21 words; it must be about 150 words (110-185) to fill one minute
+2026-09-19 20:23:05 - __main__ - INFO - attempt 2: 13 words, 3 sentences
+2026-09-19 20:23:05 - __main__ - INFO - review: rejected — the script is 13 words; it must be about 150 words (110-185) to fill one minute
+2026-09-19 20:23:05 - __main__ - INFO - attempt 3: 13 words, 4 sentences
+2026-09-19 20:23:05 - __main__ - INFO - review: rejected — the script is 13 words; it must be about 150 words (110-185) to fill one minute
+2026-09-19 20:23:05 - __main__ - INFO - image prompts: 4/4
+2026-09-19 20:23:05 - __main__ - INFO - audio: 4/4
+2026-09-19 20:23:05 - __main__ - INFO - images: 4/4
+2026-09-19 20:23:05 - __main__ - INFO - video: /home/wl26/project/media_en_news/resource/video/news.mp4
+2026-09-19 20:23:05 - __main__ - INFO - manifest: /home/wl26/project/media_en_news/resource/video/news_manifest.json
+2026-09-19 20:23:05 - __main__ - INFO - done: 4/4 sentences complete, video=yes (68.9s)
+2026-09-19 20:23:05 - __main__ - INFO - video: /home/wl26/project/media_en_news/resource/video/news.mp4
+2026-09-27 21:46:15 - agent_core.tracing - INFO - LangSmith tracing disabled (set LANGCHAIN_TRACING_V2 and LANGCHAIN_API_KEY to enable)
+2026-09-27 21:46:15 - __main__ - INFO - cleaned 16 artifact(s) from the previous run
+2026-09-27 21:46:15 - __main__ - INFO - running the news-video workflow on /home/wl26/project/media_en_news/resource/text/source.txt
+2026-09-27 21:46:15 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-27 21:46:18 - ai.manage_model - INFO - llm 服务就绪
+2026-09-27 21:46:21 - agent_core.graph - INFO - script attempt 1: 26 words, 4 sentences
+2026-09-27 21:46:21 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-27 21:46:21 - ai.manage_model - INFO - LLM model is already running.
+2026-09-27 21:46:25 - agent_core.graph - INFO - script attempt 2: 13 words, 4 sentences
+2026-09-27 21:46:25 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-27 21:46:25 - ai.manage_model - INFO - LLM model is already running.
+2026-09-27 21:46:28 - agent_core.graph - INFO - script attempt 3: 13 words, 4 sentences
+2026-09-27 21:46:28 - agent_core.graph - WARNING - script not approved after 3 attempts; using the last draft
+2026-09-27 21:46:28 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-27 21:46:28 - ai.manage_model - INFO - LLM model is already running.
+2026-09-27 21:46:31 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-27 21:46:31 - ai.manage_model - INFO - LLM model is already running.
+2026-09-27 21:46:34 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-27 21:46:34 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-27 21:46:34 - ai.manage_model - INFO - LLM model is already running.
+2026-09-27 21:46:37 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-27 21:46:37 - ai.manage_model - INFO - LLM model is already running.
+2026-09-27 21:46:41 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-27 21:46:41 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-27 21:46:58 - ai.manage_model - INFO - TTS 服务就绪
+2026-09-27 21:47:43 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-27 21:47:43 - ai.manage_model - INFO - TTS model is already running.
+2026-09-27 21:48:34 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-27 21:48:34 - ai.manage_model - INFO - TTS model is already running.
+2026-09-27 21:48:59 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-27 21:48:59 - ai.manage_model - INFO - TTS model is already running.
+2026-09-27 21:49:47 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-27 21:49:47 - ai.manage_model - INFO - LLM model is running. Launching Image may affect performance.Close llm serve.
+2026-09-27 21:49:48 - ai.manage_model - INFO - TTS model is running. Launching Image may affect performance.Close tts serve.
+2026-09-27 21:49:49 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:49:50 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:49:51 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:49:52 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:49:53 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:49:54 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:49:55 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:49:56 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:49:57 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:49:58 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:49:59 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:50:00 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:50:01 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:50:02 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:50:03 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:50:04 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:50:05 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:50:06 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:50:07 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:50:08 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:50:09 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:50:11 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:50:12 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:50:13 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:50:14 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:50:15 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-27 21:50:49 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-27 21:50:49 - ai.manage_model - INFO - Image model is already running.
+2026-09-27 21:51:09 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-27 21:51:09 - ai.manage_model - INFO - Image model is already running.
+2026-09-27 21:51:25 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-27 21:51:25 - ai.manage_model - INFO - Image model is already running.
+2026-09-27 21:51:43 - agent_core.tools.video - INFO - segment 1/4: news_001.png + news_001.wav
+2026-09-27 21:51:45 - agent_core.tools.video - INFO - segment 2/4: news_002.png + news_002.wav
+2026-09-27 21:51:46 - agent_core.tools.video - INFO - segment 3/4: news_003.png + news_003.wav
+2026-09-27 21:51:47 - agent_core.tools.video - INFO - segment 4/4: news_004.png + news_004.wav
+2026-09-27 21:51:48 - agent_core.tools.video - INFO - video /home/wl26/project/media_en_news/resource/video/news.mp4 (70.0s, 4 segments)
+2026-09-27 21:51:48 - agent_core.graph - INFO - done: 4/4 sentences complete, video=yes (70.0s)
+2026-09-27 21:51:48 - __main__ - INFO - model server status: {'llm': 0, 'tts': 0, 'image': 1}
+2026-09-27 21:51:48 - __main__ - INFO - stopping the model server
+2026-09-27 21:51:48 - ai.manage_model - INFO - Closing the model image with provider local.
+2026-09-27 21:51:49 - __main__ - INFO - attempt 1: 26 words, 4 sentences
+2026-09-27 21:51:49 - __main__ - INFO - review: rejected — the script is 26 words; it must be about 150 words (110-185) to fill one minute
+2026-09-27 21:51:49 - __main__ - INFO - attempt 2: 13 words, 4 sentences
+2026-09-27 21:51:49 - __main__ - INFO - review: rejected — the script is 13 words; it must be about 150 words (110-185) to fill one minute
+2026-09-27 21:51:49 - __main__ - INFO - attempt 3: 13 words, 4 sentences
+2026-09-27 21:51:49 - __main__ - INFO - review: rejected — the script is 13 words; it must be about 150 words (110-185) to fill one minute
+2026-09-27 21:51:49 - __main__ - INFO - image prompts: 4/4
+2026-09-27 21:51:49 - __main__ - INFO - audio: 4/4
+2026-09-27 21:51:49 - __main__ - INFO - images: 4/4
+2026-09-27 21:51:49 - __main__ - INFO - video: /home/wl26/project/media_en_news/resource/video/news.mp4
+2026-09-27 21:51:49 - __main__ - INFO - manifest: /home/wl26/project/media_en_news/resource/video/news_manifest.json
+2026-09-27 21:51:49 - __main__ - INFO - done: 4/4 sentences complete, video=yes (70.0s)
+2026-09-27 21:51:49 - __main__ - INFO - video: /home/wl26/project/media_en_news/resource/video/news.mp4
+2026-09-28 15:47:56 - agent_core.tracing - INFO - LangSmith tracing disabled (set LANGCHAIN_TRACING_V2 and LANGCHAIN_API_KEY to enable)
+2026-09-28 15:47:56 - __main__ - INFO - cleaned 16 artifact(s) from the previous run
+2026-09-28 15:47:56 - __main__ - INFO - running the news-video workflow on /home/wl26/project/media_en_news/resource/text/source.txt
+2026-09-28 15:47:56 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 15:48:02 - ai.manage_model - INFO - llm 服务就绪
+2026-09-28 15:48:08 - agent_core.graph - INFO - script attempt 1: 325 words, 12 sentences
+2026-09-28 15:48:08 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 325 words; it must be about 150 words (110-185) to fill one minute
+2026-09-28 15:48:08 - agent_core.tools.llm - WARNING - Previous draft was submitted as: 据美国全国广播公司（NBC）9月27日报道，伊朗外交部长阿拉格齐当天表示，在美国总统特朗普公开拒绝伊朗提出的霍尔木兹海峡方案后，伊朗已为与美国重新开战做好充分准备，但仍未放弃外交途径。
+
+当天接受NBC节目“与媒体见面”采访时，被问及美国可能在中期选举后恢复轰炸伊朗的报道，阿拉格齐表示：“我们已经为战争重新开始的时刻做好充分准备。”他强调，如果再次遭到攻击，伊朗将坚决应对，“即使这意味着一场末日战争”。
+
+不过，阿拉格齐同时表示，伊朗仍准备通过外交方式解决问题，“现在由特朗普总统作出选择”。
+
+伊朗上周通过卡塔尔向美国转交一项方案，提出作为结束冲突协议的一部分，在7天内重新开放霍尔木兹海峡，恢复这一全球关键石油运输通道的正常航运。特朗普26日表示已经拒绝该方案，并声称伊朗急于达成协议，是因为“他们输得太惨了”。
+
+阿拉格齐则称，尽管特朗普已经公开表态，但伊朗尚未通过斡旋方收到美方正式拒绝方案的通知。他重申，伊朗愿意通过协议重新开放霍尔木兹海峡，但作为交换，美方应释放被冻结的伊朗资金和资产，并允许伊朗出售石油。
+
+他还表示，这些并非伊朗提出的新条件，而是美国此前已经承诺过的内容。美伊今年6月曾签署一份包含临时停火安排的谅解备忘录，但协议仅维持数日便因双方再次相互发动袭击而破裂。
+
+对于特朗普声称伊朗可能在等待美国中期选举结果，阿拉格齐回应称：“我们不关心美国中期选举，我们关心的是自己的国家利益。”
+2026-09-28 15:48:08 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 15:48:08 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 15:48:12 - agent_core.graph - INFO - script attempt 2: 231 words, 8 sentences
+2026-09-28 15:48:12 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 231 words; it must be about 150 words (110-185) to fill one minute
+2026-09-28 15:48:12 - agent_core.tools.llm - WARNING - Previous draft was submitted as: 据美国全国广播公司（NBC）9月27日报道，伊朗外交部长阿拉格齐当天表示，在美国总统特朗普公开拒绝伊朗提出的霍尔木兹海峡方案后，伊朗已为与美国重新开战做好充分准备，但仍未放弃外交途径。
+
+当天接受NBC节目“与媒体见面”采访时，被问及美国可能在中期选举后恢复轰炸伊朗的报道，阿拉格齐表示：“我们已经为战争重新开始的时刻做好充分准备。”他强调，如果再次遭到攻击，伊朗将坚决应对，“即使这意味着一场末日战争”。
+
+不过，阿拉格齐同时表示，伊朗仍准备通过外交方式解决问题，“现在由特朗普总统作出选择”。
+
+伊朗上周通过卡塔尔向美国转交一项方案，提出作为结束冲突协议的一部分，在7天内重新开放霍尔木兹海峡，恢复这一全球关键石油运输通道的正常航运。特朗普26日表示已经拒绝该方案，并声称伊朗急于达成协议，是因为“他们输得太惨了”。
+
+阿拉格齐则称，尽管特朗普已经公开表态，但伊朗尚未通过斡旋方收到美方正式拒绝方案的通知。他重申，伊朗愿意通过协议重新开放霍尔木兹海峡，但作为交换，美方应释放被冻结的伊朗资金和资产，并允许伊朗出售石油。
+
+他还表示，这些并非伊朗提出的新条件，而是美国此前已经承诺过的内容。美伊今年6月曾签署一份包含临时停火安排的谅解备忘录，但协议仅维持数日便因双方再次相互发动袭击而破裂。
+
+对于特朗普声称伊朗可能在等待美国中期选举结果，阿拉格齐回应称：“我们不关心美国中期选举，我们关心的是自己的国家利益。”
+2026-09-28 15:48:12 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 15:48:12 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 15:48:16 - agent_core.graph - INFO - script attempt 3: 311 words, 11 sentences
+2026-09-28 15:48:16 - agent_core.graph - WARNING - script not approved after 3 attempts; using the last draft
+2026-09-28 15:48:16 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 15:48:16 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 15:48:19 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 15:48:19 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 15:48:22 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 15:48:22 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 15:48:26 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 15:48:26 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 15:48:26 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 15:48:29 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 15:48:29 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 15:48:29 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 15:48:33 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 15:48:33 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 15:48:36 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 15:48:36 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 15:48:36 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 15:48:39 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 15:48:39 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 15:48:43 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 15:48:43 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 15:48:43 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 15:48:44 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 15:48:44 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 15:48:44 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 15:48:48 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 15:48:48 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 15:48:48 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 15:48:51 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 15:48:51 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 15:49:11 - ai.manage_model - INFO - TTS 服务就绪
+2026-09-28 15:49:58 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 15:49:58 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 15:50:09 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 15:50:09 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 15:51:06 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 15:51:06 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 15:51:33 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 15:51:33 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 15:51:41 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 15:51:41 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 15:52:08 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 15:52:08 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 15:52:29 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 15:52:29 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 15:52:53 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 15:52:53 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 15:53:20 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 15:53:20 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 15:53:39 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 15:53:39 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 15:54:48 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 15:54:48 - ai.manage_model - INFO - LLM model is running. Launching Image may affect performance.Close llm serve.
+2026-09-28 15:54:47 - ai.manage_model - INFO - TTS model is running. Launching Image may affect performance.Close tts serve.
+2026-09-28 15:54:48 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:54:49 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:54:50 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:54:51 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:54:52 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:54:53 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:54:54 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:54:55 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:54:56 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:54:57 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:54:58 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:54:59 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:55:00 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:55:01 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:55:02 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:55:03 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:55:04 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:55:05 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:55:06 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:55:07 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:55:08 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:55:09 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:55:10 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:55:11 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:55:12 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 15:55:48 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 15:55:48 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 15:56:06 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 15:56:06 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 15:56:22 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 15:56:22 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 15:56:40 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 15:56:40 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 15:56:58 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 15:56:58 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 15:57:19 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 15:57:19 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 15:57:37 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 15:57:37 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 15:57:57 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 15:57:57 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 15:58:17 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 15:58:17 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 15:58:35 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 15:58:35 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 15:58:53 - agent_core.tools.video - INFO - segment 1/11: news_001.png + news_001.wav
+2026-09-28 15:58:55 - agent_core.tools.video - INFO - segment 2/11: news_002.png + news_002.wav
+2026-09-28 15:58:55 - agent_core.tools.video - INFO - segment 3/11: news_003.png + news_003.wav
+2026-09-28 15:58:56 - agent_core.tools.video - INFO - segment 4/11: news_004.png + news_004.wav
+2026-09-28 15:58:57 - agent_core.tools.video - INFO - segment 5/11: news_005.png + news_005.wav
+2026-09-28 15:58:57 - agent_core.tools.video - INFO - segment 6/11: news_006.png + news_006.wav
+2026-09-28 15:58:58 - agent_core.tools.video - INFO - segment 7/11: news_007.png + news_007.wav
+2026-09-28 15:58:59 - agent_core.tools.video - INFO - segment 8/11: news_008.png + news_008.wav
+2026-09-28 15:58:59 - agent_core.tools.video - INFO - segment 9/11: news_009.png + news_009.wav
+2026-09-28 15:59:00 - agent_core.tools.video - INFO - segment 10/11: news_010.png + news_010.wav
+2026-09-28 15:59:00 - agent_core.tools.video - INFO - segment 11/11: news_011.png + news_011.wav
+2026-09-28 15:59:02 - agent_core.tools.video - INFO - video /home/wl26/project/media_en_news/resource/video/news.mp4 (107.6s, 11 segments)
+2026-09-28 15:59:02 - agent_core.graph - INFO - done: 11/11 sentences complete, video=yes (107.6s)
+2026-09-28 15:59:02 - __main__ - INFO - model server status: {'llm': 0, 'tts': 0, 'image': 1}
+2026-09-28 15:59:02 - __main__ - INFO - stopping the model server
+2026-09-28 15:59:02 - ai.manage_model - INFO - Closing the model image with provider local.
+2026-09-28 15:59:03 - __main__ - INFO - attempt 1: 325 words, 12 sentences
+2026-09-28 15:59:03 - __main__ - INFO - review: rejected — the script is 325 words; it must be about 150 words (110-185) to fill one minute
+2026-09-28 15:59:03 - __main__ - INFO - attempt 2: 231 words, 8 sentences
+2026-09-28 15:59:03 - __main__ - INFO - review: rejected — the script is 231 words; it must be about 150 words (110-185) to fill one minute
+2026-09-28 15:59:03 - __main__ - INFO - attempt 3: 311 words, 11 sentences
+2026-09-28 15:59:03 - __main__ - INFO - review: rejected — the script is 311 words; it must be about 150 words (110-185) to fill one minute
+2026-09-28 15:59:03 - __main__ - INFO - image prompts: 11/11
+2026-09-28 15:59:03 - __main__ - INFO - audio: 11/11
+2026-09-28 15:59:03 - __main__ - INFO - images: 11/11
+2026-09-28 15:59:03 - __main__ - INFO - video: /home/wl26/project/media_en_news/resource/video/news.mp4
+2026-09-28 15:59:03 - __main__ - INFO - manifest: /home/wl26/project/media_en_news/resource/video/news_manifest.json
+2026-09-28 15:59:03 - __main__ - INFO - done: 11/11 sentences complete, video=yes (107.6s)
+2026-09-28 15:59:03 - __main__ - INFO - video: /home/wl26/project/media_en_news/resource/video/news.mp4
+2026-09-28 16:05:41 - agent_core.tracing - INFO - LangSmith tracing disabled (set LANGCHAIN_TRACING_V2 and LANGCHAIN_API_KEY to enable)
+2026-09-28 16:05:41 - __main__ - INFO - cleaned 44 artifact(s) from the previous run
+2026-09-28 16:05:41 - __main__ - INFO - running the news-video workflow on /home/wl26/project/media_en_news/resource/text/source.txt
+2026-09-28 16:05:41 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:05:47 - ai.manage_model - INFO - llm 服务就绪
+2026-09-28 16:05:54 - agent_core.tools.llm - WARNING - LLM hit the 500-token cap; truncating at the last sentence
+2026-09-28 16:05:54 - agent_core.graph - INFO - script attempt 1: 407 words, 18 sentences
+2026-09-28 16:05:54 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 407 words; it must be about 150 words (110-185) to fill one minute
+2026-09-28 16:05:54 - agent_core.tools.llm - WARNING - Previous draft was submitted as: 据美国全国广播公司（NBC）9月27日报道，伊朗外交部长阿拉格齐当天表示，在美国总统特朗普公开拒绝伊朗提出的霍尔木兹海峡方案后，伊朗已为与美国重新开战做好充分准备，但仍未放弃外交途径。
+
+当天接受NBC节目“与媒体见面”采访时，被问及美国可能在中期选举后恢复轰炸伊朗的报道，阿拉格齐表示：“我们已经为战争重新开始的时刻做好充分准备。”他强调，如果再次遭到攻击，伊朗将坚决应对，“即使这意味着一场末日战争”。
+
+不过，阿拉格齐同时表示，伊朗仍准备通过外交方式解决问题，“现在由特朗普总统作出选择”。
+
+伊朗上周通过卡塔尔向美国转交一项方案，提出作为结束冲突协议的一部分，在7天内重新开放霍尔木兹海峡，恢复这一全球关键石油运输通道的正常航运。特朗普26日表示已经拒绝该方案，并声称伊朗急于达成协议，是因为“他们输得太惨了”。
+
+阿拉格齐则称，尽管特朗普已经公开表态，但伊朗尚未通过斡旋方收到美方正式拒绝方案的通知。他重申，伊朗愿意通过协议重新开放霍尔木兹海峡，但作为交换，美方应释放被冻结的伊朗资金和资产，并允许伊朗出售石油。
+
+他还表示，这些并非伊朗提出的新条件，而是美国此前已经承诺过的内容。美伊今年6月曾签署一份包含临时停火安排的谅解备忘录，但协议仅维持数日便因双方再次相互发动袭击而破裂。
+
+对于特朗普声称伊朗可能在等待美国中期选举结果，阿拉格齐回应称：“我们不关心美国中期选举，我们关心的是自己的国家利益。”
+
+据伊朗迈赫尔通讯社27日报道，伊朗外长阿拉格齐表示，伊朗已做好与美国重新开战的准备，但尚未放弃通过外交途径进行接触。
+
+阿拉格齐（Abbas Araghchi）当地时间27日在联合国大会后、上美国国家广播公司（NBC）节目《会晤新闻界》（Meet the Press）时说，伊朗已准备好与美国打一场“末日之战”，但仍会尝试外交途径，以免错过任何和平机会。
+
+阿拉格齐说：“如果问我们，我们没有理由重回外交，但我仍在尝试外交，因为我认为不该错过任何和平机会。”
+
+他强调，伊朗既愿意谈判，也愿意面对任何挑战，“即使冲突演变成末日战争，也会坚定抵抗侵略。”
+
+伊朗革命卫队同日声称，在霍尔木兹海峡扣押一艘美军水下无人机（UUV）。塔斯尼姆通讯社在Telegram引述革命卫队，指其为Remus 600型，已交由专家提取数据。美军未立即回应置评请求。
+
+此前，阿拉格齐25日在纽约联合国总部举行的记者会上宣布，伊朗已通过卡塔尔向美国转达一个有关重新开放霍尔木兹海峡的计划，如果美方据此采取必要行动，霍尔木兹海峡可以在七日内重新开放，恢复正常海运。不过，美国《华尔街日报》25日报道称，特朗普拒绝了伊方的相关提议，并告诉其助手他可能在今年11月美国国会中期选举后恢复对伊朗的轰炸。
+
+但阿拉格齐表示，斡旋方尚未向德黑兰转达美方的正式回复。他指称，只有谈判才能打破僵局；至于重开霍尔木兹海峡，伊朗仍坚持美方须先满足其条件。阿拉格齐重申，作为结束冲突协议的一部分，伊朗准备重新开放海峡。作为交换条件，“我们要求解冻被非法扣押的资金和资产，并希望能够出售石油”。
+
+美国驻联合国大使沃兹（Michael Waltz）则在NBC另一场访问中批评，伊朗最新提议是“明知美方无法接受却仍拿出来谈的假姿态”。他说特朗普会保留所有选项。
+
+针对美国可能对伊朗发动的袭击，伊朗军方发言人阿克拉米尼亚27日表示，伊朗武装部队已做好充分准备，将竭尽全力进行对抗。
+2026-09-28 16:05:54 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:05:54 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:05:57 - agent_core.graph - INFO - script attempt 2: 308 words, 13 sentences
+2026-09-28 16:05:57 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 308 words; it must be about 150 words (110-185) to fill one minute
+2026-09-28 16:05:57 - agent_core.tools.llm - WARNING - Previous draft was submitted as: 据美国全国广播公司（NBC）9月27日报道，伊朗外交部长阿拉格齐当天表示，在美国总统特朗普公开拒绝伊朗提出的霍尔木兹海峡方案后，伊朗已为与美国重新开战做好充分准备，但仍未放弃外交途径。
+
+当天接受NBC节目“与媒体见面”采访时，被问及美国可能在中期选举后恢复轰炸伊朗的报道，阿拉格齐表示：“我们已经为战争重新开始的时刻做好充分准备。”他强调，如果再次遭到攻击，伊朗将坚决应对，“即使这意味着一场末日战争”。
+
+不过，阿拉格齐同时表示，伊朗仍准备通过外交方式解决问题，“现在由特朗普总统作出选择”。
+
+伊朗上周通过卡塔尔向美国转交一项方案，提出作为结束冲突协议的一部分，在7天内重新开放霍尔木兹海峡，恢复这一全球关键石油运输通道的正常航运。特朗普26日表示已经拒绝该方案，并声称伊朗急于达成协议，是因为“他们输得太惨了”。
+
+阿拉格齐则称，尽管特朗普已经公开表态，但伊朗尚未通过斡旋方收到美方正式拒绝方案的通知。他重申，伊朗愿意通过协议重新开放霍尔木兹海峡，但作为交换，美方应释放被冻结的伊朗资金和资产，并允许伊朗出售石油。
+
+他还表示，这些并非伊朗提出的新条件，而是美国此前已经承诺过的内容。美伊今年6月曾签署一份包含临时停火安排的谅解备忘录，但协议仅维持数日便因双方再次相互发动袭击而破裂。
+
+对于特朗普声称伊朗可能在等待美国中期选举结果，阿拉格齐回应称：“我们不关心美国中期选举，我们关心的是自己的国家利益。”
+
+据伊朗迈赫尔通讯社27日报道，伊朗外长阿拉格齐表示，伊朗已做好与美国重新开战的准备，但尚未放弃通过外交途径进行接触。
+
+阿拉格齐（Abbas Araghchi）当地时间27日在联合国大会后、上美国国家广播公司（NBC）节目《会晤新闻界》（Meet the Press）时说，伊朗已准备好与美国打一场“末日之战”，但仍会尝试外交途径，以免错过任何和平机会。
+
+阿拉格齐说：“如果问我们，我们没有理由重回外交，但我仍在尝试外交，因为我认为不该错过任何和平机会。”
+
+他强调，伊朗既愿意谈判，也愿意面对任何挑战，“即使冲突演变成末日战争，也会坚定抵抗侵略。”
+
+伊朗革命卫队同日声称，在霍尔木兹海峡扣押一艘美军水下无人机（UUV）。塔斯尼姆通讯社在Telegram引述革命卫队，指其为Remus 600型，已交由专家提取数据。美军未立即回应置评请求。
+
+此前，阿拉格齐25日在纽约联合国总部举行的记者会上宣布，伊朗已通过卡塔尔向美国转达一个有关重新开放霍尔木兹海峡的计划，如果美方据此采取必要行动，霍尔木兹海峡可以在七日内重新开放，恢复正常海运。不过，美国《华尔街日报》25日报道称，特朗普拒绝了伊方的相关提议，并告诉其助手他可能在今年11月美国国会中期选举后恢复对伊朗的轰炸。
+
+但阿拉格齐表示，斡旋方尚未向德黑兰转达美方的正式回复。他指称，只有谈判才能打破僵局；至于重开霍尔木兹海峡，伊朗仍坚持美方须先满足其条件。阿拉格齐重申，作为结束冲突协议的一部分，伊朗准备重新开放海峡。作为交换条件，“我们要求解冻被非法扣押的资金和资产，并希望能够出售石油”。
+
+美国驻联合国大使沃兹（Michael Waltz）则在NBC另一场访问中批评，伊朗最新提议是“明知美方无法接受却仍拿出来谈的假姿态”。他说特朗普会保留所有选项。
+
+针对美国可能对伊朗发动的袭击，伊朗军方发言人阿克拉米尼亚27日表示，伊朗武装部队已做好充分准备，将竭尽全力进行对抗。
+2026-09-28 16:05:57 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:05:57 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:06:02 - agent_core.graph - INFO - script attempt 3: 314 words, 17 sentences
+2026-09-28 16:06:02 - agent_core.graph - WARNING - script not approved after 3 attempts; using the last draft
+2026-09-28 16:06:02 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:06:02 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:06:05 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:06:05 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:06:08 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:06:08 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:06:08 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:06:12 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:06:12 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:06:12 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:06:15 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:06:15 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:06:15 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:06:19 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:06:19 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:06:19 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:06:22 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:06:22 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:06:22 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:06:26 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:06:26 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:06:26 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:06:26 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:06:26 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:06:29 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:06:29 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:06:29 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:06:33 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:06:33 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:06:33 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:06:36 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:06:36 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:06:40 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:06:40 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:06:40 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:06:43 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:06:43 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:06:43 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:06:46 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:06:46 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:06:49 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:06:49 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:06:53 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:06:53 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:06:53 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:06:56 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:06:56 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:07:07 - ai.manage_model - INFO - TTS 服务就绪
+2026-09-28 16:07:39 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:07:39 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:07:50 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:07:50 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:08:11 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:08:11 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:08:31 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:08:31 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:08:54 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:08:54 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:09:19 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:09:19 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:09:20 - __main__ - WARNING - interrupted
+2026-09-28 16:09:20 - __main__ - INFO - model server status: {'llm': 1, 'tts': 1, 'image': 0}
+2026-09-28 16:09:20 - __main__ - INFO - stopping the model server
+2026-09-28 16:09:20 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-28 16:09:21 - __main__ - INFO - stopping the model server
+2026-09-28 16:09:21 - ai.manage_model - INFO - Closing the model tts with provider local.
+2026-09-28 16:09:29 - agent_core.tracing - INFO - LangSmith tracing disabled (set LANGCHAIN_TRACING_V2 and LANGCHAIN_API_KEY to enable)
+2026-09-28 16:09:29 - __main__ - INFO - cleaned 40 artifact(s) from the previous run
+2026-09-28 16:09:29 - __main__ - INFO - running the news-video workflow on /home/wl26/project/media_en_news/resource/text/source.txt
+2026-09-28 16:09:29 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:09:32 - ai.manage_model - INFO - llm 服务就绪
+2026-09-28 16:09:38 - agent_core.graph - INFO - script attempt 1: 348 words, 18 sentences
+2026-09-28 16:09:38 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:09:38 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:09:38 - agent_core.graph - INFO - review: approved by the editor
+2026-09-28 16:09:38 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:09:38 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:09:42 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:09:42 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:09:42 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:09:45 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:09:45 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:09:48 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:09:48 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:09:48 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:09:52 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:09:52 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:09:52 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:09:54 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:09:54 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:09:58 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:09:58 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:09:58 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:09:59 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:09:59 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:09:59 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:10:03 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:10:03 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:10:03 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:10:06 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:10:06 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:10:06 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:10:09 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:10:09 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:10:13 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:10:13 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:10:13 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:10:16 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:10:16 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:10:16 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:10:20 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:10:20 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:10:20 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:10:23 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:10:23 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:10:26 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:10:26 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:10:26 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:10:29 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:10:29 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:10:30 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:10:30 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:10:30 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:10:33 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:10:33 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:10:42 - ai.manage_model - INFO - TTS 服务就绪
+2026-09-28 16:10:54 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:10:54 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:11:24 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:11:24 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:11:36 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:11:36 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:11:56 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:11:56 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:12:04 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:12:04 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:12:27 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:12:27 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:12:44 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:12:44 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:13:03 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:13:03 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:13:22 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:13:22 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:13:32 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:13:32 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:13:52 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:13:52 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:14:09 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:14:09 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:14:19 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:14:19 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:14:34 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:14:34 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:14:50 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:14:50 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:15:14 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:15:14 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:15:20 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:15:20 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:15:54 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 16:15:54 - ai.manage_model - INFO - LLM model is running. Launching Image may affect performance.Close llm serve.
+2026-09-28 16:15:54 - ai.manage_model - INFO - TTS model is running. Launching Image may affect performance.Close tts serve.
+2026-09-28 16:15:54 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 16:15:55 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 16:15:56 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 16:15:58 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 16:15:59 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 16:16:00 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 16:16:01 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 16:16:02 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 16:16:03 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 16:16:04 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 16:16:05 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 16:16:06 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 16:16:07 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 16:16:08 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 16:16:09 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 16:16:10 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 16:16:11 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 16:16:46 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 16:16:46 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 16:17:02 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 16:17:02 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 16:17:20 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 16:17:20 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 16:17:36 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 16:17:36 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 16:17:53 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 16:17:53 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 16:18:11 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 16:18:11 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 16:18:29 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 16:18:29 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 16:18:48 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 16:18:48 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 16:19:04 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 16:19:04 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 16:19:22 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 16:19:22 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 16:19:37 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 16:19:37 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 16:19:55 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 16:19:55 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 16:20:11 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 16:20:11 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 16:20:27 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 16:20:27 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 16:20:43 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 16:20:43 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 16:21:01 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 16:21:01 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 16:21:19 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 16:21:19 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 16:21:37 - agent_core.tools.video - INFO - segment 1/18: news_001.png + news_001.wav
+2026-09-28 16:21:38 - agent_core.tools.video - INFO - segment 2/18: news_002.png + news_002.wav
+2026-09-28 16:21:39 - agent_core.tools.video - INFO - segment 3/18: news_003.png + news_003.wav
+2026-09-28 16:21:39 - agent_core.tools.video - INFO - segment 4/18: news_004.png + news_004.wav
+2026-09-28 16:21:40 - agent_core.tools.video - INFO - segment 5/18: news_005.png + news_005.wav
+2026-09-28 16:21:40 - agent_core.tools.video - INFO - segment 6/18: news_006.png + news_006.wav
+2026-09-28 16:21:41 - agent_core.tools.video - INFO - segment 7/18: news_007.png + news_007.wav
+2026-09-28 16:21:41 - agent_core.tools.video - INFO - segment 8/18: news_008.png + news_008.wav
+2026-09-28 16:21:42 - agent_core.tools.video - INFO - segment 9/18: news_009.png + news_009.wav
+2026-09-28 16:21:42 - agent_core.tools.video - INFO - segment 10/18: news_010.png + news_010.wav
+2026-09-28 16:21:43 - agent_core.tools.video - INFO - segment 11/18: news_011.png + news_011.wav
+2026-09-28 16:21:43 - agent_core.tools.video - INFO - segment 12/18: news_012.png + news_012.wav
+2026-09-28 16:21:44 - agent_core.tools.video - INFO - segment 13/18: news_013.png + news_013.wav
+2026-09-28 16:21:44 - agent_core.tools.video - INFO - segment 14/18: news_014.png + news_014.wav
+2026-09-28 16:21:45 - agent_core.tools.video - INFO - segment 15/18: news_015.png + news_015.wav
+2026-09-28 16:21:45 - agent_core.tools.video - INFO - segment 16/18: news_016.png + news_016.wav
+2026-09-28 16:21:46 - agent_core.tools.video - INFO - segment 17/18: news_017.png + news_017.wav
+2026-09-28 16:21:46 - agent_core.tools.video - INFO - segment 18/18: news_018.png + news_018.wav
+2026-09-28 16:21:47 - agent_core.tools.video - INFO - video /home/wl26/project/media_en_news/resource/video/news.mp4 (126.8s, 18 segments)
+2026-09-28 16:21:47 - agent_core.graph - INFO - done: 18/18 sentences complete, video=yes (126.8s)
+2026-09-28 16:21:47 - __main__ - INFO - model server status: {'llm': 0, 'tts': 0, 'image': 1}
+2026-09-28 16:21:47 - __main__ - INFO - stopping the model server
+2026-09-28 16:21:47 - ai.manage_model - INFO - Closing the model image with provider local.
+2026-09-28 16:21:48 - __main__ - INFO - attempt 1: 348 words, 18 sentences
+2026-09-28 16:21:48 - __main__ - INFO - review: approved by the editor
+2026-09-28 16:21:48 - __main__ - INFO - image prompts: 18/18
+2026-09-28 16:21:48 - __main__ - INFO - audio: 18/18
+2026-09-28 16:21:48 - __main__ - INFO - images: 18/18
+2026-09-28 16:21:48 - __main__ - INFO - video: /home/wl26/project/media_en_news/resource/video/news.mp4
+2026-09-28 16:21:48 - __main__ - INFO - manifest: /home/wl26/project/media_en_news/resource/video/news_manifest.json
+2026-09-28 16:21:48 - __main__ - INFO - done: 18/18 sentences complete, video=yes (126.8s)
+2026-09-28 16:21:48 - __main__ - INFO - video: /home/wl26/project/media_en_news/resource/video/news.mp4
+2026-09-28 16:35:00 - agent_core.tracing - INFO - LangSmith tracing disabled (set LANGCHAIN_TRACING_V2 and LANGCHAIN_API_KEY to enable)
+2026-09-28 16:35:00 - __main__ - INFO - cleaned 72 artifact(s) from the previous run
+2026-09-28 16:35:00 - __main__ - INFO - running the news-video workflow on /home/wl26/project/media_en_news/resource/text/source.txt
+2026-09-28 16:35:00 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:35:06 - ai.manage_model - INFO - llm 服务就绪
+2026-09-28 16:35:12 - agent_core.tools.llm - WARNING - LLM hit the 500-token cap; truncating at the last sentence
+2026-09-28 16:35:12 - agent_core.graph - INFO - script attempt 1: 401 words, 17 sentences
+2026-09-28 16:35:12 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 401 words; it must be about 300 words (220-350) to fill one minute
+2026-09-28 16:35:12 - agent_core.tools.llm - WARNING - Previous draft was submitted as: 据美国全国广播公司（NBC）9月27日报道，伊朗外交部长阿拉格齐当天表示，在美国总统特朗普公开拒绝伊朗提出的霍尔木兹海峡方案后，伊朗已为与美国重新开战做好充分准备，但仍未放弃外交途径。
+
+当天接受NBC节目“与媒体见面”采访时，被问及美国可能在中期选举后恢复轰炸伊朗的报道，阿拉格齐表示：“我们已经为战争重新开始的时刻做好充分准备。”他强调，如果再次遭到攻击，伊朗将坚决应对，“即使这意味着一场末日战争”。
+
+不过，阿拉格齐同时表示，伊朗仍准备通过外交方式解决问题，“现在由特朗普总统作出选择”。
+
+伊朗上周通过卡塔尔向美国转交一项方案，提出作为结束冲突协议的一部分，在7天内重新开放霍尔木兹海峡，恢复这一全球关键石油运输通道的正常航运。特朗普26日表示已经拒绝该方案，并声称伊朗急于达成协议，是因为“他们输得太惨了”。
+
+阿拉格齐则称，尽管特朗普已经公开表态，但伊朗尚未通过斡旋方收到美方正式拒绝方案的通知。他重申，伊朗愿意通过协议重新开放霍尔木兹海峡，但作为交换，美方应释放被冻结的伊朗资金和资产，并允许伊朗出售石油。
+
+他还表示，这些并非伊朗提出的新条件，而是美国此前已经承诺过的内容。美伊今年6月曾签署一份包含临时停火安排的谅解备忘录，但协议仅维持数日便因双方再次相互发动袭击而破裂。
+
+对于特朗普声称伊朗可能在等待美国中期选举结果，阿拉格齐回应称：“我们不关心美国中期选举，我们关心的是自己的国家利益。”
+
+据伊朗迈赫尔通讯社27日报道，伊朗外长阿拉格齐表示，伊朗已做好与美国重新开战的准备，但尚未放弃通过外交途径进行接触。
+
+阿拉格齐（Abbas Araghchi）当地时间27日在联合国大会后、上美国国家广播公司（NBC）节目《会晤新闻界》（Meet the Press）时说，伊朗已准备好与美国打一场“末日之战”，但仍会尝试外交途径，以免错过任何和平机会。
+
+阿拉格齐说：“如果问我们，我们没有理由重回外交，但我仍在尝试外交，因为我认为不该错过任何和平机会。”
+
+他强调，伊朗既愿意谈判，也愿意面对任何挑战，“即使冲突演变成末日战争，也会坚定抵抗侵略。”
+
+伊朗革命卫队同日声称，在霍尔木兹海峡扣押一艘美军水下无人机（UUV）。塔斯尼姆通讯社在Telegram引述革命卫队，指其为Remus 600型，已交由专家提取数据。美军未立即回应置评请求。
+
+此前，阿拉格齐25日在纽约联合国总部举行的记者会上宣布，伊朗已通过卡塔尔向美国转达一个有关重新开放霍尔木兹海峡的计划，如果美方据此采取必要行动，霍尔木兹海峡可以在七日内重新开放，恢复正常海运。不过，美国《华尔街日报》25日报道称，特朗普拒绝了伊方的相关提议，并告诉其助手他可能在今年11月美国国会中期选举后恢复对伊朗的轰炸。
+
+但阿拉格齐表示，斡旋方尚未向德黑兰转达美方的正式回复。他指称，只有谈判才能打破僵局；至于重开霍尔木兹海峡，伊朗仍坚持美方须先满足其条件。阿拉格齐重申，作为结束冲突协议的一部分，伊朗准备重新开放海峡。作为交换条件，“我们要求解冻被非法扣押的资金和资产，并希望能够出售石油”。
+
+美国驻联合国大使沃兹（Michael Waltz）则在NBC另一场访问中批评，伊朗最新提议是“明知美方无法接受却仍拿出来谈的假姿态”。他说特朗普会保留所有选项。
+
+针对美国可能对伊朗发动的袭击，伊朗军方发言人阿克拉米尼亚27日表示，伊朗武装部队已做好充分准备，将竭尽全力进行对抗。
+2026-09-28 16:35:12 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:35:12 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:35:19 - agent_core.tools.llm - WARNING - LLM hit the 500-token cap; truncating at the last sentence
+2026-09-28 16:35:19 - agent_core.graph - ERROR - summarize failed
+Traceback (most recent call last):
+  File "/home/wl26/project/media_en_news/agent_core/graph.py", line 46, in summarize_node
+    raise RuntimeError("the model returned no usable sentence")
+RuntimeError: the model returned no usable sentence
+2026-09-28 16:35:19 - agent_core.graph - INFO - done: 0/0 sentences complete, video=no
+2026-09-28 16:35:19 - __main__ - INFO - model server status: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-28 16:35:19 - __main__ - INFO - stopping the model server
+2026-09-28 16:35:19 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-28 16:35:19 - __main__ - INFO - attempt 1: 401 words, 17 sentences
+2026-09-28 16:35:19 - __main__ - INFO - review: rejected — the script is 401 words; it must be about 300 words (220-350) to fill one minute
+2026-09-28 16:35:19 - __main__ - INFO - manifest: /home/wl26/project/media_en_news/resource/video/news_manifest.json
+2026-09-28 16:35:19 - __main__ - INFO - done: 0/0 sentences complete, video=no
+2026-09-28 16:35:19 - __main__ - ERROR - no video was produced; see the errors above
+2026-09-28 16:35:51 - agent_core.tracing - INFO - LangSmith tracing disabled (set LANGCHAIN_TRACING_V2 and LANGCHAIN_API_KEY to enable)
+2026-09-28 16:35:51 - __main__ - INFO - cleaned 17 artifact(s) from the previous run
+2026-09-28 16:35:51 - __main__ - INFO - running the news-video workflow on /home/wl26/project/media_en_news/resource/text/source.txt
+2026-09-28 16:35:51 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:35:53 - __main__ - WARNING - interrupted
+2026-09-28 16:35:53 - __main__ - INFO - model server status: {'llm': 0, 'tts': 0, 'image': 0}
+2026-09-28 16:35:58 - agent_core.tracing - INFO - LangSmith tracing disabled (set LANGCHAIN_TRACING_V2 and LANGCHAIN_API_KEY to enable)
+2026-09-28 16:35:58 - __main__ - INFO - cleaned 0 artifact(s) from the previous run
+2026-09-28 16:35:58 - __main__ - INFO - running the news-video workflow on /home/wl26/project/media_en_news/resource/text/source.txt
+2026-09-28 16:35:58 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:36:01 - ai.manage_model - INFO - llm 服务就绪
+2026-09-28 16:36:07 - agent_core.tools.llm - WARNING - LLM hit the 500-token cap; truncating at the last sentence
+2026-09-28 16:36:07 - agent_core.graph - INFO - script attempt 1: 401 words, 15 sentences
+2026-09-28 16:36:07 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 401 words; it must be about 300 words (220-350) to fill one minute
+2026-09-28 16:36:07 - agent_core.tools.llm - WARNING - Previous draft was submitted as: 据美国全国广播公司（NBC）9月27日报道，伊朗外交部长阿拉格齐当天表示，在美国总统特朗普公开拒绝伊朗提出的霍尔木兹海峡方案后，伊朗已为与美国重新开战做好充分准备，但仍未放弃外交途径。
+
+当天接受NBC节目“与媒体见面”采访时，被问及美国可能在中期选举后恢复轰炸伊朗的报道，阿拉格齐表示：“我们已经为战争重新开始的时刻做好充分准备。”他强调，如果再次遭到攻击，伊朗将坚决应对，“即使这意味着一场末日战争”。
+
+不过，阿拉格齐同时表示，伊朗仍准备通过外交方式解决问题，“现在由特朗普总统作出选择”。
+
+伊朗上周通过卡塔尔向美国转交一项方案，提出作为结束冲突协议的一部分，在7天内重新开放霍尔木兹海峡，恢复这一全球关键石油运输通道的正常航运。特朗普26日表示已经拒绝该方案，并声称伊朗急于达成协议，是因为“他们输得太惨了”。
+
+阿拉格齐则称，尽管特朗普已经公开表态，但伊朗尚未通过斡旋方收到美方正式拒绝方案的通知。他重申，伊朗愿意通过协议重新开放霍尔木兹海峡，但作为交换，美方应释放被冻结的伊朗资金和资产，并允许伊朗出售石油。
+
+他还表示，这些并非伊朗提出的新条件，而是美国此前已经承诺过的内容。美伊今年6月曾签署一份包含临时停火安排的谅解备忘录，但协议仅维持数日便因双方再次相互发动袭击而破裂。
+
+对于特朗普声称伊朗可能在等待美国中期选举结果，阿拉格齐回应称：“我们不关心美国中期选举，我们关心的是自己的国家利益。”
+
+据伊朗迈赫尔通讯社27日报道，伊朗外长阿拉格齐表示，伊朗已做好与美国重新开战的准备，但尚未放弃通过外交途径进行接触。
+
+阿拉格齐（Abbas Araghchi）当地时间27日在联合国大会后、上美国国家广播公司（NBC）节目《会晤新闻界》（Meet the Press）时说，伊朗已准备好与美国打一场“末日之战”，但仍会尝试外交途径，以免错过任何和平机会。
+
+阿拉格齐说：“如果问我们，我们没有理由重回外交，但我仍在尝试外交，因为我认为不该错过任何和平机会。”
+
+他强调，伊朗既愿意谈判，也愿意面对任何挑战，“即使冲突演变成末日战争，也会坚定抵抗侵略。”
+
+伊朗革命卫队同日声称，在霍尔木兹海峡扣押一艘美军水下无人机（UUV）。塔斯尼姆通讯社在Telegram引述革命卫队，指其为Remus 600型，已交由专家提取数据。美军未立即回应置评请求。
+
+此前，阿拉格齐25日在纽约联合国总部举行的记者会上宣布，伊朗已通过卡塔尔向美国转达一个有关重新开放霍尔木兹海峡的计划，如果美方据此采取必要行动，霍尔木兹海峡可以在七日内重新开放，恢复正常海运。不过，美国《华尔街日报》25日报道称，特朗普拒绝了伊方的相关提议，并告诉其助手他可能在今年11月美国国会中期选举后恢复对伊朗的轰炸。
+
+但阿拉格齐表示，斡旋方尚未向德黑兰转达美方的正式回复。他指称，只有谈判才能打破僵局；至于重开霍尔木兹海峡，伊朗仍坚持美方须先满足其条件。阿拉格齐重申，作为结束冲突协议的一部分，伊朗准备重新开放海峡。作为交换条件，“我们要求解冻被非法扣押的资金和资产，并希望能够出售石油”。
+
+美国驻联合国大使沃兹（Michael Waltz）则在NBC另一场访问中批评，伊朗最新提议是“明知美方无法接受却仍拿出来谈的假姿态”。他说特朗普会保留所有选项。
+
+针对美国可能对伊朗发动的袭击，伊朗军方发言人阿克拉米尼亚27日表示，伊朗武装部队已做好充分准备，将竭尽全力进行对抗。
+2026-09-28 16:36:07 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:36:07 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:36:14 - agent_core.tools.llm - WARNING - LLM hit the 500-token cap; truncating at the last sentence
+2026-09-28 16:36:14 - agent_core.graph - ERROR - summarize failed
+Traceback (most recent call last):
+  File "/home/wl26/project/media_en_news/agent_core/graph.py", line 46, in summarize_node
+    raise RuntimeError("the model returned no usable sentence")
+RuntimeError: the model returned no usable sentence
+2026-09-28 16:36:14 - agent_core.graph - INFO - done: 0/0 sentences complete, video=no
+2026-09-28 16:36:14 - __main__ - INFO - model server status: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-28 16:36:14 - __main__ - INFO - stopping the model server
+2026-09-28 16:36:14 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-28 16:36:14 - __main__ - INFO - attempt 1: 401 words, 15 sentences
+2026-09-28 16:36:14 - __main__ - INFO - review: rejected — the script is 401 words; it must be about 300 words (220-350) to fill one minute
+2026-09-28 16:36:14 - __main__ - INFO - manifest: /home/wl26/project/media_en_news/resource/video/news_manifest.json
+2026-09-28 16:36:14 - __main__ - INFO - done: 0/0 sentences complete, video=no
+2026-09-28 16:36:14 - __main__ - ERROR - no video was produced; see the errors above
+2026-09-28 16:52:37 - agent_core.tracing - INFO - LangSmith tracing disabled (set LANGCHAIN_TRACING_V2 and LANGCHAIN_API_KEY to enable)
+2026-09-28 16:52:37 - __main__ - INFO - cleaned 20 artifact(s) from the previous run
+2026-09-28 16:52:37 - __main__ - INFO - running the news-video workflow on /home/wl26/project/media_en_news/resource/text/source.txt
+2026-09-28 16:52:37 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:52:42 - ai.manage_model - INFO - llm 服务就绪
+2026-09-28 16:52:51 - agent_core.graph - INFO - script attempt 1: 602 words, 23 sentences
+2026-09-28 16:52:51 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 602 words; rewrite it to about 300 words (220-350)
+2026-09-28 16:52:51 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:52:51 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:52:57 - agent_core.graph - ERROR - summarize failed
+Traceback (most recent call last):
+  File "/home/wl26/project/media_en_news/agent_core/graph.py", line 55, in summarize_node
+    raise RuntimeError(f"the reply is not English ({ratio:.0%} Latin letters)")
+RuntimeError: the reply is not English (1% Latin letters)
+2026-09-28 16:52:57 - agent_core.graph - WARNING - keeping the previous draft (602 words)
+2026-09-28 16:52:57 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 602 words; rewrite it to about 300 words (220-350)
+2026-09-28 16:52:57 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:52:57 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:53:01 - agent_core.graph - ERROR - summarize failed
+Traceback (most recent call last):
+  File "/home/wl26/project/media_en_news/agent_core/graph.py", line 55, in summarize_node
+    raise RuntimeError(f"the reply is not English ({ratio:.0%} Latin letters)")
+RuntimeError: the reply is not English (2% Latin letters)
+2026-09-28 16:53:01 - agent_core.graph - WARNING - keeping the previous draft (602 words)
+2026-09-28 16:53:01 - agent_core.graph - WARNING - script not approved after 3 attempts; using the last draft
+2026-09-28 16:53:01 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:53:01 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:53:04 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:53:04 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:53:04 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:53:08 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:53:08 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:53:08 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:53:11 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:53:11 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:53:11 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:53:14 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:53:14 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:53:14 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:53:17 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:53:17 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:53:17 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:53:20 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:53:20 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:53:20 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:53:24 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:53:24 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:53:24 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:53:27 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:53:27 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:53:27 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:53:30 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:53:30 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:53:30 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:53:33 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:53:33 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:53:33 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:53:36 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:53:36 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:53:36 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:53:39 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:53:39 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:53:39 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:53:43 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:53:43 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:53:43 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:53:46 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:53:46 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:53:46 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:53:49 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:53:49 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:53:49 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:53:52 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:53:52 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:53:52 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:53:55 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:53:55 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:53:55 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:53:58 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:53:58 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:53:58 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:54:01 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:54:01 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:54:01 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:54:04 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:54:04 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:54:04 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:54:07 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:54:07 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:54:10 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-28 16:54:10 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-28 16:54:10 - ai.manage_model - INFO - LLM model is already running.
+2026-09-28 16:54:13 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:54:32 - ai.manage_model - INFO - TTS 服务就绪
+2026-09-28 16:55:16 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:55:16 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:55:25 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:55:25 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:55:59 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:55:59 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:56:19 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:56:19 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:56:48 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:56:48 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:57:10 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:57:10 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:57:51 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:57:51 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:58:21 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:58:21 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:58:50 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:58:50 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:59:15 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:59:15 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 16:59:35 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 16:59:35 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 17:00:00 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 17:00:00 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 17:00:20 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 17:00:20 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 17:00:41 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 17:00:41 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 17:00:51 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 17:00:51 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 17:01:26 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 17:01:26 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 17:01:54 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 17:01:54 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 17:02:08 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 17:02:08 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 17:02:30 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 17:02:30 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 17:02:45 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 17:02:45 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 17:02:58 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 17:02:58 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 17:03:21 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-28 17:03:21 - ai.manage_model - INFO - TTS model is already running.
+2026-09-28 17:03:30 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:03:30 - ai.manage_model - INFO - LLM model is running. Launching Image may affect performance.Close llm serve.
+2026-09-28 17:03:30 - ai.manage_model - INFO - TTS model is running. Launching Image may affect performance.Close tts serve.
+2026-09-28 17:03:30 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 17:03:31 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 17:03:32 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 17:03:33 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 17:03:34 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 17:03:35 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 17:03:36 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 17:03:37 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 17:03:38 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 17:03:39 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 17:03:40 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 17:03:41 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 17:03:42 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 17:03:43 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 17:03:44 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-28 17:04:16 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:04:16 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:04:32 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:04:32 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:04:48 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:04:48 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:05:04 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:05:04 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:05:22 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:05:22 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:05:40 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:05:40 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:05:56 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:05:56 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:06:12 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:06:12 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:06:28 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:06:28 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:06:46 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:06:46 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:07:04 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:07:04 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:07:22 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:07:22 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:07:41 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:07:41 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:07:59 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:07:59 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:08:17 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:08:17 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:08:35 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:08:35 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:08:53 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:08:53 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:09:11 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:09:11 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:09:29 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:09:29 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:09:47 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:09:47 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:10:05 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:10:05 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:10:23 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-28 17:10:23 - ai.manage_model - INFO - Image model is already running.
+2026-09-28 17:10:41 - agent_core.tools.video - INFO - segment 1/23: news_001.png + news_001.wav
+2026-09-28 17:10:43 - agent_core.tools.video - INFO - segment 2/23: news_002.png + news_002.wav
+2026-09-28 17:10:43 - agent_core.tools.video - INFO - segment 3/23: news_003.png + news_003.wav
+2026-09-28 17:10:44 - agent_core.tools.video - INFO - segment 4/23: news_004.png + news_004.wav
+2026-09-28 17:10:44 - agent_core.tools.video - INFO - segment 5/23: news_005.png + news_005.wav
+2026-09-28 17:10:45 - agent_core.tools.video - INFO - segment 6/23: news_006.png + news_006.wav
+2026-09-28 17:10:46 - agent_core.tools.video - INFO - segment 7/23: news_007.png + news_007.wav
+2026-09-28 17:10:46 - agent_core.tools.video - INFO - segment 8/23: news_008.png + news_008.wav
+2026-09-28 17:10:47 - agent_core.tools.video - INFO - segment 9/23: news_009.png + news_009.wav
+2026-09-28 17:10:48 - agent_core.tools.video - INFO - segment 10/23: news_010.png + news_010.wav
+2026-09-28 17:10:48 - agent_core.tools.video - INFO - segment 11/23: news_011.png + news_011.wav
+2026-09-28 17:10:49 - agent_core.tools.video - INFO - segment 12/23: news_012.png + news_012.wav
+2026-09-28 17:10:50 - agent_core.tools.video - INFO - segment 13/23: news_013.png + news_013.wav
+2026-09-28 17:10:50 - agent_core.tools.video - INFO - segment 14/23: news_014.png + news_014.wav
+2026-09-28 17:10:51 - agent_core.tools.video - INFO - segment 15/23: news_015.png + news_015.wav
+2026-09-28 17:10:51 - agent_core.tools.video - INFO - segment 16/23: news_016.png + news_016.wav
+2026-09-28 17:10:52 - agent_core.tools.video - INFO - segment 17/23: news_017.png + news_017.wav
+2026-09-28 17:10:53 - agent_core.tools.video - INFO - segment 18/23: news_018.png + news_018.wav
+2026-09-28 17:10:53 - agent_core.tools.video - INFO - segment 19/23: news_019.png + news_019.wav
+2026-09-28 17:10:54 - agent_core.tools.video - INFO - segment 20/23: news_020.png + news_020.wav
+2026-09-28 17:10:54 - agent_core.tools.video - INFO - segment 21/23: news_021.png + news_021.wav
+2026-09-28 17:10:55 - agent_core.tools.video - INFO - segment 22/23: news_022.png + news_022.wav
+2026-09-28 17:10:55 - agent_core.tools.video - INFO - segment 23/23: news_023.png + news_023.wav
+2026-09-28 17:10:56 - agent_core.tools.video - INFO - video /home/wl26/project/media_en_news/resource/video/news.mp4 (205.6s, 23 segments)
+2026-09-28 17:10:56 - agent_core.graph - INFO - done: 23/23 sentences complete, video=yes (205.6s)
+2026-09-28 17:10:56 - __main__ - INFO - model server status: {'llm': 0, 'tts': 0, 'image': 1}
+2026-09-28 17:10:56 - __main__ - INFO - stopping the model server
+2026-09-28 17:10:56 - ai.manage_model - INFO - Closing the model image with provider local.
+2026-09-28 17:10:57 - __main__ - INFO - attempt 1: 602 words, 23 sentences
+2026-09-28 17:10:57 - __main__ - INFO - review: rejected — the script is 602 words; rewrite it to about 300 words (220-350)
+2026-09-28 17:10:57 - __main__ - INFO - attempt 2 failed (the reply is not English (1% Latin letters)); keeping the previous draft
+2026-09-28 17:10:57 - __main__ - INFO - review: rejected — the script is 602 words; rewrite it to about 300 words (220-350)
+2026-09-28 17:10:57 - __main__ - INFO - attempt 3 failed (the reply is not English (2% Latin letters)); keeping the previous draft
+2026-09-28 17:10:57 - __main__ - INFO - review: rejected — the script is 602 words; rewrite it to about 300 words (220-350)
+2026-09-28 17:10:57 - __main__ - INFO - image prompts: 23/23
+2026-09-28 17:10:57 - __main__ - INFO - audio: 23/23
+2026-09-28 17:10:57 - __main__ - INFO - images: 23/23
+2026-09-28 17:10:57 - __main__ - INFO - video: /home/wl26/project/media_en_news/resource/video/news.mp4
+2026-09-28 17:10:57 - __main__ - INFO - manifest: /home/wl26/project/media_en_news/resource/video/news_manifest.json
+2026-09-28 17:10:57 - __main__ - INFO - done: 23/23 sentences complete, video=yes (205.6s)
+2026-09-28 17:10:57 - __main__ - INFO - video: /home/wl26/project/media_en_news/resource/video/news.mp4

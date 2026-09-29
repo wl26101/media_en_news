@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Qwen3-TTS — Demo</title>
+<style>
+  :root {
+    --bg: #0f1115; --panel: #171a21; --border: #2a2f3a;
+    --text: #e6e9ef; --muted: #9aa3b2; --accent: #4f8cff; --danger: #ff5c5c;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 15px/1.5 -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    display: flex; justify-content: center; padding: 40px 16px;
+  }
+  main { width: 100%; max-width: 720px; }
+  h1 { font-size: 20px; margin: 0 0 4px; }
+  .sub { color: var(--muted); margin: 0 0 24px; font-size: 13px; }
+  .badge {
+    display: inline-block; padding: 2px 10px; border-radius: 999px;
+    font-size: 12px; background: #223; color: var(--accent); border: 1px solid #335;
+    margin-left: 8px; vertical-align: middle;
+  }
+  .card {
+    background: var(--panel); border: 1px solid var(--border);
+    border-radius: 12px; padding: 20px; margin-bottom: 16px;
+  }
+  label { display: block; font-size: 13px; color: var(--muted); margin: 14px 0 6px; }
+  label:first-child { margin-top: 0; }
+  textarea, input, select {
+    width: 100%; background: #0d1016; color: var(--text);
+    border: 1px solid var(--border); border-radius: 8px;
+    padding: 10px 12px; font: inherit; outline: none;
+  }
+  textarea:focus, input:focus, select:focus { border-color: var(--accent); }
+  textarea { resize: vertical; min-height: 84px; }
+  .row { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+  .row3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+  @media (max-width: 560px) { .row, .row3 { grid-template-columns: 1fr; } }
+  button.primary {
+    margin-top: 18px; width: 100%; padding: 12px; font-size: 15px;
+    background: var(--accent); color: #fff; border: none; border-radius: 8px;
+    cursor: pointer; font-weight: 600;
+  }
+  button.primary:disabled { opacity: .5; cursor: not-allowed; }
+  .hint { font-size: 12px; color: var(--muted); margin-top: 5px; }
+  .hidden { display: none !important; }
+  #status { font-size: 13px; margin-top: 12px; min-height: 18px; color: var(--muted); }
+  #status.error { color: var(--danger); }
+  #player { margin-top: 12px; width: 100%; }
+  .actions { display: flex; gap: 10px; margin-top: 12px; }
+  .actions button {
+    flex: 1; padding: 9px; background: #222; color: var(--text);
+    border: 1px solid var(--border); border-radius: 8px; cursor: pointer;
+  }
+  .check { display: flex; align-items: center; gap: 8px; margin-top: 14px; font-size: 13px; color: var(--text); }
+  .check input { width: auto; }
+  .warning {
+    background: #2b2117; border: 1px solid #5a4526; color: #ffcf8a;
+    border-radius: 8px; padding: 10px 12px; font-size: 13px; margin-top: 12px;
+  }
+</style>
+</head>
+<body>
+<main>
+  <h1>Qwen3-TTS <span class="badge" id="modelBadge">loading…</span></h1>
+  <p class="sub">Sends <code>text</code> + <code>language</code> + <code>tone</code> to the backend and plays the generated audio.</p>
+
+  <div class="card">
+    <label for="text">Sentence to speak</label>
+    <textarea id="text" placeholder="Enter any sentence…">I am solving the equation: x = [-b ± √(b²-4ac)] / 2a? Nobody can — it's a disaster, very sad!</textarea>
+
+    <div class="row">
+      <div>
+        <label for="language">Language</label>
+        <input id="language" list="langs" value="English" placeholder="e.g. English / Chinese / Auto">
+        <datalist id="langs"></datalist>
+      </div>
+      <div>
+        <label for="tone">Tone / style description</label>
+        <input id="tone" placeholder="e.g. speak slowly, very sad…">
+      </div>
+    </div>
+    <div id="toneNote" class="warning hidden">
+      The loaded <b>Base</b> checkpoint clones a voice from a reference audio and does not
+      follow free-text tone instructions. Use the <b>VoiceDesign</b> checkpoint (set
+      <code>MODEL_PATH</code>) for tone control, or pick a reference audio that already
+      has the tone you want.
+    </div>
+
+    <div id="cloneFields">
+      <div class="row">
+        <div>
+          <label for="ref_audio">Reference audio (voice to clone) — optional</label>
+          <input id="ref_audio" placeholder="wav path / http(s) URL / base64 data URI">
+        </div>
+        <div>
+          <label for="ref_text">Reference text — optional</label>
+          <input id="ref_text" placeholder="Transcript of the reference audio">
+        </div>
+      </div>
+      <label class="check">
+        <input id="xvec" type="checkbox">
+        Use x-vector only (ignores reference text; weaker but simpler)
+      </label>
+    </div>
+
+    <button class="primary" id="generate">Generate audio</button>
+    <div id="status"></div>
+  </div>
+
+  <div class="card hidden" id="resultCard">
+    <label>Generated audio</label>
+    <audio id="player" controls></audio>
+    <div class="actions">
+      <button id="playBtn">▶ Play</button>
+      <button id="downloadBtn">⬇ Download WAV</button>
+    </div>
+  </div>
+</main>
+
+<script>
+  let health = null;
+  let lastUrl = null;
+
+  async function init() {
+    try {
+      const res = await fetch('/health');
+      health = await res.json();
+      document.getElementById('modelBadge').textContent =
+        `${health.model_type} · tone ${health.tone_supported ? 'supported' : 'unsupported'}`;
+      populateLanguages(health.supported_languages || []);
+      updateUIForModel();
+    } catch (e) {
+      document.getElementById('modelBadge').textContent = 'offline';
+      setStatus('Backend not reachable — is the server running?', true);
+    }
+  }
+
+  function populateLanguages(langs) {
+    const dl = document.getElementById('langs');
+    if (!langs.length) langs = ['Auto','Chinese','English','Japanese','Korean','German','French','Russian','Portuguese','Spanish','Italian'];
+    dl.innerHTML = langs.map(l => `<option value="${l}">`).join('');
+  }
+
+  function updateUIForModel() {
+    const toneSupported = health && health.tone_supported;
+    document.getElementById('toneNote').classList.toggle('hidden', !!toneSupported);
+    // Base model clones a voice; VoiceDesign has no reference-audio concept.
+    const isBase = health && health.model_type === 'base';
+    document.getElementById('cloneFields').classList.toggle('hidden', !isBase);
+    if (isBase && !document.getElementById('ref_audio').value) {
+      document.getElementById('ref_audio').placeholder = 'Leave empty to use the built-in reference voice';
+    }
+  }
+
+  async function generate() {
+    const status = document.getElementById('status');
+    setStatus('Generating…', false);
+    const btn = document.getElementById('generate');
+    btn.disabled = true;
+    try {
+      const payload = {
+        text: document.getElementById('text').value.trim(),
+        language: document.getElementById('language').value.trim() || 'Auto',
+        tone: document.getElementById('tone').value.trim() || null,
+        ref_audio: document.getElementById('ref_audio').value.trim() || null,
+        ref_text: document.getElementById('ref_text').value.trim() || null,
+        x_vector_only: document.getElementById('xvec').checked,
+      };
+      const res = await fetch('/v1/tts', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload),
+      });
+      if (!res.ok) {
+        let msg = `HTTP ${res.status}`;
+        try { const j = await res.json(); msg = j.detail || msg; } catch (_) {}
+        throw new Error(msg);
+      }
+      const blob = await res.blob();
+      lastUrl = URL.createObjectURL(blob);
+      const player = document.getElementById('player');
+      player.src = lastUrl;
+      document.getElementById('resultCard').classList.remove('hidden');
+      setStatus(`Done — ${(blob.size / 1024).toFixed(1)} KB · sample rate ${res.headers.get('X-Sample-Rate')} Hz`);
+    } catch (e) {
+      setStatus('Error: ' + e.message, true);
+    } finally {
+      btn.disabled = false;
+    }
+  }
+
+  function setStatus(msg, isError) {
+    const s = document.getElementById('status');
+    s.textContent = msg;
+    s.classList.toggle('error', !!isError);
+  }
+
+  document.getElementById('generate').addEventListener('click', generate);
+  document.getElementById('playBtn').addEventListener('click', () => document.getElementById('player').play());
+  document.getElementById('downloadBtn').addEventListener('click', () => {
+    if (!lastUrl) return;
+    const a = document.createElement('a');
+    a.href = lastUrl; a.download = 'qwen3-tts.wav';
+    document.body.appendChild(a); a.click(); a.remove();
+  });
+
+  init();
+</script>
+</body>
+</html>
