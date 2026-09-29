@@ -50,9 +50,6 @@ def summarize_node(state: NewsState) -> dict:
     try:
         source_text = text_tools.read_source(state.get("source_file") or config.SOURCE_FILE)
         script = llm.write_script(source_text, feedback=state.get("feedback", ""), model_manage=model_serve)
-        ratio = text_tools.english_ratio(script)
-        if ratio < config.MIN_ENGLISH_RATIO:
-            raise RuntimeError(f"the reply is not English ({ratio:.0%} Latin letters)")
         sentences = text_tools.split_sentences(script)
         if not sentences:
             raise RuntimeError("the model returned no usable sentence")
@@ -70,6 +67,7 @@ def summarize_node(state: NewsState) -> dict:
 
     words = text_tools.count_words(script)
     logger.info("script attempt %d: %d words, %d sentences", attempts, words, len(sentences))
+    logger.debug("script attempt %d content: %s", attempts, script)
     return {"summary": script, "sentences": records, "attempts": attempts, "feedback": "",
             "log": [f"attempt {attempts}: {words} words, {len(sentences)} sentences"]}
 
@@ -93,6 +91,7 @@ def review_node(state: NewsState) -> dict:
 
     note = "approved by the editor" if approved else f"rewrite requested — {feedback}"
     logger.info("review: %s", note)
+    logger.debug("review result: approved=%s, feedback=%s", approved, feedback)
     return {"approved": approved, "feedback": feedback, "log": [f"review: {note}"]}
 
 

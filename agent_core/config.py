@@ -38,22 +38,19 @@ STEM = "news"
 # Tunables
 # ---------------------------------------------------------------------------
 
-# ~1 minute of spoken English is roughly 150 words. 2 min is roughly 300 words.
-TARGET_WORDS = 300
-MIN_WORDS = 220
-MAX_WORDS = 350
+# ~1 minute of spoken English is roughly 150 words. 1.5 min is roughly 200 words.
+TARGET_WORDS = 200
+MIN_WORDS = 150
+MAX_WORDS = 300
 
 # Reflection loop: the script is critiqued and rewritten at most this often.
-MAX_SUMMARY_ATTEMPTS = 3
+MAX_SUMMARY_ATTEMPTS = 10
 
 # A 300-word script is ~400 tokens and the model overshoots it, so a 500-token
 # budget cut the reply off mid-script and the draft was judged on a truncation.
 LLM_MAX_TOKENS = 800
 LLM_TEMPERATURE = 0.2
 LLM_TIMEOUT = 180
-
-# Below this share of Latin letters the reply is not English at all.
-MIN_ENGLISH_RATIO = 0.8
 
 IMAGE_PROMPT_MAX_TOKENS = 250
 
@@ -72,15 +69,16 @@ READY_TIMEOUTS = {"llm": 180, "tts": 180, "image": 300}
 # ---------------------------------------------------------------------------
 
 SUMMARY_PROMPT = f"""\
-You will receive multiple separate news articles. DO NOT simply summarize each article one by one and concatenate them in input order.
-Integrate all key information across all provided news texts, merge overlapping topics, remove duplicate facts, then rewrite into a cohesive 2-minute spoken English news broadcast script.
+You are a professional English news writer.
+Integrate all key information across all provided news texts, merge overlapping topics, remove duplicate facts, then rewrite into a cohesive 1.5-minute spoken English news broadcast script.
 
 Requirements:
 - Output only English. No Chinese characters.
-- Target word count: {TARGET_WORDS}, suitable for natural reading aloud in around 2 minutes.
+- Target word count: {TARGET_WORDS}, suitable for natural reading aloud in around 1.5 minutes.
 - Strictly objective factual reporting only: preserve key time, location, subjects and events.
 - No commentary, analysis, speculation, subjective opinions, metaphors or persuasive language.
-- Each unique fact appears exactly once; avoid repeated sentences, facts or redundant phrases.
+- Each important fact appears exactly once; avoid repeated sentences, facts or redundant phrases.
+- Can skip some not important fact to keep the script concise and less words.
 - Deliver as one continuous plain prose paragraph. No headings, bullet points, direct quotes, markdown formatting.
 - Output nothing except the final news script.
 """

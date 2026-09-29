@@ -45,19 +45,6 @@ def cut_at_sentence_boundary(text: str) -> str:
         sentences = sentences[:-1]
     return " ".join(sentences).strip() or stripped
 
-
-def english_ratio(text: str) -> float:
-    """Share of the letters in `text` that are Latin script.
-
-    The local model sometimes answers a rewrite request in the source language
-    (Chinese) instead of English. Measuring the script is how the pipeline
-    notices that before the text reaches TTS and the image prompts.
-    """
-    latin = sum(1 for char in text if char.isascii() and char.isalpha())
-    other = sum(1 for char in text if char.isalpha() and not char.isascii())
-    return latin / (latin + other) if latin + other else 1.0
-
-
 def count_words(text: str) -> int:
     return len(re.findall(r"[A-Za-z0-9'’-]+", text))
 

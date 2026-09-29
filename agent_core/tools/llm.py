@@ -82,7 +82,7 @@ def write_script(source_text: str, feedback: str = "", model_manage: manage_mode
         prompt += (
             "\n\nYour previous draft was rejected by the editor.\n"
             f"Editor's note: {feedback}\n"
-            "Rewrite the script and fix exactly that problem."
+            "Rewrite the script in English and fix exactly that problem."
         )
         logger.warning("Previous draft was rejected by the editor: %s", feedback)
     return chat(prompt=prompt, model_manage=model_manage)

@@ -994,3 +994,1574 @@ RuntimeError: the reply is not English (2% Latin letters)
 2026-09-28 17:10:57 - __main__ - INFO - manifest: /home/wl26/project/media_en_news/resource/video/news_manifest.json
 2026-09-28 17:10:57 - __main__ - INFO - done: 23/23 sentences complete, video=yes (205.6s)
 2026-09-28 17:10:57 - __main__ - INFO - video: /home/wl26/project/media_en_news/resource/video/news.mp4
+2026-09-29 16:28:15 - agent_core.tracing - INFO - LangSmith tracing disabled (set LANGCHAIN_TRACING_V2 and LANGCHAIN_API_KEY to enable)
+2026-09-29 16:28:15 - __main__ - INFO - cleaned 92 artifact(s) from the previous run
+2026-09-29 16:28:15 - __main__ - INFO - running the news-video workflow on /home/wl26/project/media_en_news/resource/text/source.txt
+2026-09-29 16:28:15 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:28:21 - ai.manage_model - INFO - llm 服务就绪
+2026-09-29 16:28:32 - agent_core.tools.llm - WARNING - LLM hit the 800-token cap; truncating at the last sentence
+2026-09-29 16:28:32 - agent_core.graph - INFO - script attempt 1: 652 words, 24 sentences
+2026-09-29 16:28:32 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 652 words; rewrite it to about 200 words (150-300)
+2026-09-29 16:28:32 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:28:32 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:28:37 - agent_core.graph - ERROR - summarize failed
+Traceback (most recent call last):
+  File "/home/wl26/project/media_en_news/agent_core/graph.py", line 55, in summarize_node
+    raise RuntimeError(f"the reply is not English ({ratio:.0%} Latin letters)")
+RuntimeError: the reply is not English (2% Latin letters)
+2026-09-29 16:28:37 - agent_core.graph - WARNING - keeping the previous draft (652 words)
+2026-09-29 16:28:37 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 652 words; rewrite it to about 200 words (150-300)
+2026-09-29 16:28:37 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:28:37 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:28:39 - agent_core.graph - ERROR - summarize failed
+Traceback (most recent call last):
+  File "/home/wl26/project/media_en_news/agent_core/graph.py", line 55, in summarize_node
+    raise RuntimeError(f"the reply is not English ({ratio:.0%} Latin letters)")
+RuntimeError: the reply is not English (2% Latin letters)
+2026-09-29 16:28:39 - agent_core.graph - WARNING - keeping the previous draft (652 words)
+2026-09-29 16:28:39 - agent_core.graph - WARNING - script not approved after 3 attempts; using the last draft
+2026-09-29 16:28:39 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:28:39 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:28:43 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:28:43 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:28:43 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:28:46 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:28:46 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:28:46 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:28:50 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:28:50 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:28:50 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:28:53 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:28:53 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:28:53 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:28:56 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:28:56 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:28:56 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:29:00 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:29:00 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:29:03 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:29:03 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:29:03 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:29:06 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:29:06 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:29:06 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:29:08 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:29:08 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:29:08 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:29:11 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:29:11 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:29:11 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:29:14 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:29:14 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:29:18 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:29:18 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:29:18 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:29:21 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:29:21 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:29:24 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:29:24 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:29:27 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:29:27 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:29:31 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:29:31 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:29:31 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:29:34 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:29:34 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:29:37 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:29:37 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:29:37 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:29:39 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:29:39 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:29:39 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:29:42 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:29:42 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:29:42 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:29:45 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:29:45 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:29:45 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:29:49 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:29:49 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:29:52 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:29:52 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:29:52 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:29:56 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:29:56 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 16:30:15 - ai.manage_model - INFO - TTS 服务就绪
+2026-09-29 16:30:55 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 16:30:55 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 16:31:06 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 16:31:06 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 16:32:38 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 16:32:38 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 16:32:57 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 16:32:57 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 16:33:12 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 16:33:12 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 16:33:24 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 16:33:24 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 16:33:37 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 16:33:37 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 16:34:02 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 16:34:02 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 16:34:16 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 16:34:16 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 16:34:44 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 16:34:44 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 16:35:12 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 16:35:12 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 16:35:48 - __main__ - WARNING - interrupted
+2026-09-29 16:35:48 - __main__ - INFO - model server status: {'llm': 1, 'tts': 1, 'image': 0}
+2026-09-29 16:35:48 - __main__ - INFO - stopping the model server
+2026-09-29 16:35:48 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-29 16:35:49 - __main__ - INFO - stopping the model server
+2026-09-29 16:35:49 - ai.manage_model - INFO - Closing the model tts with provider local.
+2026-09-29 16:36:07 - agent_core.tracing - INFO - LangSmith tracing disabled (set LANGCHAIN_TRACING_V2 and LANGCHAIN_API_KEY to enable)
+2026-09-29 16:36:07 - __main__ - INFO - cleaned 59 artifact(s) from the previous run
+2026-09-29 16:36:07 - __main__ - INFO - running the news-video workflow on /home/wl26/project/media_en_news/resource/text/source.txt
+2026-09-29 16:36:07 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:36:07 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:08 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:09 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:11 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:11 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "GET /health HTTP/1.1" 503 75
+2026-09-29 16:36:12 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:12 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "GET /health HTTP/1.1" 503 75
+2026-09-29 16:36:13 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:13 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "GET /health HTTP/1.1" 503 75
+2026-09-29 16:36:14 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:14 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "GET /health HTTP/1.1" 503 75
+2026-09-29 16:36:15 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:15 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "GET /health HTTP/1.1" 503 75
+2026-09-29 16:36:16 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:16 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "GET /health HTTP/1.1" 503 75
+2026-09-29 16:36:17 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:17 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "GET /health HTTP/1.1" 503 75
+2026-09-29 16:36:16 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:16 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "GET /health HTTP/1.1" 200 15
+2026-09-29 16:36:16 - ai.manage_model - INFO - llm 服务就绪
+2026-09-29 16:36:16 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:24 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 3527
+2026-09-29 16:36:24 - agent_core.graph - INFO - script attempt 1: 465 words, 20 sentences
+2026-09-29 16:36:24 - agent_core.graph - DEBUG - script attempt 1 content: According to NBC, Iran's Foreign Minister Ali Akbarghani stated on September 27 that Iran is now prepared to go to war with the US after US President Donald Trump publicly rejected Iran's proposal for the Hormuz Strait. However, Iran has not yet given up on diplomatic efforts.
+
+During an interview with NBC's "Meet the Press" program, Akbari stated that Iran is now ready for a "doomsday war" with the US, but remains open to diplomatic avenues to avoid missing any opportunities for peace. He emphasized that Iran is willing to engage in negotiations and is prepared to face any challenges, including a "doomsday war," to resist aggression.
+
+However, Akbari also stated that Iran is still prepared to use diplomatic means to resolve the issue. "We are not ready to give up on diplomacy, but we are trying to take advantage of any remaining opportunities for peace," he said.
+
+On September 25, Akbari announced that Iran had submitted a proposal to reopen the Hormuz Strait through Qatar to the US. If the US takes necessary actions based on this proposal, the Hormuz Strait can be reopened in seven days, restoring normal shipping. However, US media reported that Trump rejected the proposal and claimed that Iran is eager to reach an agreement because they have suffered too much.
+
+Akbari clarified that Iran has not yet received a formal rejection of the proposal from the US through the mediation channels. He reiterated that Iran is willing to reopen the Strait as part of a peace agreement. As a condition, the US must first meet Iran's demands, including unfreezing illegally frozen funds and assets, and allowing Iran to sell oil.
+
+Meanwhile, the Revolutionary Guard claimed on September 27 that Iran had detained a US Navy unmanned underwater vehicle (UUV) in the Strait of Hormuz. The claim was reported by Tasnim News Agency on Telegram, stating that the vehicle was a Remus 600 and has been handed over to experts for data extraction. The US Navy did not immediately respond to the request for comment.
+
+On September 25, Akbari announced that Iran had submitted a proposal to reopen the Hormuz Strait through Qatar to the US. If the US takes necessary actions based on this proposal, the Hormuz Strait can be reopened in seven days, restoring normal shipping. However, US media reported that Trump rejected the proposal and claimed that Iran is eager to reach an agreement because they have suffered too much.
+
+Akbari also criticized the US for potentially launching attacks against Iran, stating that Iran's armed forces are now fully prepared to fight. He emphasized that negotiations are the only way to break the deadlock, and Iran insists that the US must meet its conditions, including unfreezing illegally frozen funds and assets, and allowing Iran to sell oil.
+2026-09-29 16:36:24 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 465 words; rewrite it to about 200 words (150-300)
+2026-09-29 16:36:24 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:36:24 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:36:24 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:29 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 2641
+2026-09-29 16:36:29 - agent_core.graph - ERROR - summarize failed
+Traceback (most recent call last):
+  File "/home/wl26/project/media_en_news/agent_core/graph.py", line 55, in summarize_node
+    raise RuntimeError(f"the reply is not English ({ratio:.0%} Latin letters)")
+RuntimeError: the reply is not English (4% Latin letters)
+2026-09-29 16:36:29 - agent_core.graph - WARNING - keeping the previous draft (465 words)
+2026-09-29 16:36:29 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 465 words; rewrite it to about 200 words (150-300)
+2026-09-29 16:36:29 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:36:29 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:36:29 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:33 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 2036
+2026-09-29 16:36:33 - agent_core.graph - ERROR - summarize failed
+Traceback (most recent call last):
+  File "/home/wl26/project/media_en_news/agent_core/graph.py", line 55, in summarize_node
+    raise RuntimeError(f"the reply is not English ({ratio:.0%} Latin letters)")
+RuntimeError: the reply is not English (2% Latin letters)
+2026-09-29 16:36:33 - agent_core.graph - WARNING - keeping the previous draft (465 words)
+2026-09-29 16:36:33 - agent_core.graph - WARNING - script not approved after 3 attempts; using the last draft
+2026-09-29 16:36:33 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:36:33 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:36:33 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:37 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1971
+2026-09-29 16:36:37 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:36:37 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:36:37 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:36:37 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:40 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1723
+2026-09-29 16:36:40 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:36:40 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:36:40 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:43 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1894
+2026-09-29 16:36:43 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:36:43 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:36:43 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:36:43 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:46 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1883
+2026-09-29 16:36:46 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:36:46 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:36:46 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:36:46 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:48 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1865
+2026-09-29 16:36:48 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:36:48 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:36:48 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:36:48 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:51 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1903
+2026-09-29 16:36:51 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:36:51 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:36:51 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:36:51 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:55 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1854
+2026-09-29 16:36:55 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:36:55 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:36:55 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:36:58 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1845
+2026-09-29 16:36:58 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:36:58 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:36:58 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:36:58 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:37:01 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1923
+2026-09-29 16:37:01 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:37:01 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:37:01 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:37:01 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:37:05 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1880
+2026-09-29 16:37:05 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:37:05 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:37:05 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:37:05 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:37:08 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1884
+2026-09-29 16:37:08 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:37:08 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:37:08 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:37:08 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:37:12 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1835
+2026-09-29 16:37:12 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:37:12 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:37:12 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:37:12 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:37:14 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1498
+2026-09-29 16:37:14 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:37:14 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:37:14 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:37:17 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1806
+2026-09-29 16:37:17 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:37:17 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:37:17 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:37:17 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:37:18 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1869
+2026-09-29 16:37:18 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:37:18 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:37:18 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:37:18 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:37:21 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1821
+2026-09-29 16:37:21 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:37:21 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:37:21 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:37:24 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1560
+2026-09-29 16:37:24 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:37:24 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:37:24 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:37:27 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1894
+2026-09-29 16:37:27 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:37:27 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:37:27 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:37:27 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:37:31 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1916
+2026-09-29 16:37:31 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:37:31 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:37:31 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:37:31 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:37:34 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1926
+2026-09-29 16:37:34 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:37:34 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 16:37:34 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:37:35 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:37:36 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:37:37 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:37:38 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:37:39 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:37:40 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:37:41 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:37:42 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:37:43 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:37:44 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:37:45 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:37:45 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "GET /health HTTP/1.1" 200 331
+2026-09-29 16:37:45 - ai.manage_model - INFO - TTS 服务就绪
+2026-09-29 16:37:45 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:37:54 - __main__ - WARNING - interrupted
+2026-09-29 16:37:54 - __main__ - INFO - model server status: {'llm': 1, 'tts': 1, 'image': 0}
+2026-09-29 16:37:54 - __main__ - INFO - stopping the model server
+2026-09-29 16:37:54 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-29 16:37:54 - __main__ - INFO - stopping the model server
+2026-09-29 16:37:54 - ai.manage_model - INFO - Closing the model tts with provider local.
+2026-09-29 16:40:31 - agent_core.tracing - INFO - LangSmith tracing disabled (set LANGCHAIN_TRACING_V2 and LANGCHAIN_API_KEY to enable)
+2026-09-29 16:40:31 - __main__ - INFO - cleaned 40 artifact(s) from the previous run
+2026-09-29 16:40:31 - __main__ - INFO - running the news-video workflow on /home/wl26/project/media_en_news/resource/text/source.txt
+2026-09-29 16:40:31 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:40:31 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:40:32 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:40:33 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:40:34 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:40:34 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "GET /health HTTP/1.1" 503 75
+2026-09-29 16:40:35 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:40:35 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "GET /health HTTP/1.1" 503 75
+2026-09-29 16:40:36 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:40:36 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "GET /health HTTP/1.1" 200 15
+2026-09-29 16:40:36 - ai.manage_model - INFO - llm 服务就绪
+2026-09-29 16:40:36 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:40:47 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 4684
+2026-09-29 16:40:47 - agent_core.tools.llm - WARNING - LLM hit the 800-token cap; truncating at the last sentence
+2026-09-29 16:40:47 - agent_core.graph - INFO - script attempt 1: 633 words, 19 sentences
+2026-09-29 16:40:47 - agent_core.graph - DEBUG - script attempt 1 content: According to NBC, Iran's Foreign Minister Abbas Araghchi stated on September 27 that Iran is now prepared to engage in a full-scale war with the US after President Trump publicly rejected Iran's proposal for the Hormuz Strait. However, Iran has not given up on diplomatic avenues. During an interview on NBC's "Meet the Press," Araghchi responded to reports suggesting the US might resume bombing Iran after the midterm elections, stating, "We are now ready for a full-scale war." He emphasized that if Iran is attacked again, it will be resolute in its response, "even if it means a war of annihilation." Nevertheless, Araghchi also stated that Iran is still prepared to resolve the issue through diplomacy, "now it is up to President Trump to make the choice." Last week, Iran submitted a proposal to the US through Qatar, suggesting reopening the Hormuz Strait within seven days to restore normal shipping in this critical global oil transportation route. Trump rejected the proposal on September 26, claiming Iran is eager to reach an agreement because they have suffered too much. Araghchi clarified that Iran is still willing to negotiate, "We are ready to reopen the Strait as part of a deal, but as a condition, the US must release frozen Iranian funds and assets, and allow Iran to sell oil." He reiterated that these are not new conditions but commitments made by the US previously. In June, the US signed a memorandum of understanding with Iran containing temporary ceasefire arrangements, but the agreement broke down after both sides launched attacks again. Araghchi also responded to Trump's claim that Iran is waiting for the US midterm election results, saying, "We do not care about the US midterm elections, we care about our national interests." On September 27, the Iranian Mehr News Agency reported that Iran's Foreign Minister Abbas Araghchi stated that Iran is now ready for a full-scale war with the US, but has not given up on diplomatic avenues. Araghchi, during his appearance on NBC's "Meet the Press" after the United Nations General Assembly, said, "We are now ready for a full-scale war, but we are still trying to engage diplomatically to avoid missing any opportunity for peace." He emphasized that Iran is willing to negotiate and is ready to face any challenges, "even if the conflict escalates into a war of annihilation, we will be resolute in resisting aggression." On September 25, the Revolutionary Guard claimed to have detained a US Navy unmanned underwater vehicle (UUV) in the Hormuz Strait. According to the Tasnim News Agency, the vehicle is a Remus 600 and has been handed over to experts for data extraction. The US Navy did not immediately respond to a request for comment. On September 25, Araghchi announced at the UN headquarters in New York that Iran had submitted a proposal to reopen the Hormuz Strait through Qatar. If the US takes necessary actions, the Strait can be reopened within seven days, restoring normal shipping. However, the Wall Street Journal reported on September 25 that Trump rejected the Iranian proposal and told his aides that he might resume bombing Iran after the midterm elections in November. Araghchi clarified that the mediation channel has not yet conveyed the US's formal rejection to Tehran. He stated that only negotiations can break the deadlock; as for reopening the Hormuz Strait, Iran insists that the US must first meet its conditions. Araghchi reiterated that as part of a deal to end the conflict, Iran is willing to reopen the Strait. As a condition, Iran demands the release of frozen Iranian funds and assets, and the ability to sell oil. US Ambassador to the UN, Michael Waltz, criticized Iran's latest proposal as a "false gesture" that the US cannot accept. He said that Trump will retain all options.
+2026-09-29 16:40:47 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 633 words; rewrite it to about 200 words (150-300)
+2026-09-29 16:40:47 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:40:47 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:40:47 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:40:51 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 2117
+2026-09-29 16:40:51 - agent_core.graph - INFO - script attempt 2: 5 words, 1 sentences
+2026-09-29 16:40:51 - agent_core.graph - DEBUG - script attempt 2 content: 据美国全国广播公司（NBC）9月27日报道，伊朗外交部长阿拉格齐表示，尽管美国拒绝了伊朗提出的霍尔木兹海峡方案，伊朗已为与美国重新开战做好准备，但仍未放弃外交途径。阿拉格齐在NBC节目《会晤新闻界》中表示，伊朗已为战争重新开始的时刻做好准备，但同时强调，如果再次遭到攻击，伊朗将坚决应对。不过，阿拉格齐同时表示，伊朗仍准备通过外交方式解决问题。阿拉格齐称，尽管特朗普已经公开表态拒绝方案，但伊朗尚未收到美方正式拒绝方案的通知。他重申，伊朗愿意通过协议重新开放霍尔木兹海峡，但作为交换，美方应释放被冻结的伊朗资金和资产，并允许伊朗出售石油。对于特朗普声称伊朗可能在等待美国中期选举结果，阿拉格齐回应称：“我们不关心美国中期选举，我们关心的是自己的国家利益。”伊朗革命卫队同日声称，在霍尔木兹海峡扣押了一艘美军水下无人机（UUV），已交由专家提取数据。伊朗外长阿拉格齐表示，尽管特朗普已经公开表态，但伊朗尚未收到美方正式拒绝方案的通知。他重申，伊朗愿意通过协议重新开放霍尔木兹海峡，但作为交换，美方应释放被冻结的伊朗资金和资产，并允许伊朗出售石油。
+2026-09-29 16:40:51 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 5 words; rewrite it to about 200 words (150-300)
+2026-09-29 16:40:51 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:40:51 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:40:51 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:40:59 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 3811
+2026-09-29 16:40:59 - agent_core.graph - INFO - script attempt 3: 18 words, 1 sentences
+2026-09-29 16:40:59 - agent_core.graph - DEBUG - script attempt 3 content: 据美国全国广播公司（NBC）9月27日报道，伊朗外交部长阿拉格齐当天表示，尽管美国总统特朗普公开拒绝了伊朗提出的霍尔木兹海峡方案，伊朗已为与美国重新开战做好充分准备，但仍未放弃外交途径。阿拉格齐在接受NBC节目《会晤新闻界》采访时指出，如果再次遭到攻击，伊朗将坚决应对，即使这意味着一场末日战争。不过，他同时表示，伊朗仍准备通过外交方式解决问题，现在由特朗普总统作出选择。伊朗上周通过卡塔尔向美国转交一项方案，提出作为结束冲突协议的一部分，在7天内重新开放霍尔木兹海峡，恢复这一全球关键石油运输通道的正常航运。特朗普26日表示已经拒绝该方案，并声称伊朗急于达成协议，是因为“他们输得太惨了”。阿拉格齐则称，尽管特朗普已经公开表态，但伊朗尚未通过斡旋方收到美方正式拒绝方案的通知。他重申，伊朗愿意通过协议重新开放霍尔木兹海峡，但作为交换，美方应释放被冻结的伊朗资金和资产，并允许伊朗出售石油。他还表示，这些并非伊朗提出的新条件，而是美国此前已经承诺过的内容。美伊今年6月曾签署一份包含临时停火安排的谅解备忘录，但协议仅维持数日便因双方再次相互发动袭击而破裂。对于特朗普声称伊朗可能在等待美国中期选举结果，阿拉格齐回应称：“我们不关心美国中期选举，我们关心的是自己的国家利益。”伊朗革命卫队同日声称，在霍尔木兹海峡扣押一艘美军水下无人机（UUV）。塔斯尼姆通讯社在Telegram引述革命卫队，指其为Remus 600型，已交由专家提取数据。美军未立即回应置评请求。此前，阿拉格齐25日在纽约联合国总部举行的记者会上宣布，伊朗已通过卡塔尔向美国转达一个有关重新开放霍尔木兹海峡的计划，如果美方据此采取必要行动，霍尔木兹海峡可以在七日内重新开放，恢复正常海运。不过，美国《华尔街日报》25日报道称，特朗普拒绝了伊方的相关提议，并告诉其助手他可能在今年11月美国国会中期选举后恢复对伊朗的轰炸。但阿拉格齐表示，斡旋方尚未向德黑兰转达美方的正式回复。他指称，只有谈判才能打破僵局；至于重开霍尔木兹海峡，伊朗仍坚持美方须先满足其条件。阿拉格齐重申，作为结束冲突协议的一部分，伊朗准备重新开放海峡。作为交换条件，“我们要求解冻被非法扣押的资金和资产，并希望能够出售石油”。美国驻联合国大使沃兹（Michael Waltz）则在NBC另一场访问中批评，伊朗最新提议是“明知美方无法接受却仍拿出来谈的假姿态”。他说特朗普会保留所有选项。针对美国可能对伊朗发动的袭击，伊朗军方发言人阿克拉米尼亚27日表示，伊朗武装部队已做好充分准备，将竭尽全力进行对抗。
+2026-09-29 16:40:59 - agent_core.graph - WARNING - script not approved after 3 attempts; using the last draft
+2026-09-29 16:40:59 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:40:59 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:40:59 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:41:02 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1960
+2026-09-29 16:41:02 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:41:02 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 16:41:02 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:41:03 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:41:04 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:41:05 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:41:06 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:41:07 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:41:08 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:41:09 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:41:10 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:41:11 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:41:11 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "GET /health HTTP/1.1" 200 331
+2026-09-29 16:41:11 - ai.manage_model - INFO - TTS 服务就绪
+2026-09-29 16:41:11 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:42:05 - __main__ - WARNING - interrupted
+2026-09-29 16:42:05 - __main__ - INFO - model server status: {'llm': 1, 'tts': 1, 'image': 0}
+2026-09-29 16:42:05 - __main__ - INFO - stopping the model server
+2026-09-29 16:42:05 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-29 16:42:06 - __main__ - INFO - stopping the model server
+2026-09-29 16:42:06 - ai.manage_model - INFO - Closing the model tts with provider local.
+2026-09-29 16:52:52 - agent_core.tracing - INFO - LangSmith tracing disabled (set LANGCHAIN_TRACING_V2 and LANGCHAIN_API_KEY to enable)
+2026-09-29 16:52:52 - __main__ - INFO - cleaned 2 artifact(s) from the previous run
+2026-09-29 16:52:52 - __main__ - INFO - running the news-video workflow on /home/wl26/project/media_en_news/resource/text/source.txt
+2026-09-29 16:52:52 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:52:52 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:52:53 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:52:54 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:52:55 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:52:55 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "GET /health HTTP/1.1" 503 75
+2026-09-29 16:52:56 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:52:56 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "GET /health HTTP/1.1" 503 75
+2026-09-29 16:52:57 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:52:57 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "GET /health HTTP/1.1" 503 75
+2026-09-29 16:52:58 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:52:58 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "GET /health HTTP/1.1" 200 15
+2026-09-29 16:52:58 - ai.manage_model - INFO - llm 服务就绪
+2026-09-29 16:52:58 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:53:06 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 3762
+2026-09-29 16:53:06 - agent_core.graph - INFO - script attempt 1: 493 words, 23 sentences
+2026-09-29 16:53:06 - agent_core.graph - DEBUG - script attempt 1 content: According to NBC, Iran's Foreign Minister Abbas Araghchi stated on September 27 that Iran is now prepared for a potential war with the US after US President Donald Trump publicly rejected Iran's proposal for the Hormuz Strait. However, Iran has not yet given up on diplomatic efforts.
+
+During an interview on NBC's "Meet the Press," Araghchi addressed reports of potential US bombing of Iran following the midterm elections. He said, "We are now ready for a war, but we are still trying to find a diplomatic solution."
+
+Araghchi emphasized that Iran is willing to engage in negotiations, but also prepared for any challenges, "even if it means fighting a war to the end."
+
+Iran had previously submitted a proposal to the US through Qatar, suggesting reopening the Hormuz Strait within seven days to restore normal shipping in the global oil transportation route. However, Trump rejected the proposal and claimed Iran was desperate to reach an agreement because they had suffered too much.
+
+Araghchi stated that Iran is still willing to negotiate, but the US must meet certain conditions, including unfreezing Iranian assets and allowing the sale of oil. He reiterated that these were not new demands but commitments made by the US previously.
+
+The US had signed a memorandum of understanding with Iran in June, but the agreement broke down after both sides launched attacks. Araghchi also pointed out that Iran is not concerned about the US midterm elections but rather its national interests.
+
+On September 26, the Iranian Revolutionary Guard claimed to have detained a US Navy unmanned underwater vehicle (UUV) in the Hormuz Strait. The claim was made by Tasnim News Agency on Telegram, stating that the vehicle was a Remus 600, which has been handed over to experts for data extraction. The US Navy did not immediately respond to the request for comment.
+
+Araghchi also announced on September 25 at the UN headquarters in New York that Iran had submitted a proposal to reopen the Hormuz Strait to the US through Qatar. If the US took necessary actions based on this proposal, the Strait could be reopened within seven days, restoring normal shipping. However, the US "Wall Street Journal" reported that Trump rejected the Iranian proposal and told his aides that he might resume bombing Iran after the US midterm elections.
+
+Araghchi clarified that the US has not yet formally rejected the Iranian proposal. He emphasized that only negotiations can break the deadlock. As part of the agreement, Iran is willing to reopen the Strait, but the US must meet certain conditions, including unfreezing Iranian assets and allowing the sale of oil.
+
+US Ambassador to the UN, Michael Waltz, criticized Iran's latest proposal as a "fake gesture" that the US cannot accept. He stated that Trump will retain all options.
+
+Regarding potential US attacks on Iran, the Iranian military spokesman, Amirali Hajizadeh, stated that the Iranian armed forces are fully prepared and will make every effort to counter any attacks.
+2026-09-29 16:53:06 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 493 words; rewrite it to about 200 words (150-300)
+2026-09-29 16:53:06 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:53:06 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:53:06 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:53:14 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 3608
+2026-09-29 16:53:14 - agent_core.graph - INFO - script attempt 2: 476 words, 21 sentences
+2026-09-29 16:53:14 - agent_core.graph - DEBUG - script attempt 2 content: According to NBC, Iran's Foreign Minister Abbas Araghchi stated that Iran is now prepared for a potential war with the US after President Trump publicly rejected Iran's proposal for reopening the Strait of Hormuz. However, Araghchi emphasized that Iran has not given up on diplomatic avenues.
+
+During an interview on NBC's "Meet the Press," Araghchi said, "We are now ready for a war, but we are still trying to find a diplomatic solution." He stressed that if Iran is attacked again, it will be prepared to fight, "even if it means a war of all-out destruction."
+
+Araghchi also indicated that Iran is still willing to engage diplomatically, stating, "Now it is up to President Trump to choose."
+
+Last week, Iran submitted a proposal to reopen the Strait of Hormuz as part of a peace agreement, requesting its reopening within seven days. However, Trump rejected the proposal, stating that Iran is desperate to reach an agreement because they have suffered too much.
+
+Araghchi clarified that Iran has not yet received a formal rejection of the proposal from the US through intermediaries. He reiterated that Iran is willing to reopen the Strait of Hormuz as part of a deal, but as a condition, the US must release frozen Iranian funds and assets, and allow Iran to sell oil.
+
+Araghchi also noted that these are not new demands but were previously promised by the US. In June, the US signed a memorandum of understanding with Iran, but the agreement was short-lived due to both sides attacking each other.
+
+Araghchi dismissed the notion that Iran is waiting for the results of the US midterm elections. He stated, "We do not care about the US midterm elections, we care about our national interests."
+
+In a separate statement, Iran's Revolutionary Guard claimed to have detained a US Navy unmanned underwater vehicle (UUV) in the Strait of Hormuz. The claim was made by the Tassnim News Agency, which cited the Revolutionary Guard. The vehicle, a Remus 600, was handed over to experts for data extraction. The US Navy did not immediately respond to a request for comment.
+
+Araghchi announced at the UN General Assembly that Iran had submitted a proposal to reopen the Strait of Hormuz to the US through Qatar. If the US takes necessary actions, the Strait can be reopened within seven days, restoring normal shipping. However, the US Wall Street Journal reported that Trump rejected the proposal and told his aides that he might resume bombing Iran after the US midterm elections.
+
+Araghchi maintained that Iran is still willing to engage diplomatically, stating, "We are still trying to find a diplomatic solution, because we believe we should not miss any opportunity for peace."
+
+In response to potential US attacks, Iran's military spokesman Ali Akbariyan stated that the armed forces are prepared and will do their utmost to counter any aggression.
+2026-09-29 16:53:14 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 476 words; rewrite it to about 200 words (150-300)
+2026-09-29 16:53:14 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:53:14 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:53:14 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:53:19 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 3445
+2026-09-29 16:53:19 - agent_core.graph - INFO - script attempt 3: 449 words, 23 sentences
+2026-09-29 16:53:19 - agent_core.graph - DEBUG - script attempt 3 content: According to NBC, Iran's Foreign Minister Abbas Araghchi stated that Iran is now prepared to go to war with the US after President Trump publicly rejected Iran's proposal for the Hormuz Strait. However, Iran has not given up on diplomatic efforts.
+
+In an interview with NBC's "Meet the Press," Araghchi said, "We are now ready for a war, but we are still trying to pursue diplomacy to avoid missing any opportunities for peace."
+
+Araghchi emphasized that Iran is willing to negotiate and is prepared to face any challenges, "even if it means fighting a war to the end."
+
+However, Araghchi also stated that Iran is still open to diplomatic solutions, "now it is up to President Trump to choose."
+
+Iran had previously submitted a proposal to the US through Qatar, suggesting reopening the Hormuz Strait within seven days to restore normal shipping. Trump rejected the proposal and claimed Iran was desperate to reach an agreement because they had lost too badly.
+
+Araghchi clarified that Iran has not received a formal rejection from the US through any intermediary. He reiterated that Iran is willing to reopen the Strait as part of a peace agreement, but in exchange, the US must release frozen Iranian funds and assets and allow Iran to sell oil.
+
+Araghchi also noted that these are not new demands, but commitments made by the US previously. In June, the US signed a memorandum of understanding with Iran, but the agreement broke down after both sides launched attacks.
+
+Araghchi dismissed Trump's claim that Iran is waiting for the US midterm elections. He said, "We are not concerned about the US midterm elections, but about our national interests."
+
+The Iranian Revolutionary Guard claimed to have detained a US Navy underwater drone in the Hormuz Strait. The claim was made by the Iranian Press TV on Telegram, citing the Revolutionary Guard.
+
+Araghchi announced that Iran had submitted a plan to reopen the Hormuz Strait to the US through Qatar. If the US took necessary actions, the Strait could be reopened within seven days, restoring normal shipping. However, Trump rejected the proposal and claimed Iran was desperate to reach an agreement.
+
+Araghchi said that the negotiation process has not yet received a formal rejection from the US. He emphasized that only negotiations can break the deadlock, and Iran insists on the US meeting its conditions. As part of the agreement, Iran is willing to reopen the Strait, but in exchange, the US must release frozen Iranian funds and assets, and allow Iran to sell oil.
+
+US Ambassador to the UN, Michael Waltz, criticized Iran's latest proposal as a "fake posture" that the US cannot accept. He said Trump will retain all options.
+2026-09-29 16:53:19 - agent_core.graph - WARNING - script not approved after 3 attempts; using the last draft
+2026-09-29 16:53:19 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:53:19 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:53:19 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:53:23 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1947
+2026-09-29 16:53:23 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:53:23 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:53:23 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:53:23 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:53:26 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1942
+2026-09-29 16:53:26 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:53:26 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:53:26 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:53:26 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:53:29 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1683
+2026-09-29 16:53:29 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:53:29 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:53:29 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:53:32 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1935
+2026-09-29 16:53:32 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:53:32 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:53:32 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:53:32 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:53:36 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1998
+2026-09-29 16:53:36 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:53:36 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:53:36 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:53:36 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:53:39 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1966
+2026-09-29 16:53:39 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:53:39 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:53:39 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:53:39 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:53:43 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1910
+2026-09-29 16:53:43 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:53:43 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:53:43 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:53:43 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:53:46 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1936
+2026-09-29 16:53:46 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:53:46 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:53:46 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:53:46 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:53:49 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1962
+2026-09-29 16:53:49 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:53:49 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:53:49 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:53:49 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:53:53 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1902
+2026-09-29 16:53:53 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:53:53 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:53:53 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:53:53 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:53:56 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1914
+2026-09-29 16:53:56 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:53:56 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:53:56 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:53:56 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:53:59 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1860
+2026-09-29 16:53:59 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:53:59 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:53:59 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:53:59 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:54:03 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1944
+2026-09-29 16:54:03 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:54:03 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:54:03 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:54:03 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:54:06 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1944
+2026-09-29 16:54:06 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:54:06 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:54:06 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:54:06 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:54:09 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1964
+2026-09-29 16:54:09 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:54:09 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:54:09 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:54:09 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:54:12 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1873
+2026-09-29 16:54:12 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:54:12 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:54:12 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:54:12 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:54:15 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1888
+2026-09-29 16:54:15 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:54:15 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:54:15 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:54:15 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:54:18 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1941
+2026-09-29 16:54:18 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:54:18 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:54:18 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:54:18 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:54:21 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1878
+2026-09-29 16:54:21 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:54:21 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:54:21 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:54:21 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:54:22 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1921
+2026-09-29 16:54:22 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:54:22 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:54:22 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:54:22 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:54:24 - __main__ - WARNING - interrupted
+2026-09-29 16:54:24 - __main__ - INFO - model server status: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-29 16:54:24 - __main__ - INFO - stopping the model server
+2026-09-29 16:54:24 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-29 16:55:57 - agent_core.tracing - INFO - LangSmith tracing disabled (set LANGCHAIN_TRACING_V2 and LANGCHAIN_API_KEY to enable)
+2026-09-29 16:55:57 - __main__ - INFO - cleaned 43 artifact(s) from the previous run
+2026-09-29 16:55:57 - __main__ - INFO - running the news-video workflow on /home/wl26/project/media_en_news/resource/text/source.txt
+2026-09-29 16:55:57 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:55:57 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:55:57 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:55:58 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:55:59 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:55:59 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "GET /health HTTP/1.1" 503 75
+2026-09-29 16:56:00 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:56:00 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "GET /health HTTP/1.1" 503 75
+2026-09-29 16:56:01 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:56:01 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "GET /health HTTP/1.1" 200 15
+2026-09-29 16:56:01 - ai.manage_model - INFO - llm 服务就绪
+2026-09-29 16:56:01 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:56:09 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 3765
+2026-09-29 16:56:09 - agent_core.graph - INFO - script attempt 1: 503 words, 21 sentences
+2026-09-29 16:56:09 - agent_core.graph - DEBUG - script attempt 1 content: According to NBC, Iran's Foreign Minister Abbas Araghchi stated on September 27 that Iran is now prepared to engage in a war with the US following US President Donald Trump's public rejection of Iran's proposal to reopen the Strait of Hormuz. However, Iran has not given up on diplomatic efforts.
+
+During an interview on NBC's "Meet the Press", Araghchi responded to reports suggesting the US might resume bombing Iran after the midterm elections, saying, "We are now ready for a war." He emphasized that if attacked again, Iran would firmly respond, "Even if it means a war of annihilation."
+
+Nevertheless, Araghchi also stated that Iran remains open to diplomatic solutions, "Now it is up to President Trump to make the choice."
+
+Last week, Iran submitted a proposal to reopen the Strait of Hormuz as part of a peace agreement, requesting its reopening within seven days. The US President Donald Trump rejected the proposal on September 26, claiming Iran was desperate to reach an agreement because they had lost too much.
+
+Araghchi clarified that Iran is still willing to negotiate, "We are not ready to give up on diplomacy, but we are trying to make peace, as we believe we should not miss any chance for peace."
+
+He stressed that Iran is willing to negotiate and face any challenges, "Even if the conflict escalates to a war of annihilation, we will still resist aggression."
+
+On September 26, the Iranian Revolutionary Guard claimed to have detained a US Navy unmanned underwater vehicle (UUV) in the Strait of Hormuz. The claim was made by Tasnim News Agency, which quoted the Revolutionary Guard, stating it was a Remus 600 type, which has been handed over to experts for data extraction. The US Navy did not immediately respond to the request for comment.
+
+On September 25, Araghchi announced at the UN headquarters in New York that Iran had submitted a proposal to reopen the Strait of Hormuz through Qatar. If the US took necessary actions, the Strait could be reopened within seven days, restoring normal shipping. However, The Wall Street Journal reported on September 25 that Trump rejected Iran's proposal and told his aides he might resume bombing Iran after the US midterm elections in November.
+
+Araghchi added that the mediation party had not yet conveyed the US's formal rejection to Tehran. He insisted that only negotiation could break the deadlock; as for reopening the Strait of Hormuz, Iran insisted that the US must first meet its conditions. Araghchi reiterated that as part of a peace agreement, Iran was willing to reopen the Strait. As a condition, Iran requested the release of frozen Iranian funds and assets, and the ability to sell oil.
+
+US Ambassador to the UN, Michael Waltz, criticized Iran's latest proposal as a "fake attitude" that the US could not accept. He said Trump would retain all options.
+
+Regarding the US's potential attacks on Iran, the Iranian military spokesman, Amirali Hajizadeh, stated on September 27 that the Iranian armed forces are fully prepared to fight.
+2026-09-29 16:56:09 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 503 words; rewrite it to about 200 words (150-300)
+2026-09-29 16:56:09 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:56:09 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:56:09 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:56:16 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 3456
+2026-09-29 16:56:16 - agent_core.graph - INFO - script attempt 2: 460 words, 22 sentences
+2026-09-29 16:56:16 - agent_core.graph - DEBUG - script attempt 2 content: According to NBC, Iran's Foreign Minister Abbas Araghchi stated that Iran is now prepared to engage in a full-scale war with the US after President Trump publicly rejected Iran's proposal for the Strait of Hormuz. However, Iran has not yet given up on diplomatic efforts.
+
+In an interview with NBC's "Meet the Press," Araghchi said, "We are now ready for a full-scale war with the US." He emphasized that if attacked again, Iran will firmly respond, "even if it means a war of annihilation."
+
+However, Araghchi also stated that Iran remains open to diplomatic solutions, "now it is up to President Trump to make the choice."
+
+Last week, Iran submitted a proposal to the US through Qatar, suggesting reopening the Strait of Hormuz within seven days to restore normal shipping in this critical global oil route. Trump rejected the proposal on September 26, stating that Iran is desperate to reach an agreement because they have lost too much.
+
+Araghchi clarified that Iran is still willing to negotiate, "We are still trying to negotiate because we believe we should not miss any chance for peace."
+
+He stressed that Iran is willing to engage in negotiations, but only if the US meets its demands. As part of a peace agreement, Iran is willing to reopen the Strait of Hormuz. In return, Iran demands the release of frozen Iranian funds and assets, and the ability to sell oil.
+
+Meanwhile, the Revolutionary Guard claimed to have detained a US Navy underwater drone (UUV) in the Strait of Hormuz. The claim was made by the Tasnim news agency on Telegram, which stated that the drone is a Remus 600 and has been handed over to experts for data extraction. The US Navy did not immediately respond to a request for comment.
+
+Araghchi also announced at the UN headquarters on September 25 that Iran had submitted a proposal to reopen the Strait of Hormuz to the US, contingent on the US taking necessary action. However, The Wall Street Journal reported that Trump rejected the proposal and told his aides that he may resume bombing Iran after the US midterm elections in November.
+
+Araghchi clarified that the US has not yet formally rejected Iran's proposal. He stated that only negotiations can break the deadlock. As part of a peace agreement, Iran is willing to reopen the Strait of Hormuz. In return, Iran demands the release of frozen Iranian funds and assets, and the ability to sell oil.
+
+US Ambassador to the UN, Waltz, criticized Iran's latest proposal as a "fake attitude" that the US cannot accept. He stated that Trump will keep all options open.
+
+Regarding potential US attacks on Iran, the Iranian military spokesman, Aklami, stated that the Iranian armed forces are fully prepared to fight.
+2026-09-29 16:56:16 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 460 words; rewrite it to about 200 words (150-300)
+2026-09-29 16:56:16 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:56:16 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:56:16 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:56:23 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 3209
+2026-09-29 16:56:23 - agent_core.graph - INFO - script attempt 3: 404 words, 19 sentences
+2026-09-29 16:56:23 - agent_core.graph - DEBUG - script attempt 3 content: According to NBC, Iran's Foreign Minister Abbas Araghchi stated that Iran is now prepared to engage in a full-scale war with the US after President Trump publicly rejected Iran's proposal for reopening the Strait of Hormuz. However, Araghchi has not given up on diplomatic avenues.
+
+During a recent interview on NBC's "Meet the Press," Araghchi said, "We are now ready for a full-scale war, but we are still trying to find a diplomatic solution." He emphasized that if attacked again, Iran would be prepared to fight, "even if it means a war of annihilation."
+
+Araghchi also stated that Iran remains open to diplomatic solutions, citing President Trump's choice as the deciding factor. Iran had previously submitted a proposal through Qatar, suggesting reopening the Hormuz Strait within seven days to restore normal shipping. However, Trump rejected the proposal, stating Iran was desperate to reach an agreement because they had lost too badly.
+
+Araghchi clarified that Iran has not received a formal rejection of the proposal from the US. He reiterated that Iran is willing to reopen the Strait as part of a deal, but in exchange, the US must unfreeze Iranian assets and allow Iran to sell oil.
+
+Araghchi also noted that these conditions are not new; Iran had previously agreed to them. In June, the US and Iran signed a memorandum of understanding with temporary ceasefire arrangements, which broke down after both sides resumed attacks.
+
+Araghchi dismissed Trump's claim that Iran is waiting for the US midterm elections. "We do not care about US midterm elections; we care about our national interests," he said.
+
+In a separate statement, Iran's Revolutionary Guard claimed to have seized a US Navy unmanned underwater vehicle (UUV) in the Strait of Hormuz. The vehicle, identified as a Remus 600, has been handed over to experts for data extraction. The US Navy did not immediately respond to a request for comment.
+
+Araghchi announced Iran's proposal to reopen the Hormuz Strait through Qatar, suggesting it could be reopened within seven days if the US took necessary actions. However, US media reported that Trump rejected the proposal, stating Iran was desperate for an agreement.
+
+Araghchi stressed that Iran is still open to diplomatic solutions, but the US must first meet its conditions. He emphasized that Iran is willing to reopen the Strait as part of a deal, but in exchange, the US must unfreeze Iranian assets and allow Iran to sell oil.
+2026-09-29 16:56:23 - agent_core.graph - WARNING - script not approved after 3 attempts; using the last draft
+2026-09-29 16:56:23 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:56:23 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:56:23 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:56:26 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1848
+2026-09-29 16:56:26 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:56:26 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:56:26 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:56:26 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:56:29 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1908
+2026-09-29 16:56:29 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:56:29 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:56:29 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:56:29 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:56:33 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1958
+2026-09-29 16:56:33 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:56:33 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:56:33 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:56:33 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:56:36 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1909
+2026-09-29 16:56:36 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:56:36 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:56:36 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:56:36 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:56:39 - __main__ - WARNING - interrupted
+2026-09-29 16:56:39 - __main__ - INFO - model server status: {'llm': 1, 'tts': 0, 'image': 0}
+2026-09-29 16:56:39 - __main__ - INFO - stopping the model server
+2026-09-29 16:56:39 - ai.manage_model - INFO - Closing the model llm with provider local.
+2026-09-29 16:57:00 - agent_core.tracing - INFO - LangSmith tracing disabled (set LANGCHAIN_TRACING_V2 and LANGCHAIN_API_KEY to enable)
+2026-09-29 16:57:00 - __main__ - INFO - cleaned 23 artifact(s) from the previous run
+2026-09-29 16:57:00 - __main__ - INFO - running the news-video workflow on /home/wl26/project/media_en_news/resource/text/source.txt
+2026-09-29 16:57:00 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:57:00 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:56:59 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:57:00 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:57:01 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:57:01 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "GET /health HTTP/1.1" 503 75
+2026-09-29 16:57:02 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:57:02 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "GET /health HTTP/1.1" 200 15
+2026-09-29 16:57:02 - ai.manage_model - INFO - llm 服务就绪
+2026-09-29 16:57:02 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:57:09 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 3247
+2026-09-29 16:57:09 - agent_core.graph - INFO - script attempt 1: 414 words, 23 sentences
+2026-09-29 16:57:09 - agent_core.graph - DEBUG - script attempt 1 content: According to NBC, Iran's Foreign Minister Ali Akbarzeh stated on September 27 that Iran is now prepared for a potential war with the US after US President Donald Trump publicly rejected Iran's proposal for the Hormuz Strait. However, Iran has not given up on diplomatic efforts.
+
+During an interview on NBC's "Meet the Press," Akbarzeh was asked about the possibility of US bombing Iran after the midterm elections. He responded, "We are now ready for a war, but we are still trying to find a diplomatic solution."
+
+Akbarzeh emphasized that Iran is willing to negotiate and will not miss any opportunity for peace. He stated that Iran is ready to reopen the Hormuz Strait, but only if the US agrees to unfreeze Iranian assets and allow Iran to sell oil. He also noted that these are conditions previously promised by the US, but not accepted by Iran.
+
+However, Akbarzeh also stated that Iran is still open to diplomatic solutions. He said, "We do not care about the US midterm elections, we care about our national interests."
+
+Iran's Revolutionary Guard claimed to have detained a US Navy unmanned underwater vehicle (UUV) in the Hormuz Strait. The Revolutionary Guard claimed it was a Remus 600 and has handed it over to experts for data extraction. The US Navy did not immediately respond to a request for comment.
+
+On September 25, Akbarzeh announced that Iran had submitted a proposal to reopen the Hormuz Strait through Qatar. If the US takes necessary actions, the Strait can be reopened in seven days, allowing normal shipping. However, the US Wall Street Journal reported that Trump rejected Iran's proposal and told his aides that he might resume bombing Iran after the US midterm elections in November.
+
+Akbarzeh stated that the negotiation team has not yet received a formal rejection from the US. He emphasized that only negotiations can break the deadlock. Regarding reopening the Hormuz Strait, Iran insists that the US must first meet its conditions. Akbarzeh reiterated that as part of the conflict resolution agreement, Iran is willing to reopen the Strait. As a condition, Iran requests the unfreezing of illegally seized assets and the ability to sell oil.
+
+US Ambassador to the UN, Michael Waltz, criticized Iran's latest proposal as a "false diplomatic gesture" that the US will not accept. He said Trump will retain all options.
+
+Regarding potential US attacks on Iran, Iran's military spokesman, Ali Akbarzeh, stated that the Iranian armed forces are fully prepared to fight.
+2026-09-29 16:57:09 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 414 words; rewrite it to about 200 words (150-300)
+2026-09-29 16:57:09 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:57:09 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:57:09 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:57:16 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 3321
+2026-09-29 16:57:16 - agent_core.graph - INFO - script attempt 2: 432 words, 20 sentences
+2026-09-29 16:57:16 - agent_core.graph - DEBUG - script attempt 2 content: According to a report by NBC News on September 27, Iran's Foreign Minister Abbas Araghchi stated that Iran is now prepared to engage in a full-scale war with the US after US President Donald Trump publicly rejected Iran's proposal to reopen the Strait of Hormuz. However, Iran has not given up on diplomatic efforts.
+
+During an interview on NBC's "Meet the Press," Araghchi addressed reports that the US might resume bombing Iran after the midterm elections. He said, "We are now ready for a full-scale war." He emphasized that if Iran is attacked again, it will firmly respond, "Even if it means a war of annihilation."
+
+Nevertheless, Araghchi also stated that Iran remains open to diplomatic solutions, "Now it is up to President Trump to make the choice."
+
+Last week, Iran submitted a proposal to the US through Qatar, suggesting reopening the Strait of Hormuz within seven days to restore normal shipping. Trump rejected the proposal on September 26, stating that Iran is eager to reach an agreement because they have suffered too much.
+
+Araghchi clarified that Iran is still willing to negotiate, "We are ready to reopen the Strait of Hormuz as part of a peace agreement, but in exchange, the US must release frozen Iranian funds and assets, and allow Iran to sell oil."
+
+He reiterated that these are not new demands but commitments made by the US. In June, the US and Iran signed a memorandum of understanding with temporary ceasefire arrangements, but the agreement broke down after both sides resumed attacks.
+
+Araghchi also pointed out that Iran does not care about the US midterm elections, but rather its own national interests. Iran's Revolutionary Guard claimed to have detained a US Navy unmanned underwater vehicle (UUV) in the Strait of Hormuz. The vehicle is reportedly a Remus 600, which has been handed over to experts for data extraction. The US Navy did not immediately respond to a request for comment.
+
+Araghchi said Iran is ready to reopen the Strait of Hormuz as part of a peace agreement, but the US must first meet Iran's conditions. He emphasized that Iran is willing to negotiate, but will not miss any opportunity for peace. He added that Iran demands the release of frozen funds and assets, and the ability to sell oil.
+
+US Ambassador to the UN, Michael Waltz, criticized Iran's latest proposal as a "false pretense" that the US cannot accept. Waltz stated that Trump will retain all options. In response to the US's potential attacks, Iran's military spokesman, Amir Hossein Qassemi, said the armed forces are fully prepared to fight.
+2026-09-29 16:57:16 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 432 words; rewrite it to about 200 words (150-300)
+2026-09-29 16:57:16 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:57:16 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:57:16 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:57:25 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 3881
+2026-09-29 16:57:25 - agent_core.graph - INFO - script attempt 3: 524 words, 24 sentences
+2026-09-29 16:57:25 - agent_core.graph - DEBUG - script attempt 3 content: According to a report by NBC News on September 27, Iran's Foreign Minister Abbas Araghchi stated that Iran is now prepared for a potential war with the US after President Trump publicly rejected Iran's proposal for reopening the Strait of Hormuz. However, Iran has not given up on diplomatic efforts.
+
+During an interview on NBC's "Meet the Press," Araghchi said, "We are now ready for a war, but we are still trying to find a diplomatic solution." He emphasized that if Iran is attacked again, it will be prepared to fight, "even if it means a war of annihilation."
+
+Araghchi also stated that Iran is still willing to resolve the issue through diplomacy, "now it is up to President Trump to choose."
+
+Last week, Iran submitted a proposal to the US through Qatar, suggesting reopening the Strait of Hormuz within seven days to resume normal shipping. Trump rejected the proposal on September 26, stating that Iran is desperate to reach an agreement because they have lost too much.
+
+Araghchi clarified that Iran has not received a formal rejection of the proposal from the US through any intermediary. He reiterated that Iran is willing to reopen the Strait of Hormuz as part of a peace agreement, but in exchange, the US must unfreeze Iranian assets and allow Iran to sell oil.
+
+Araghchi also noted that these conditions are not new; they are the same terms the US had previously promised. In June, the US and Iran signed a memorandum of understanding with temporary ceasefire arrangements, but the agreement broke down after both sides resumed attacks.
+
+Araghchi dismissed Trump's claim that Iran is waiting for the results of the US midterm elections. He stated, "We are not concerned about the US midterm elections, but rather about our national interests."
+
+The Iranian Revolutionary Guard Corps claimed to have detained a US Navy underwater drone (UUV) in the Strait of Hormuz. The claim was made by the Fars News Agency, citing the Revolutionary Guard Corps, which stated the drone was a Remus 600 and has been handed over to experts for data extraction. The US Navy did not immediately respond to a request for comment.
+
+Araghchi announced on September 25 that Iran had submitted a proposal to reopen the Strait of Hormuz to the US through Qatar. If the US took necessary actions, the Strait could be reopened within seven days, allowing normal shipping. However, The Wall Street Journal reported that Trump rejected the proposal and told his aides that he might resume bombing Iran after the US midterm elections in November.
+
+Araghchi insisted that negotiations are the only way to break the deadlock. He reiterated that Iran is willing to reopen the Strait of Hormuz as part of a peace agreement. In exchange, Iran demands the unfreezing of illegally seized assets and the ability to sell oil.
+
+US Ambassador to the UN, Michael Waltz, criticized Iran's latest proposal as a "false diplomatic gesture" that the US cannot accept. He stated that Trump will retain all options.
+
+The Iranian military spokesman, Amir Ali Hajdani, stated that the Iranian armed forces are fully prepared to fight against any attacks.
+2026-09-29 16:57:25 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 524 words; rewrite it to about 200 words (150-300)
+2026-09-29 16:57:25 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:57:25 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:57:25 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:57:29 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 2409
+2026-09-29 16:57:29 - agent_core.graph - INFO - script attempt 4: 5 words, 1 sentences
+2026-09-29 16:57:29 - agent_core.graph - DEBUG - script attempt 4 content: 据美国全国广播公司（NBC）报道，伊朗外交部长阿拉格齐表示，尽管美国总统特朗普拒绝了伊朗提出的霍尔木兹海峡方案，伊朗已为与美国重新开战做好准备，但仍未放弃外交途径。阿拉格齐在NBC节目《会晤新闻界》中表示，伊朗已为战争重新开始的时刻做好准备，但同时强调，如果再次遭到攻击，伊朗将坚决应对，即使这意味着一场末日战争。阿拉格齐同时指出，伊朗仍准备通过外交方式解决问题，并称特朗普总统的选择决定了未来。伊朗上周通过卡塔尔向美国转交一项方案，提议在7天内重新开放霍尔木兹海峡，恢复全球关键石油运输通道的正常航运。特朗普26日表示已经拒绝该方案，并声称伊朗急于达成协议是因为“他们输得太惨了”。阿拉格齐称，尽管特朗普已经公开表态，但伊朗尚未收到美方正式拒绝方案的通知。他重申，伊朗愿意通过协议重新开放霍尔木兹海峡，但作为交换，美方应释放被冻结的伊朗资金和资产，并允许伊朗出售石油。对于特朗普声称伊朗可能在等待美国中期选举结果，阿拉格齐回应称：“我们不关心美国中期选举，我们关心的是自己的国家利益。”伊朗革命卫队同日声称，在霍尔木兹海峡扣押了一艘美军水下无人机（UUV），已交由专家提取数据。美国驻联合国大使沃兹批评伊朗的提议是“明知美方无法接受却仍拿出来谈的假姿态”。伊朗军方发言人阿克拉米尼亚表示，伊朗武装部队已做好充分准备，将竭尽全力进行对抗。
+2026-09-29 16:57:29 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 5 words; rewrite it to about 200 words (150-300)
+2026-09-29 16:57:29 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:57:29 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:57:29 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:57:36 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 3027
+2026-09-29 16:57:36 - agent_core.graph - INFO - script attempt 5: 390 words, 34 sentences
+2026-09-29 16:57:36 - agent_core.graph - DEBUG - script attempt 5 content: According to a report by NBC News on September 27, Iran's Foreign Minister Abbas Araghchi stated that Iran is now prepared to engage in a potential war with the United States following President Donald Trump's public rejection of Iran's proposal to reopen the Strait of Hormuz. However, Iran has not yet given up on diplomatic avenues.
+
+During an interview with NBC's "Meet the Press" on the same day, Araghchi addressed reports suggesting the U. S. might resume bombing Iran after the midterm elections. He said, "We are now ready for a war, but we are not giving up on diplomacy."
+
+Araghchi emphasized that Iran is willing to engage in diplomacy, but only if it can avoid a war. He stated, "We are trying diplomacy because we do not want to miss any opportunity for peace."
+
+He added, "If the situation escalates to a point where we have to fight, we will fight, but we will do so with determination."
+
+On September 25, Araghchi announced Iran's proposal to reopen the Strait of Hormuz, which was conveyed through Qatar to the U. S. If the U. S. takes necessary actions, the Strait could be reopened within seven days, restoring normal shipping. However, Trump rejected the proposal and claimed Iran was desperate to reach an agreement because they had lost too much.
+
+Araghchi clarified that Iran had not yet received a formal rejection of the proposal from the U. S. He reiterated that Iran was willing to reopen the Strait as part of a peace agreement. In exchange, the U. S. would need to release frozen Iranian funds and assets and allow Iran to sell oil.
+
+Meanwhile, the U. S. Ambassador to the United Nations, Michael Waltz, criticized Iran's proposal as a "fake" one, stating that Trump would retain all options.
+
+Regarding potential U. S. attacks on Iran, Iran's military spokesman, Ali Akrami, stated that the country's armed forces are fully prepared to fight.
+
+In a separate development, Iran's Revolutionary Guard claimed to have detained a U. S. Navy unmanned underwater vehicle (UUV) in the Strait of Hormuz. The claim was made by the Tassnim News Agency, quoting the Revolutionary Guard, who stated that the vehicle was a Remus 600 and had been handed over to experts for data extraction. The U. S. Navy did not immediately respond to a request for comment.
+2026-09-29 16:57:36 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 390 words; rewrite it to about 200 words (150-300)
+2026-09-29 16:57:36 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:57:36 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:57:36 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:57:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 3020
+2026-09-29 16:57:41 - agent_core.graph - INFO - script attempt 6: 376 words, 17 sentences
+2026-09-29 16:57:41 - agent_core.graph - DEBUG - script attempt 6 content: According to a report by NBC News on September 27, Iran's Foreign Minister Abbas Araghchi stated that Iran is now prepared for a potential war with the US after President Trump publicly rejected Iran's proposal for the Hormuz Strait. However, Iran has not given up on diplomatic efforts.
+
+During his interview on NBC's "Meet the Press," Araghchi said, "We are now ready for a war, but we are still trying to pursue diplomatic avenues." He emphasized that if Iran is attacked again, it will be resolute in its defense, "even if it means a war of annihilation."
+
+Nevertheless, Araghchi also stated that Iran remains open to diplomatic solutions, "now it is up to President Trump to make the choice."
+
+Last week, Iran submitted a proposal to the US through Qatar, suggesting reopening the Hormuz Strait within seven days to restore normal shipping. However, Trump rejected the proposal and claimed Iran was desperate to reach an agreement because they had suffered too much.
+
+Araghchi clarified that Iran is still willing to negotiate and reopen the Strait, but as a condition, the US must release frozen Iranian funds and assets, and allow Iran to sell oil. He reiterated that these are not new demands, but commitments made by the US previously.
+
+In June, the US and Iran signed a memorandum of understanding with temporary ceasefire arrangements, but the agreement broke down after both sides resumed attacks.
+
+Araghchi also pointed out that Iran does not care about the US midterm elections, but rather focuses on its national interests. He stated, "We are not waiting for the US midterm elections, but rather are ready to face any challenges."
+
+However, Araghchi also revealed that the US has not yet formally rejected Iran's proposal. He emphasized that only through negotiations can the deadlock be broken. As a condition for reopening the Strait, Iran demands the US to release frozen funds and assets, and allow Iran to sell oil.
+
+In a separate interview, US Ambassador to the UN, Michael Waltz, criticized Iran's proposal as a "false diplomatic gesture" that the US will not accept. He stated that Trump will retain all options.
+
+Regarding potential US attacks on Iran, Iran's military spokesman, Ali Akramian, stated that the armed forces are fully prepared to fight.
+2026-09-29 16:57:41 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 376 words; rewrite it to about 200 words (150-300)
+2026-09-29 16:57:41 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:57:41 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:57:41 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:57:47 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 2771
+2026-09-29 16:57:47 - agent_core.graph - INFO - script attempt 7: 347 words, 15 sentences
+2026-09-29 16:57:47 - agent_core.graph - DEBUG - script attempt 7 content: According to a report by NBC News on September 27, Iran's Foreign Minister Ali Akardzhizadeh stated that Iran is now prepared to engage in a war with the US after President Trump publicly rejected Iran's proposal for the Hormuz Strait. However, Iran has not given up on diplomatic efforts.
+
+During an interview on NBC's "Meet the Press," Akardzhizadeh said, "We are now ready for a war, but we are still trying to pursue diplomacy to avoid missing any opportunities for peace."
+
+He emphasized that Iran is willing to negotiate and is prepared to face any challenges, "even if it means fighting a war to the end."
+
+Iran had previously submitted a proposal to the US via Qatar, suggesting reopening the Hormuz Strait in seven days to restore normal shipping. However, Trump rejected the proposal on September 26, stating that Iran is desperate to reach an agreement because they have suffered too much.
+
+Akardzhizadeh also noted that Iran has not yet received a formal rejection of the proposal from the US. He reiterated that Iran is willing to reopen the Strait as part of a peace agreement, but in exchange, the US must release frozen Iranian funds and assets, and allow Iran to sell oil.
+
+He explained that these are not new demands, but promises made by the US. In June, the US and Iran signed a memorandum of understanding with a temporary ceasefire, but it broke down after both sides launched attacks.
+
+Regarding Trump's claim that Iran is waiting for the US midterm elections, Akardzhizadeh responded, "We are not concerned about the US midterm elections, but about our national interests."
+
+The Iranian Revolutionary Guard claimed to have detained a US Navy unmanned underwater vehicle (UUV) in the Strait of Hormuz. The Revolutionary Guard said it was a Remus 600 model and had handed it over to experts for data extraction. The US Navy did not immediately respond to a request for comment.
+
+The Iranian Foreign Minister also stated that Iran is now prepared for a war with the US, but has not given up on diplomatic efforts.
+2026-09-29 16:57:47 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 347 words; rewrite it to about 200 words (150-300)
+2026-09-29 16:57:47 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:57:47 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:57:47 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:57:54 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 3350
+2026-09-29 16:57:54 - agent_core.graph - INFO - script attempt 8: 422 words, 21 sentences
+2026-09-29 16:57:54 - agent_core.graph - DEBUG - script attempt 8 content: According to NBC, Iran's Foreign Minister Abbas Araghchi stated that Iran is now prepared for a potential war with the US after US President Donald Trump publicly rejected Iran's proposal for reopening the Strait of Hormuz. However, Araghchi emphasized that Iran has not given up on diplomatic efforts.
+
+During his interview on NBC's "Meet the Press," Araghchi said Iran is ready for a "doomsday war" but remains committed to diplomatic avenues. He stressed that if Iran is attacked again, it will be determined to respond, "even if it means a doomsday war." 
+
+Nevertheless, Araghchi maintained that Iran is still willing to engage diplomatically, "now it's up to President Trump to choose."
+
+Last week, Iran submitted a proposal to reopen the Strait of Hormuz as part of a peace agreement, requesting its reopening within seven days. Trump rejected the proposal, stating Iran is desperate to reach an agreement because they have lost too much.
+
+Araghchi clarified that Iran has not received a formal rejection from the US through diplomatic channels. He reiterated that Iran is willing to reopen the Strait of Hormuz as part of a peace agreement, but in exchange, the US must release frozen Iranian funds and assets, and allow Iran to sell oil.
+
+Araghchi also pointed out that these conditions are not new; Iran had previously agreed to them in June when the US and Iran signed a memorandum of understanding with a temporary ceasefire. However, the agreement broke down after both sides resumed attacks.
+
+Araghchi dismissed Trump's claim that Iran is waiting for the US midterm elections to decide. He stated, "We don't care about the US midterm elections; we care about our national interests."
+
+The Iranian Revolutionary Guard claimed to have seized a US Navy unmanned underwater vehicle (UUV) in the Strait of Hormuz. The vehicle, identified as Remus 600, has been handed over to experts for data extraction. The US Navy did not immediately respond to a request for comment.
+
+Araghchi announced that Iran had submitted a proposal to reopen the Strait of Hormuz to the US through Qatar. If the US takes necessary action, the Strait can be reopened within seven days, restoring normal shipping. However, Trump rejected the proposal, stating Iran is desperate for an agreement.
+
+Araghchi criticized Trump's stance, saying, "It's a fake attitude that Iran is putting forward knowing that the US cannot accept it." He added that Trump will retain all options.
+
+Iran's military spokesman, Amir Ali Hajdani, stated that Iran's armed forces are prepared to fight against any potential US attacks.
+2026-09-29 16:57:54 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 422 words; rewrite it to about 200 words (150-300)
+2026-09-29 16:57:54 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:57:54 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:57:54 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:58:01 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 3871
+2026-09-29 16:58:01 - agent_core.graph - INFO - script attempt 9: 527 words, 23 sentences
+2026-09-29 16:58:01 - agent_core.graph - DEBUG - script attempt 9 content: According to a report by NBC News on September 27, Iran's Foreign Minister Ali Akbarghani stated that Iran is now prepared to engage in a potential war with the US after President Trump publicly rejected Iran's proposal for reopening the Strait of Hormuz. However, he has not given up on diplomatic avenues.
+
+During an interview with NBC's "Meet the Press," Akbari said, "We are now prepared for the moment of war." He emphasized that if Iran is attacked again, it will be determined to respond, "even if it means a war of annihilation."
+
+Nevertheless, Akbari also stated that Iran remains open to diplomatic solutions, "now it is up to President Trump to choose."
+
+Last week, Iran submitted a proposal to the US through Qatar, suggesting reopening the Strait of Hormuz within seven days to restore normal shipping in this critical global oil route. Trump rejected the proposal on September 26, stating that Iran is desperate to reach an agreement because they have suffered too much.
+
+Akbari clarified that Iran has not yet received a formal rejection of the proposal from the US. He reiterated that Iran is willing to reopen the Strait of Hormuz as part of a deal, but in exchange, the US must release frozen Iranian funds and assets, and allow Iran to sell oil.
+
+He added that these are not new demands but commitments made by the US previously. In June, the US and Iran signed a memorandum of understanding with temporary ceasefire arrangements, but the agreement broke down after both sides launched attacks.
+
+Regarding Trump's claim that Iran is waiting for the US midterm election results, Akbari responded, "We are not concerned about the US midterm election; we are concerned about our national interests."
+
+Iran's Revolutionary Guard claimed to have detained a US Navy underwater drone in the Strait of Hormuz. The Revolutionary Guard quoted by Tasnim News Agency stated that it is a Remus 600 model, which has been handed over to experts for data extraction. The US Navy did not immediately respond to a request for comment.
+
+Akbari announced on September 25 at the UN headquarters in New York that Iran had submitted a proposal to reopen the Strait of Hormuz to the US through Qatar. If the US takes necessary actions, the Strait can be reopened within seven days, restoring normal shipping. However, the Wall Street Journal reported on September 25 that Trump rejected the Iranian proposal and told his aides that he might resume bombing Iran after the US midterm elections in November.
+
+Akbari stated that the mediation parties have not yet conveyed the US's formal rejection to Tehran. He emphasized that only negotiations can break the deadlock; as for reopening the Strait of Hormuz, Iran insists that the US must meet its conditions first. Akbari reiterated that as part of a deal to end the conflict, Iran is willing to reopen the Strait. As an exchange, Iran demands the release of frozen funds and assets, and the ability to sell oil.
+
+US Ambassador to the UN, Waltz, criticized Iran's latest proposal as a "false gesture" that the US cannot accept. He said Trump will keep all options open.
+2026-09-29 16:58:01 - agent_core.tools.llm - WARNING - Previous draft was rejected by the editor: the script is 527 words; rewrite it to about 200 words (150-300)
+2026-09-29 16:58:01 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:58:01 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:58:01 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:58:06 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 2525
+2026-09-29 16:58:06 - agent_core.graph - INFO - script attempt 10: 289 words, 14 sentences
+2026-09-29 16:58:06 - agent_core.graph - DEBUG - script attempt 10 content: According to NBC, Iran's Foreign Minister Abbas Araghchi stated that Iran is now prepared for a potential war with the US after President Trump publicly rejected Iran's proposal for reopening the Strait of Hormuz. However, Araghchi emphasized that Iran has not given up on diplomatic efforts.
+
+During a recent interview on NBC's Meet the Press, Araghchi said Iran is ready for a "doomsday war" but remains committed to diplomacy. He stressed that if attacked again, Iran will defend itself, but added that diplomacy should not be overlooked.
+
+Araghchi also noted that Iran has submitted a proposal to reopen the Hormuz Strait, which was rejected by US President Trump. He stated that Iran is willing to reopen the strait, but only if the US releases frozen Iranian funds and assets, and allows Iran to sell oil.
+
+Meanwhile, the Iranian Revolutionary Guard claimed to have detained a US Navy unmanned underwater vehicle (UUV) in the Strait of Hormuz. The vehicle, identified as Remus 600, has been handed over to experts for data extraction. The US Navy did not immediately respond to a request for comment.
+
+Araghchi previously announced Iran's proposal to reopen the Hormuz Strait within seven days, contingent on the US taking necessary actions. However, US President Trump rejected the proposal and suggested he might resume bombing Iran after the upcoming US midterm elections.
+
+Araghchi clarified that the US has not yet formally rejected Iran's proposal. He emphasized that only negotiations can break the deadlock; Iran insists on the US meeting its conditions, such as releasing frozen funds and assets, and allowing Iran to sell oil.
+
+In response to potential US attacks, Iranian military spokesman Amir Hossein Qassemi stated that the armed forces are prepared to fight with full force.
+2026-09-29 16:58:06 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:58:06 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:58:06 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:58:06 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 724
+2026-09-29 16:58:06 - agent_core.graph - INFO - review: approved by the editor
+2026-09-29 16:58:06 - agent_core.graph - DEBUG - review result: approved=True, feedback=
+2026-09-29 16:58:06 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:58:06 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:58:06 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:58:10 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1891
+2026-09-29 16:58:10 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:58:10 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:58:10 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:58:10 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:58:13 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1921
+2026-09-29 16:58:13 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:58:13 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:58:13 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:58:13 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:58:16 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1821
+2026-09-29 16:58:16 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:58:16 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:58:16 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:58:20 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1941
+2026-09-29 16:58:20 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:58:20 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:58:20 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:58:20 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:58:23 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1883
+2026-09-29 16:58:23 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:58:23 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:58:23 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:58:23 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:58:26 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1879
+2026-09-29 16:58:26 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:58:26 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:58:26 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:58:26 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:58:30 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1849
+2026-09-29 16:58:30 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:58:30 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:58:30 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:58:30 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:58:31 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1979
+2026-09-29 16:58:31 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:58:31 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:58:31 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:58:31 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:58:35 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1878
+2026-09-29 16:58:35 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:58:35 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:58:35 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:58:35 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:58:38 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1856
+2026-09-29 16:58:38 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:58:38 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:58:38 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:58:38 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:58:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1929
+2026-09-29 16:58:41 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:58:41 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:58:41 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:58:41 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:58:44 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1929
+2026-09-29 16:58:44 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:58:44 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:58:44 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:58:44 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:58:48 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1953
+2026-09-29 16:58:48 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:58:48 - ai.manage_model - INFO - Launching the model llm with provider local.
+2026-09-29 16:58:48 - ai.manage_model - INFO - LLM model is already running.
+2026-09-29 16:58:48 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8080
+2026-09-29 16:58:51 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8080 "POST /v1/chat/completions HTTP/1.1" 200 1868
+2026-09-29 16:58:51 - agent_core.tools.llm - WARNING - LLM hit the 250-token cap; truncating at the last sentence
+2026-09-29 16:58:51 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 16:58:51 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:58:52 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:58:53 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:58:54 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:58:55 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:58:56 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:58:58 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:58:59 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:59:00 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:59:01 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:59:02 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:59:03 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:59:04 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:59:03 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:59:04 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:59:05 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:59:05 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "GET /health HTTP/1.1" 200 331
+2026-09-29 16:59:05 - ai.manage_model - INFO - TTS 服务就绪
+2026-09-29 16:59:05 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:59:39 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /v1/tts HTTP/1.1" 200 533804
+2026-09-29 16:59:39 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 16:59:39 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 16:59:39 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 16:59:53 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /v1/tts HTTP/1.1" 200 261164
+2026-09-29 16:59:53 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 16:59:53 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 16:59:53 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 17:00:13 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /v1/tts HTTP/1.1" 200 403244
+2026-09-29 17:00:13 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 17:00:13 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 17:00:13 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 17:00:29 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /v1/tts HTTP/1.1" 200 291884
+2026-09-29 17:00:29 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 17:00:29 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 17:00:29 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 17:00:50 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /v1/tts HTTP/1.1" 200 407084
+2026-09-29 17:00:50 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 17:00:50 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 17:00:50 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 17:01:12 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /v1/tts HTTP/1.1" 200 422444
+2026-09-29 17:01:12 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 17:01:12 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 17:01:12 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 17:01:35 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /v1/tts HTTP/1.1" 200 430124
+2026-09-29 17:01:35 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 17:01:35 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 17:01:35 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 17:01:49 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /v1/tts HTTP/1.1" 200 295724
+2026-09-29 17:01:49 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 17:01:49 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 17:01:49 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 17:01:58 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /v1/tts HTTP/1.1" 200 165164
+2026-09-29 17:01:58 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 17:01:58 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 17:01:58 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 17:02:19 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /v1/tts HTTP/1.1" 200 407084
+2026-09-29 17:02:19 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 17:02:19 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 17:02:19 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 17:02:40 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /v1/tts HTTP/1.1" 200 384044
+2026-09-29 17:02:40 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 17:02:40 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 17:02:40 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 17:02:51 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /v1/tts HTTP/1.1" 200 218924
+2026-09-29 17:02:51 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 17:02:51 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 17:02:51 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 17:03:18 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /v1/tts HTTP/1.1" 200 476204
+2026-09-29 17:03:18 - ai.manage_model - INFO - Launching the model tts with provider local.
+2026-09-29 17:03:18 - ai.manage_model - INFO - TTS model is already running.
+2026-09-29 17:03:18 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8081
+2026-09-29 17:03:43 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8081 "POST /v1/tts HTTP/1.1" 200 445484
+2026-09-29 17:03:43 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-29 17:03:43 - ai.manage_model - INFO - LLM model is running. Launching Image may affect performance.Close llm serve.
+2026-09-29 17:03:44 - ai.manage_model - INFO - TTS model is running. Launching Image may affect performance.Close tts serve.
+2026-09-29 17:03:44 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:03:44 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-29 17:03:45 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:03:45 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-29 17:03:46 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:03:46 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-29 17:03:47 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:03:47 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-29 17:03:48 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:03:48 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-29 17:03:49 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:03:49 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-29 17:03:50 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:03:50 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-29 17:03:51 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:03:51 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-29 17:03:52 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:03:52 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-29 17:03:53 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:03:53 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-29 17:03:54 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:03:54 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-29 17:03:55 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:03:55 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-29 17:03:56 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:03:56 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-29 17:03:58 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:03:58 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-29 17:03:59 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:03:59 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-29 17:04:00 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:00 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-29 17:04:01 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:01 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-29 17:04:02 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:02 - ai.manage_model - WARNING - Failed to query image health: HTTPConnectionPool(host='127.0.0.1', port=8188): Max retries exceeded with url: /system_stats (Caused by NewConnectionError("HTTPConnection(host='127.0.0.1', port=8188): Failed to establish a new connection: [Errno 111] Connection refused"))
+2026-09-29 17:04:03 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:03 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /system_stats HTTP/1.1" 200 1065
+2026-09-29 17:04:03 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:03 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "POST /prompt HTTP/1.1" 200 85
+2026-09-29 17:04:03 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:03 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/28381ce6-d990-411b-a413-64dda4837494 HTTP/1.1" 200 2
+2026-09-29 17:04:05 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:05 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/28381ce6-d990-411b-a413-64dda4837494 HTTP/1.1" 200 2
+2026-09-29 17:04:07 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:07 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/28381ce6-d990-411b-a413-64dda4837494 HTTP/1.1" 200 2
+2026-09-29 17:04:09 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:09 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/28381ce6-d990-411b-a413-64dda4837494 HTTP/1.1" 200 2
+2026-09-29 17:04:11 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:11 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/28381ce6-d990-411b-a413-64dda4837494 HTTP/1.1" 200 2
+2026-09-29 17:04:11 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:11 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/28381ce6-d990-411b-a413-64dda4837494 HTTP/1.1" 200 2
+2026-09-29 17:04:13 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:13 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/28381ce6-d990-411b-a413-64dda4837494 HTTP/1.1" 200 2
+2026-09-29 17:04:15 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:15 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/28381ce6-d990-411b-a413-64dda4837494 HTTP/1.1" 200 2
+2026-09-29 17:04:17 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:17 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/28381ce6-d990-411b-a413-64dda4837494 HTTP/1.1" 200 2
+2026-09-29 17:04:19 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:19 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/28381ce6-d990-411b-a413-64dda4837494 HTTP/1.1" 200 2
+2026-09-29 17:04:21 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:21 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/28381ce6-d990-411b-a413-64dda4837494 HTTP/1.1" 200 2
+2026-09-29 17:04:23 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:23 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/28381ce6-d990-411b-a413-64dda4837494 HTTP/1.1" 200 2
+2026-09-29 17:04:25 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:25 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/28381ce6-d990-411b-a413-64dda4837494 HTTP/1.1" 200 2
+2026-09-29 17:04:27 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:27 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/28381ce6-d990-411b-a413-64dda4837494 HTTP/1.1" 200 2
+2026-09-29 17:04:29 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:29 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/28381ce6-d990-411b-a413-64dda4837494 HTTP/1.1" 200 2
+2026-09-29 17:04:31 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:31 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/28381ce6-d990-411b-a413-64dda4837494 HTTP/1.1" 200 2
+2026-09-29 17:04:33 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:33 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/28381ce6-d990-411b-a413-64dda4837494 HTTP/1.1" 200 2
+2026-09-29 17:04:35 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:35 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/28381ce6-d990-411b-a413-64dda4837494 HTTP/1.1" 200 2
+2026-09-29 17:04:37 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:37 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/28381ce6-d990-411b-a413-64dda4837494 HTTP/1.1" 200 2
+2026-09-29 17:04:39 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:39 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/28381ce6-d990-411b-a413-64dda4837494 HTTP/1.1" 200 2
+2026-09-29 17:04:41 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/28381ce6-d990-411b-a413-64dda4837494 HTTP/1.1" 200 3449
+2026-09-29 17:04:41 - agent_core.tools.image - DEBUG - image news_001.png from seed 7394254747999870261
+2026-09-29 17:04:41 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /view?filename=news_001_00006_.png&subfolder=&type=output HTTP/1.1" 200 387092
+2026-09-29 17:04:41 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-29 17:04:41 - ai.manage_model - INFO - Image model is already running.
+2026-09-29 17:04:41 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "POST /prompt HTTP/1.1" 200 85
+2026-09-29 17:04:41 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/8d3d18cb-92cc-4403-ba30-6557a54364e9 HTTP/1.1" 200 2
+2026-09-29 17:04:43 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:43 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/8d3d18cb-92cc-4403-ba30-6557a54364e9 HTTP/1.1" 200 2
+2026-09-29 17:04:43 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:43 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/8d3d18cb-92cc-4403-ba30-6557a54364e9 HTTP/1.1" 200 2
+2026-09-29 17:04:45 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:45 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/8d3d18cb-92cc-4403-ba30-6557a54364e9 HTTP/1.1" 200 2
+2026-09-29 17:04:47 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:47 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/8d3d18cb-92cc-4403-ba30-6557a54364e9 HTTP/1.1" 200 2
+2026-09-29 17:04:49 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:49 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/8d3d18cb-92cc-4403-ba30-6557a54364e9 HTTP/1.1" 200 2
+2026-09-29 17:04:51 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:51 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/8d3d18cb-92cc-4403-ba30-6557a54364e9 HTTP/1.1" 200 2
+2026-09-29 17:04:53 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:53 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/8d3d18cb-92cc-4403-ba30-6557a54364e9 HTTP/1.1" 200 2
+2026-09-29 17:04:55 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:55 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/8d3d18cb-92cc-4403-ba30-6557a54364e9 HTTP/1.1" 200 2
+2026-09-29 17:04:57 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:57 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/8d3d18cb-92cc-4403-ba30-6557a54364e9 HTTP/1.1" 200 2
+2026-09-29 17:04:59 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:59 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/8d3d18cb-92cc-4403-ba30-6557a54364e9 HTTP/1.1" 200 3565
+2026-09-29 17:04:59 - agent_core.tools.image - DEBUG - image news_002.png from seed 2317340810228955756
+2026-09-29 17:04:59 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:59 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /view?filename=news_002_00006_.png&subfolder=&type=output HTTP/1.1" 200 387534
+2026-09-29 17:04:59 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-29 17:04:59 - ai.manage_model - INFO - Image model is already running.
+2026-09-29 17:04:59 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:59 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "POST /prompt HTTP/1.1" 200 85
+2026-09-29 17:04:59 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:04:59 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/4cfab52a-b573-4b13-b36e-646ee6c79079 HTTP/1.1" 200 2
+2026-09-29 17:05:01 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:01 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/4cfab52a-b573-4b13-b36e-646ee6c79079 HTTP/1.1" 200 2
+2026-09-29 17:05:03 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:03 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/4cfab52a-b573-4b13-b36e-646ee6c79079 HTTP/1.1" 200 2
+2026-09-29 17:05:05 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:05 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/4cfab52a-b573-4b13-b36e-646ee6c79079 HTTP/1.1" 200 2
+2026-09-29 17:05:07 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:07 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/4cfab52a-b573-4b13-b36e-646ee6c79079 HTTP/1.1" 200 2
+2026-09-29 17:05:09 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:09 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/4cfab52a-b573-4b13-b36e-646ee6c79079 HTTP/1.1" 200 2
+2026-09-29 17:05:11 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:11 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/4cfab52a-b573-4b13-b36e-646ee6c79079 HTTP/1.1" 200 2
+2026-09-29 17:05:13 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:13 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/4cfab52a-b573-4b13-b36e-646ee6c79079 HTTP/1.1" 200 2
+2026-09-29 17:05:14 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:14 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/4cfab52a-b573-4b13-b36e-646ee6c79079 HTTP/1.1" 200 2
+2026-09-29 17:05:16 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:16 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/4cfab52a-b573-4b13-b36e-646ee6c79079 HTTP/1.1" 200 2
+2026-09-29 17:05:18 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:18 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/4cfab52a-b573-4b13-b36e-646ee6c79079 HTTP/1.1" 200 3564
+2026-09-29 17:05:18 - agent_core.tools.image - DEBUG - image news_003.png from seed 6767107358723353791
+2026-09-29 17:05:18 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:18 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /view?filename=news_003_00006_.png&subfolder=&type=output HTTP/1.1" 200 399999
+2026-09-29 17:05:18 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-29 17:05:18 - ai.manage_model - INFO - Image model is already running.
+2026-09-29 17:05:18 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:18 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "POST /prompt HTTP/1.1" 200 85
+2026-09-29 17:05:18 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:18 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/faffdc8e-5b87-4fe3-91ce-a0a06abb41bc HTTP/1.1" 200 2
+2026-09-29 17:05:20 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:20 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/faffdc8e-5b87-4fe3-91ce-a0a06abb41bc HTTP/1.1" 200 2
+2026-09-29 17:05:22 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:22 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/faffdc8e-5b87-4fe3-91ce-a0a06abb41bc HTTP/1.1" 200 2
+2026-09-29 17:05:24 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:24 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/faffdc8e-5b87-4fe3-91ce-a0a06abb41bc HTTP/1.1" 200 2
+2026-09-29 17:05:26 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:26 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/faffdc8e-5b87-4fe3-91ce-a0a06abb41bc HTTP/1.1" 200 2
+2026-09-29 17:05:28 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:28 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/faffdc8e-5b87-4fe3-91ce-a0a06abb41bc HTTP/1.1" 200 2
+2026-09-29 17:05:30 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:30 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/faffdc8e-5b87-4fe3-91ce-a0a06abb41bc HTTP/1.1" 200 2
+2026-09-29 17:05:32 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:32 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/faffdc8e-5b87-4fe3-91ce-a0a06abb41bc HTTP/1.1" 200 2
+2026-09-29 17:05:34 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:34 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/faffdc8e-5b87-4fe3-91ce-a0a06abb41bc HTTP/1.1" 200 2
+2026-09-29 17:05:36 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:36 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/faffdc8e-5b87-4fe3-91ce-a0a06abb41bc HTTP/1.1" 200 2
+2026-09-29 17:05:38 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:38 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/faffdc8e-5b87-4fe3-91ce-a0a06abb41bc HTTP/1.1" 200 2
+2026-09-29 17:05:40 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:40 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/faffdc8e-5b87-4fe3-91ce-a0a06abb41bc HTTP/1.1" 200 3649
+2026-09-29 17:05:40 - agent_core.tools.image - DEBUG - image news_004.png from seed 7740986060261114054
+2026-09-29 17:05:40 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:40 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /view?filename=news_004_00006_.png&subfolder=&type=output HTTP/1.1" 200 367248
+2026-09-29 17:05:40 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-29 17:05:40 - ai.manage_model - INFO - Image model is already running.
+2026-09-29 17:05:40 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:40 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "POST /prompt HTTP/1.1" 200 85
+2026-09-29 17:05:40 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:40 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/88b9e68b-bd9a-461b-9611-1d5bc4afae32 HTTP/1.1" 200 2
+2026-09-29 17:05:42 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:42 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/88b9e68b-bd9a-461b-9611-1d5bc4afae32 HTTP/1.1" 200 2
+2026-09-29 17:05:44 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:44 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/88b9e68b-bd9a-461b-9611-1d5bc4afae32 HTTP/1.1" 200 2
+2026-09-29 17:05:46 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:46 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/88b9e68b-bd9a-461b-9611-1d5bc4afae32 HTTP/1.1" 200 2
+2026-09-29 17:05:48 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:48 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/88b9e68b-bd9a-461b-9611-1d5bc4afae32 HTTP/1.1" 200 2
+2026-09-29 17:05:50 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:50 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/88b9e68b-bd9a-461b-9611-1d5bc4afae32 HTTP/1.1" 200 2
+2026-09-29 17:05:52 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:52 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/88b9e68b-bd9a-461b-9611-1d5bc4afae32 HTTP/1.1" 200 2
+2026-09-29 17:05:54 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:54 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/88b9e68b-bd9a-461b-9611-1d5bc4afae32 HTTP/1.1" 200 2
+2026-09-29 17:05:56 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:56 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/88b9e68b-bd9a-461b-9611-1d5bc4afae32 HTTP/1.1" 200 2
+2026-09-29 17:05:58 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:05:58 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/88b9e68b-bd9a-461b-9611-1d5bc4afae32 HTTP/1.1" 200 2
+2026-09-29 17:06:00 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:00 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/88b9e68b-bd9a-461b-9611-1d5bc4afae32 HTTP/1.1" 200 3609
+2026-09-29 17:06:00 - agent_core.tools.image - DEBUG - image news_005.png from seed 3688810110009406602
+2026-09-29 17:06:00 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:00 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /view?filename=news_005_00004_.png&subfolder=&type=output HTTP/1.1" 200 410309
+2026-09-29 17:06:00 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-29 17:06:00 - ai.manage_model - INFO - Image model is already running.
+2026-09-29 17:06:00 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:00 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "POST /prompt HTTP/1.1" 200 85
+2026-09-29 17:06:00 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:00 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/afb825b8-4cd8-44e3-91bb-8005748f0f96 HTTP/1.1" 200 2
+2026-09-29 17:06:02 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:02 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/afb825b8-4cd8-44e3-91bb-8005748f0f96 HTTP/1.1" 200 2
+2026-09-29 17:06:04 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:04 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/afb825b8-4cd8-44e3-91bb-8005748f0f96 HTTP/1.1" 200 2
+2026-09-29 17:06:06 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:06 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/afb825b8-4cd8-44e3-91bb-8005748f0f96 HTTP/1.1" 200 2
+2026-09-29 17:06:08 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:08 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/afb825b8-4cd8-44e3-91bb-8005748f0f96 HTTP/1.1" 200 2
+2026-09-29 17:06:10 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:10 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/afb825b8-4cd8-44e3-91bb-8005748f0f96 HTTP/1.1" 200 2
+2026-09-29 17:06:12 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:12 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/afb825b8-4cd8-44e3-91bb-8005748f0f96 HTTP/1.1" 200 2
+2026-09-29 17:06:14 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:14 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/afb825b8-4cd8-44e3-91bb-8005748f0f96 HTTP/1.1" 200 2
+2026-09-29 17:06:16 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:16 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/afb825b8-4cd8-44e3-91bb-8005748f0f96 HTTP/1.1" 200 2
+2026-09-29 17:06:18 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:18 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/afb825b8-4cd8-44e3-91bb-8005748f0f96 HTTP/1.1" 200 2
+2026-09-29 17:06:17 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:17 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/afb825b8-4cd8-44e3-91bb-8005748f0f96 HTTP/1.1" 200 2
+2026-09-29 17:06:19 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:19 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/afb825b8-4cd8-44e3-91bb-8005748f0f96 HTTP/1.1" 200 3506
+2026-09-29 17:06:19 - agent_core.tools.image - DEBUG - image news_006.png from seed 7234509086446582582
+2026-09-29 17:06:19 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:19 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /view?filename=news_006_00004_.png&subfolder=&type=output HTTP/1.1" 200 489475
+2026-09-29 17:06:19 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-29 17:06:19 - ai.manage_model - INFO - Image model is already running.
+2026-09-29 17:06:19 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:19 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "POST /prompt HTTP/1.1" 200 85
+2026-09-29 17:06:19 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:19 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/e12a0070-f37a-4943-8cf9-f864a62aad69 HTTP/1.1" 200 2
+2026-09-29 17:06:21 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:21 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/e12a0070-f37a-4943-8cf9-f864a62aad69 HTTP/1.1" 200 2
+2026-09-29 17:06:23 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:23 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/e12a0070-f37a-4943-8cf9-f864a62aad69 HTTP/1.1" 200 2
+2026-09-29 17:06:25 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:25 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/e12a0070-f37a-4943-8cf9-f864a62aad69 HTTP/1.1" 200 2
+2026-09-29 17:06:27 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:27 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/e12a0070-f37a-4943-8cf9-f864a62aad69 HTTP/1.1" 200 2
+2026-09-29 17:06:29 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:29 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/e12a0070-f37a-4943-8cf9-f864a62aad69 HTTP/1.1" 200 2
+2026-09-29 17:06:31 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:31 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/e12a0070-f37a-4943-8cf9-f864a62aad69 HTTP/1.1" 200 2
+2026-09-29 17:06:33 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:33 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/e12a0070-f37a-4943-8cf9-f864a62aad69 HTTP/1.1" 200 2
+2026-09-29 17:06:35 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:35 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/e12a0070-f37a-4943-8cf9-f864a62aad69 HTTP/1.1" 200 2
+2026-09-29 17:06:37 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:37 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/e12a0070-f37a-4943-8cf9-f864a62aad69 HTTP/1.1" 200 2
+2026-09-29 17:06:39 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:39 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/e12a0070-f37a-4943-8cf9-f864a62aad69 HTTP/1.1" 200 2
+2026-09-29 17:06:41 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/e12a0070-f37a-4943-8cf9-f864a62aad69 HTTP/1.1" 200 3583
+2026-09-29 17:06:41 - agent_core.tools.image - DEBUG - image news_007.png from seed 8409934829713742423
+2026-09-29 17:06:41 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /view?filename=news_007_00004_.png&subfolder=&type=output HTTP/1.1" 200 396510
+2026-09-29 17:06:41 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-29 17:06:41 - ai.manage_model - INFO - Image model is already running.
+2026-09-29 17:06:41 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "POST /prompt HTTP/1.1" 200 85
+2026-09-29 17:06:41 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/13204bf1-c9bf-48fa-be66-7518c99b4dad HTTP/1.1" 200 2
+2026-09-29 17:06:43 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:43 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/13204bf1-c9bf-48fa-be66-7518c99b4dad HTTP/1.1" 200 2
+2026-09-29 17:06:45 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:45 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/13204bf1-c9bf-48fa-be66-7518c99b4dad HTTP/1.1" 200 2
+2026-09-29 17:06:47 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:47 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/13204bf1-c9bf-48fa-be66-7518c99b4dad HTTP/1.1" 200 2
+2026-09-29 17:06:49 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:49 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/13204bf1-c9bf-48fa-be66-7518c99b4dad HTTP/1.1" 200 2
+2026-09-29 17:06:51 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:51 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/13204bf1-c9bf-48fa-be66-7518c99b4dad HTTP/1.1" 200 2
+2026-09-29 17:06:53 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:53 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/13204bf1-c9bf-48fa-be66-7518c99b4dad HTTP/1.1" 200 2
+2026-09-29 17:06:55 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:55 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/13204bf1-c9bf-48fa-be66-7518c99b4dad HTTP/1.1" 200 2
+2026-09-29 17:06:57 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:57 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/13204bf1-c9bf-48fa-be66-7518c99b4dad HTTP/1.1" 200 2
+2026-09-29 17:06:59 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:06:59 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/13204bf1-c9bf-48fa-be66-7518c99b4dad HTTP/1.1" 200 2
+2026-09-29 17:07:01 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:01 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/13204bf1-c9bf-48fa-be66-7518c99b4dad HTTP/1.1" 200 2
+2026-09-29 17:07:03 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:03 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/13204bf1-c9bf-48fa-be66-7518c99b4dad HTTP/1.1" 200 3680
+2026-09-29 17:07:03 - agent_core.tools.image - DEBUG - image news_008.png from seed 7260065843641103611
+2026-09-29 17:07:03 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:03 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /view?filename=news_008_00004_.png&subfolder=&type=output HTTP/1.1" 200 429857
+2026-09-29 17:07:03 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-29 17:07:03 - ai.manage_model - INFO - Image model is already running.
+2026-09-29 17:07:03 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:03 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "POST /prompt HTTP/1.1" 200 85
+2026-09-29 17:07:03 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:03 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b2029a54-a6c3-4d3d-88b3-ccf17992bb04 HTTP/1.1" 200 2
+2026-09-29 17:07:05 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:05 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b2029a54-a6c3-4d3d-88b3-ccf17992bb04 HTTP/1.1" 200 2
+2026-09-29 17:07:07 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:07 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b2029a54-a6c3-4d3d-88b3-ccf17992bb04 HTTP/1.1" 200 2
+2026-09-29 17:07:09 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:09 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b2029a54-a6c3-4d3d-88b3-ccf17992bb04 HTTP/1.1" 200 2
+2026-09-29 17:07:11 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:11 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b2029a54-a6c3-4d3d-88b3-ccf17992bb04 HTTP/1.1" 200 2
+2026-09-29 17:07:13 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:13 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b2029a54-a6c3-4d3d-88b3-ccf17992bb04 HTTP/1.1" 200 2
+2026-09-29 17:07:15 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:15 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b2029a54-a6c3-4d3d-88b3-ccf17992bb04 HTTP/1.1" 200 2
+2026-09-29 17:07:17 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:17 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b2029a54-a6c3-4d3d-88b3-ccf17992bb04 HTTP/1.1" 200 2
+2026-09-29 17:07:19 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:19 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b2029a54-a6c3-4d3d-88b3-ccf17992bb04 HTTP/1.1" 200 2
+2026-09-29 17:07:21 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:21 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b2029a54-a6c3-4d3d-88b3-ccf17992bb04 HTTP/1.1" 200 2
+2026-09-29 17:07:20 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:20 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b2029a54-a6c3-4d3d-88b3-ccf17992bb04 HTTP/1.1" 200 3538
+2026-09-29 17:07:20 - agent_core.tools.image - DEBUG - image news_009.png from seed 129957617047299291
+2026-09-29 17:07:20 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:20 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /view?filename=news_009_00004_.png&subfolder=&type=output HTTP/1.1" 200 364188
+2026-09-29 17:07:20 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-29 17:07:20 - ai.manage_model - INFO - Image model is already running.
+2026-09-29 17:07:20 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:20 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "POST /prompt HTTP/1.1" 200 85
+2026-09-29 17:07:20 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:20 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/af7d0ba2-6742-4afa-b64a-8610bbc1181c HTTP/1.1" 200 2
+2026-09-29 17:07:22 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:22 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/af7d0ba2-6742-4afa-b64a-8610bbc1181c HTTP/1.1" 200 2
+2026-09-29 17:07:24 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:24 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/af7d0ba2-6742-4afa-b64a-8610bbc1181c HTTP/1.1" 200 2
+2026-09-29 17:07:26 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:26 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/af7d0ba2-6742-4afa-b64a-8610bbc1181c HTTP/1.1" 200 2
+2026-09-29 17:07:28 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:28 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/af7d0ba2-6742-4afa-b64a-8610bbc1181c HTTP/1.1" 200 2
+2026-09-29 17:07:30 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:30 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/af7d0ba2-6742-4afa-b64a-8610bbc1181c HTTP/1.1" 200 2
+2026-09-29 17:07:32 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:32 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/af7d0ba2-6742-4afa-b64a-8610bbc1181c HTTP/1.1" 200 2
+2026-09-29 17:07:34 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:34 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/af7d0ba2-6742-4afa-b64a-8610bbc1181c HTTP/1.1" 200 2
+2026-09-29 17:07:36 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:36 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/af7d0ba2-6742-4afa-b64a-8610bbc1181c HTTP/1.1" 200 2
+2026-09-29 17:07:38 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:38 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/af7d0ba2-6742-4afa-b64a-8610bbc1181c HTTP/1.1" 200 2
+2026-09-29 17:07:40 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:40 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/af7d0ba2-6742-4afa-b64a-8610bbc1181c HTTP/1.1" 200 3542
+2026-09-29 17:07:40 - agent_core.tools.image - DEBUG - image news_010.png from seed 4962448619046621939
+2026-09-29 17:07:40 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:40 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /view?filename=news_010_00004_.png&subfolder=&type=output HTTP/1.1" 200 380892
+2026-09-29 17:07:40 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-29 17:07:40 - ai.manage_model - INFO - Image model is already running.
+2026-09-29 17:07:40 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:40 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "POST /prompt HTTP/1.1" 200 86
+2026-09-29 17:07:40 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:40 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b4605524-605e-4ff6-bd74-232481951a55 HTTP/1.1" 200 2
+2026-09-29 17:07:42 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:42 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b4605524-605e-4ff6-bd74-232481951a55 HTTP/1.1" 200 2
+2026-09-29 17:07:44 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:44 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b4605524-605e-4ff6-bd74-232481951a55 HTTP/1.1" 200 2
+2026-09-29 17:07:46 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:46 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b4605524-605e-4ff6-bd74-232481951a55 HTTP/1.1" 200 2
+2026-09-29 17:07:48 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:48 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b4605524-605e-4ff6-bd74-232481951a55 HTTP/1.1" 200 2
+2026-09-29 17:07:50 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:50 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b4605524-605e-4ff6-bd74-232481951a55 HTTP/1.1" 200 2
+2026-09-29 17:07:52 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:52 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b4605524-605e-4ff6-bd74-232481951a55 HTTP/1.1" 200 2
+2026-09-29 17:07:54 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:54 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b4605524-605e-4ff6-bd74-232481951a55 HTTP/1.1" 200 2
+2026-09-29 17:07:56 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:56 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b4605524-605e-4ff6-bd74-232481951a55 HTTP/1.1" 200 2
+2026-09-29 17:07:58 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:07:58 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b4605524-605e-4ff6-bd74-232481951a55 HTTP/1.1" 200 2
+2026-09-29 17:08:00 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:00 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/b4605524-605e-4ff6-bd74-232481951a55 HTTP/1.1" 200 3644
+2026-09-29 17:08:00 - agent_core.tools.image - DEBUG - image news_011.png from seed 294193902627159083
+2026-09-29 17:08:00 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:00 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /view?filename=news_011_00004_.png&subfolder=&type=output HTTP/1.1" 200 368623
+2026-09-29 17:08:00 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-29 17:08:00 - ai.manage_model - INFO - Image model is already running.
+2026-09-29 17:08:00 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:00 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "POST /prompt HTTP/1.1" 200 86
+2026-09-29 17:08:00 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:00 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/d5c6e309-8f07-437d-a83e-eeed8b68c1e2 HTTP/1.1" 200 2
+2026-09-29 17:08:02 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:02 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/d5c6e309-8f07-437d-a83e-eeed8b68c1e2 HTTP/1.1" 200 2
+2026-09-29 17:08:04 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:04 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/d5c6e309-8f07-437d-a83e-eeed8b68c1e2 HTTP/1.1" 200 2
+2026-09-29 17:08:06 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:06 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/d5c6e309-8f07-437d-a83e-eeed8b68c1e2 HTTP/1.1" 200 2
+2026-09-29 17:08:08 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:08 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/d5c6e309-8f07-437d-a83e-eeed8b68c1e2 HTTP/1.1" 200 2
+2026-09-29 17:08:10 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:10 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/d5c6e309-8f07-437d-a83e-eeed8b68c1e2 HTTP/1.1" 200 2
+2026-09-29 17:08:12 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:13 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/d5c6e309-8f07-437d-a83e-eeed8b68c1e2 HTTP/1.1" 200 2
+2026-09-29 17:08:15 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:15 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/d5c6e309-8f07-437d-a83e-eeed8b68c1e2 HTTP/1.1" 200 2
+2026-09-29 17:08:17 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:17 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/d5c6e309-8f07-437d-a83e-eeed8b68c1e2 HTTP/1.1" 200 2
+2026-09-29 17:08:19 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:19 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/d5c6e309-8f07-437d-a83e-eeed8b68c1e2 HTTP/1.1" 200 2
+2026-09-29 17:08:21 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:21 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/d5c6e309-8f07-437d-a83e-eeed8b68c1e2 HTTP/1.1" 200 2
+2026-09-29 17:08:23 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:23 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/d5c6e309-8f07-437d-a83e-eeed8b68c1e2 HTTP/1.1" 200 3623
+2026-09-29 17:08:23 - agent_core.tools.image - DEBUG - image news_012.png from seed 3639138784075251680
+2026-09-29 17:08:23 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:23 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /view?filename=news_012_00003_.png&subfolder=&type=output HTTP/1.1" 200 383211
+2026-09-29 17:08:23 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-29 17:08:23 - ai.manage_model - INFO - Image model is already running.
+2026-09-29 17:08:23 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:23 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "POST /prompt HTTP/1.1" 200 86
+2026-09-29 17:08:23 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:23 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/3d15ac96-be60-4970-bf6e-6f833f4468c0 HTTP/1.1" 200 2
+2026-09-29 17:08:25 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:25 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/3d15ac96-be60-4970-bf6e-6f833f4468c0 HTTP/1.1" 200 2
+2026-09-29 17:08:25 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:25 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/3d15ac96-be60-4970-bf6e-6f833f4468c0 HTTP/1.1" 200 2
+2026-09-29 17:08:27 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:27 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/3d15ac96-be60-4970-bf6e-6f833f4468c0 HTTP/1.1" 200 2
+2026-09-29 17:08:29 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:29 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/3d15ac96-be60-4970-bf6e-6f833f4468c0 HTTP/1.1" 200 2
+2026-09-29 17:08:31 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:31 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/3d15ac96-be60-4970-bf6e-6f833f4468c0 HTTP/1.1" 200 2
+2026-09-29 17:08:33 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:33 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/3d15ac96-be60-4970-bf6e-6f833f4468c0 HTTP/1.1" 200 2
+2026-09-29 17:08:35 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:35 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/3d15ac96-be60-4970-bf6e-6f833f4468c0 HTTP/1.1" 200 2
+2026-09-29 17:08:37 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:37 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/3d15ac96-be60-4970-bf6e-6f833f4468c0 HTTP/1.1" 200 2
+2026-09-29 17:08:39 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:39 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/3d15ac96-be60-4970-bf6e-6f833f4468c0 HTTP/1.1" 200 2
+2026-09-29 17:08:41 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/3d15ac96-be60-4970-bf6e-6f833f4468c0 HTTP/1.1" 200 3629
+2026-09-29 17:08:41 - agent_core.tools.image - DEBUG - image news_013.png from seed 7842504504456640989
+2026-09-29 17:08:41 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /view?filename=news_013_00003_.png&subfolder=&type=output HTTP/1.1" 200 360241
+2026-09-29 17:08:41 - ai.manage_model - INFO - Launching the model image with provider local.
+2026-09-29 17:08:41 - ai.manage_model - INFO - Image model is already running.
+2026-09-29 17:08:41 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "POST /prompt HTTP/1.1" 200 86
+2026-09-29 17:08:41 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:41 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/46050af0-c975-4a72-bf79-4a372b12f85f HTTP/1.1" 200 2
+2026-09-29 17:08:43 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:43 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/46050af0-c975-4a72-bf79-4a372b12f85f HTTP/1.1" 200 2
+2026-09-29 17:08:45 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:45 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/46050af0-c975-4a72-bf79-4a372b12f85f HTTP/1.1" 200 2
+2026-09-29 17:08:47 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:47 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/46050af0-c975-4a72-bf79-4a372b12f85f HTTP/1.1" 200 2
+2026-09-29 17:08:49 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:49 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/46050af0-c975-4a72-bf79-4a372b12f85f HTTP/1.1" 200 2
+2026-09-29 17:08:51 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:51 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/46050af0-c975-4a72-bf79-4a372b12f85f HTTP/1.1" 200 2
+2026-09-29 17:08:53 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:53 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/46050af0-c975-4a72-bf79-4a372b12f85f HTTP/1.1" 200 2
+2026-09-29 17:08:55 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:55 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/46050af0-c975-4a72-bf79-4a372b12f85f HTTP/1.1" 200 2
+2026-09-29 17:08:56 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:56 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/46050af0-c975-4a72-bf79-4a372b12f85f HTTP/1.1" 200 2
+2026-09-29 17:08:58 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:08:58 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/46050af0-c975-4a72-bf79-4a372b12f85f HTTP/1.1" 200 2
+2026-09-29 17:09:00 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:09:00 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/46050af0-c975-4a72-bf79-4a372b12f85f HTTP/1.1" 200 2
+2026-09-29 17:09:02 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:09:02 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /history/46050af0-c975-4a72-bf79-4a372b12f85f HTTP/1.1" 200 3537
+2026-09-29 17:09:02 - agent_core.tools.image - DEBUG - image news_014.png from seed 3241736349096100540
+2026-09-29 17:09:02 - urllib3.connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:8188
+2026-09-29 17:09:02 - urllib3.connectionpool - DEBUG - http://127.0.0.1:8188 "GET /view?filename=news_014_00003_.png&subfolder=&type=output HTTP/1.1" 200 435960
+2026-09-29 17:09:02 - agent_core.tools.video - INFO - segment 1/14: news_001.png + news_001.wav
+2026-09-29 17:09:04 - agent_core.tools.video - INFO - segment 2/14: news_002.png + news_002.wav
+2026-09-29 17:09:05 - agent_core.tools.video - INFO - segment 3/14: news_003.png + news_003.wav
+2026-09-29 17:09:06 - agent_core.tools.video - INFO - segment 4/14: news_004.png + news_004.wav
+2026-09-29 17:09:06 - agent_core.tools.video - INFO - segment 5/14: news_005.png + news_005.wav
+2026-09-29 17:09:07 - agent_core.tools.video - INFO - segment 6/14: news_006.png + news_006.wav
+2026-09-29 17:09:08 - agent_core.tools.video - INFO - segment 7/14: news_007.png + news_007.wav
+2026-09-29 17:09:08 - agent_core.tools.video - INFO - segment 8/14: news_008.png + news_008.wav
+2026-09-29 17:09:09 - agent_core.tools.video - INFO - segment 9/14: news_009.png + news_009.wav
+2026-09-29 17:09:09 - agent_core.tools.video - INFO - segment 10/14: news_010.png + news_010.wav
+2026-09-29 17:09:10 - agent_core.tools.video - INFO - segment 11/14: news_011.png + news_011.wav
+2026-09-29 17:09:11 - agent_core.tools.video - INFO - segment 12/14: news_012.png + news_012.wav
+2026-09-29 17:09:11 - agent_core.tools.video - INFO - segment 13/14: news_013.png + news_013.wav
+2026-09-29 17:09:12 - agent_core.tools.video - INFO - segment 14/14: news_014.png + news_014.wav
+2026-09-29 17:09:13 - agent_core.tools.video - INFO - video /home/wl26/project/media_en_news/resource/video/news.mp4 (107.2s, 14 segments)
+2026-09-29 17:09:13 - agent_core.graph - INFO - done: 14/14 sentences complete, video=yes (107.2s)
+2026-09-29 17:09:13 - __main__ - ERROR - the workflow failed
+Traceback (most recent call last):
+  File "/home/wl26/project/media_en_news/agent_core/main.py", line 57, in main
+    result = graph.invoke(
+             ^^^^^^^^^^^^^
+  File "/home/wl26/miniconda3/envs/agent/lib/python3.11/site-packages/langgraph/pregel/main.py", line 3913, in invoke
+    for chunk in self.stream(
+  File "/home/wl26/miniconda3/envs/agent/lib/python3.11/site-packages/langgraph/pregel/main.py", line 3011, in stream
+    raise GraphRecursionError(msg)
+langgraph.errors.GraphRecursionError: Recursion limit of 25 reached without hitting a stop condition. You can increase the limit by setting the `recursion_limit` config key.
+For troubleshooting, visit: https://docs.langchain.com/oss/python/langgraph/errors/GRAPH_RECURSION_LIMIT
+2026-09-29 17:09:13 - __main__ - INFO - model server status: {'llm': 0, 'tts': 0, 'image': 1}
+2026-09-29 17:09:13 - __main__ - INFO - stopping the model server
+2026-09-29 17:09:13 - ai.manage_model - INFO - Closing the model image with provider local.
