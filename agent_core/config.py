@@ -41,7 +41,7 @@ STEM = "news"
 # ~1 minute of spoken English is roughly 150 words. 1.5 min is roughly 200 words.
 TARGET_WORDS = 200
 MIN_WORDS = 150
-MAX_WORDS = 300
+MAX_WORDS = 350
 
 # Reflection loop: the script is critiqued and rewritten at most this often.
 MAX_SUMMARY_ATTEMPTS = 10
@@ -61,6 +61,10 @@ TTS_TIMEOUT = 120
 IMAGE_TIMEOUT = 600  # seconds to wait for one ComfyUI generation
 VIDEO_FPS = 25
 
+# Burn each sentence onto its image (tools/add_caption.py) so the video shows
+# subtitles. Set to False to render the plain images.
+CAPTION_IMAGES = True
+
 # Model server startup budgets (seconds). ComfyUI needs the longest.
 READY_TIMEOUTS = {"llm": 180, "tts": 180, "image": 300}
 
@@ -69,12 +73,13 @@ READY_TIMEOUTS = {"llm": 180, "tts": 180, "image": 300}
 # ---------------------------------------------------------------------------
 
 SUMMARY_PROMPT = f"""\
-You are a professional English news writer.
+You are a professional English news writer, write an English news script.
 Integrate all key information across all provided news texts, merge overlapping topics, remove duplicate facts, then rewrite into a cohesive 1.5-minute spoken English news broadcast script.
 
 Requirements:
 - Output only English. No Chinese characters.
 - Target word count: {TARGET_WORDS}, suitable for natural reading aloud in around 1.5 minutes.
+- Each sentence should be around 20 words, but can vary from 10 to 30 words.
 - Strictly objective factual reporting only: preserve key time, location, subjects and events.
 - No commentary, analysis, speculation, subjective opinions, metaphors or persuasive language.
 - Each important fact appears exactly once; avoid repeated sentences, facts or redundant phrases.
@@ -96,10 +101,10 @@ If you reply REVISE, add one short sentence saying what to fix. Nothing else.
 
 IMAGE_PROMPT = (
     "Write one detailed English image-generation prompt for the following news "
-    "sentence. Render it in American comic book style: bold ink outlines, "
-    "dramatic shading and hatching, halftone dot textures, saturated colors, "
-    "and dynamic, expressive compositions. Describe the scene, setting, "
-    "characters, weather, and any objects or text visible in the frame. "
+    "sentence. Render it in simple American comic book style: bold ink outlines, "
+    "dramatic shading and hatching, halftone dot textures, saturated colors. "
+    "Keep composition simple, main subject prominent, minimal background, avoid distracting extra elements. "
+    "Describe the scene, setting, characters, weather, and objects in the frame. NO text, no letters, no captions in image. "
     "Output only the prompt text itself, nothing else.\n\nSentence: "
 )
 

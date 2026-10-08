@@ -20,7 +20,7 @@ def split_sentences(text: str) -> list[str]:
     """Split into complete sentences on . ! ? or line breaks, preserving the
     sentence-final punctuation. A trailing fragment without punctuation is
     merged into the previous sentence."""
-    parts = [p.strip() for p in re.split(r"(?<=[.!?])\s+|\n+", text) if p.strip()]
+    parts = [p.strip() for p in re.split(r'(?<=[.!?]")\s+|(?<=[.!?])\s+|\n+', text) if p.strip()]
     if not parts:
         return []
     if parts[-1][-1] not in ".!?":

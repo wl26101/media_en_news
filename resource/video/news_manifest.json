@@ -1,13 +1,13 @@
 {
   "source": "/home/wl26/project/media_en_news/resource/text/source.txt",
   "video": "/home/wl26/project/media_en_news/resource/video/news.mp4",
-  "duration_s": 205.563,
-  "words": 602,
-  "attempts": 3,
+  "duration_s": 91.803,
+  "words": 255,
+  "attempts": 1,
   "sentences": [
     {
       "index": 1,
-      "text": "According to NBC, Iran's Foreign Minister Abbas Araghchi stated on September 27 that Iran is now prepared for a potential war with the US after US President Donald Trump publicly rejected Iran's proposal for the Hormuz Strait.",
+      "text": "A health care company, Nolla Health, based in New York City, announced a pilot program in Utah allowing artificial intelligence to issue initial prescriptions, including acne treatment.",
       "text_file": "/home/wl26/project/media_en_news/resource/text/news_001.txt",
       "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_001.txt",
       "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_001.wav",
@@ -16,7 +16,7 @@
     },
     {
       "index": 2,
-      "text": "However, Iran has not given up on diplomatic efforts.",
+      "text": "The program, detailed in a blog post, is the first in the US authorized by a state regulator to allow AI to issue initial prescriptions.",
       "text_file": "/home/wl26/project/media_en_news/resource/text/news_002.txt",
       "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_002.txt",
       "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_002.wav",
@@ -25,7 +25,7 @@
     },
     {
       "index": 3,
-      "text": "During an interview with NBC's \"Meet the Press,\" Araghchi said, \"We are now ready for a war, but we are still trying to find a diplomatic solution.\" He emphasized that if Iran is attacked again, it will be ready to fight, \"even if it means a war of annihilation.\"",
+      "text": "Nolla Health said the pilot aims to close the healthcare access gap by avoiding appointment wait times and costs associated with visiting a dermatologist.",
       "text_file": "/home/wl26/project/media_en_news/resource/text/news_003.txt",
       "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_003.txt",
       "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_003.wav",
@@ -34,7 +34,7 @@
     },
     {
       "index": 4,
-      "text": "However, Araghchi also stated that Iran is still willing to resolve the issue through diplomatic means, \"now it is up to President Trump to make the choice.\"",
+      "text": "The Nolla Derm application will prescribe effective acne treatment for $5 a month, requiring no office visit.",
       "text_file": "/home/wl26/project/media_en_news/resource/text/news_004.txt",
       "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_004.txt",
       "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_004.wav",
@@ -43,7 +43,7 @@
     },
     {
       "index": 5,
-      "text": "Last week, Iran submitted a proposal to the US through Qatar, suggesting reopening the Hormuz Strait within seven days to restore normal shipping in this crucial global oil transportation route.",
+      "text": "Utah residents 18 and older can download the app at a discounted rate of $4.99 per month after verifying their identity, providing informed consent, and completing an intake questionnaire.",
       "text_file": "/home/wl26/project/media_en_news/resource/text/news_005.txt",
       "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_005.txt",
       "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_005.wav",
@@ -52,7 +52,7 @@
     },
     {
       "index": 6,
-      "text": "US President Donald Trump rejected the proposal on September 26, stating that Iran is eager to reach an agreement because they have suffered too much.",
+      "text": "A quick five-angle face scan generates a personalized treatment plan and an initial prescription in about 10-15 minutes.",
       "text_file": "/home/wl26/project/media_en_news/resource/text/news_006.txt",
       "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_006.txt",
       "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_006.wav",
@@ -61,7 +61,7 @@
     },
     {
       "index": 7,
-      "text": "Araghchi clarified that Iran is not proposing new conditions, but rather conditions that the US has previously committed to, such as releasing frozen Iranian funds and assets, and allowing Iran to sell oil.",
+      "text": "The pilot will roll out in three stages with physician involvement in each.",
       "text_file": "/home/wl26/project/media_en_news/resource/text/news_007.txt",
       "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_007.txt",
       "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_007.wav",
@@ -70,7 +70,7 @@
     },
     {
       "index": 8,
-      "text": "Regarding Trump's claim that Iran is waiting for the results of the US midterm elections, Araghchi responded, \"We do not care about the US midterm elections, we only care about our national interests.\"",
+      "text": "In the first stage, two licensed physicians independently review and approve every AI-generated prescription.",
       "text_file": "/home/wl26/project/media_en_news/resource/text/news_008.txt",
       "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_008.txt",
       "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_008.wav",
@@ -79,7 +79,7 @@
     },
     {
       "index": 9,
-      "text": "On September 27, according to the Iranian Mehr News Agency, Iran's Foreign Minister Abbas Araghchi stated that Iran is now prepared for a potential war with the US, but has not given up on diplomatic efforts.",
+      "text": "In the second stage, Nolla Derm issues prescriptions directly, with a physician reviewing every case weekly.",
       "text_file": "/home/wl26/project/media_en_news/resource/text/news_009.txt",
       "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_009.txt",
       "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_009.wav",
@@ -88,7 +88,7 @@
     },
     {
       "index": 10,
-      "text": "Araghchi, speaking at a UN General Assembly press conference on September 27, said, \"We are now ready for a war, but we are still trying to find a diplomatic solution.",
+      "text": "In the third stage, a 10% sample of prescriptions each month will be reviewed by a physician, and every case involving an escalation or side effect will be reviewed.",
       "text_file": "/home/wl26/project/media_en_news/resource/text/news_010.txt",
       "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_010.txt",
       "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_010.wav",
@@ -97,7 +97,7 @@
     },
     {
       "index": 11,
-      "text": "We do not have a reason to return to diplomacy, but we are still trying to find a diplomatic solution because we believe we should not miss any opportunities for peace.\"",
+      "text": "The post also stated that patients can message a licensed physician through the app at no extra cost.",
       "text_file": "/home/wl26/project/media_en_news/resource/text/news_011.txt",
       "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_011.txt",
       "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_011.wav",
@@ -106,115 +106,13 @@
     },
     {
       "index": 12,
-      "text": "He emphasized that Iran is willing to negotiate and is ready to face any challenges, \"even if the conflict escalates to a war of annihilation, we will be resolute in resisting aggression.\"",
+      "text": "Nolla Health highlighted acne treatment as a viable starting point for the technology due to its well-understood nature, low risk, and strong clinical evidence.",
       "text_file": "/home/wl26/project/media_en_news/resource/text/news_012.txt",
       "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_012.txt",
       "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_012.wav",
       "image_file": "/home/wl26/project/media_en_news/resource/images/news_012.png",
       "status": "ok"
-    },
-    {
-      "index": 13,
-      "text": "On September 25, the Revolutionary Guard claimed to have detained a US Navy unmanned underwater vehicle (UUV) in the Hormuz Strait.",
-      "text_file": "/home/wl26/project/media_en_news/resource/text/news_013.txt",
-      "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_013.txt",
-      "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_013.wav",
-      "image_file": "/home/wl26/project/media_en_news/resource/images/news_013.png",
-      "status": "ok"
-    },
-    {
-      "index": 14,
-      "text": "According to the Tasnim News Agency, the vehicle was identified as a Remus 600 and has been handed over to experts for data extraction.",
-      "text_file": "/home/wl26/project/media_en_news/resource/text/news_014.txt",
-      "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_014.txt",
-      "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_014.wav",
-      "image_file": "/home/wl26/project/media_en_news/resource/images/news_014.png",
-      "status": "ok"
-    },
-    {
-      "index": 15,
-      "text": "The US Navy did not immediately respond to a request for comment.",
-      "text_file": "/home/wl26/project/media_en_news/resource/text/news_015.txt",
-      "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_015.txt",
-      "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_015.wav",
-      "image_file": "/home/wl26/project/media_en_news/resource/images/news_015.png",
-      "status": "ok"
-    },
-    {
-      "index": 16,
-      "text": "Previously, Araghchi announced on September 25 at the UN headquarters in New York that Iran had submitted a proposal to the US through Qatar, suggesting reopening the Hormuz Strait within seven days to restore normal shipping.",
-      "text_file": "/home/wl26/project/media_en_news/resource/text/news_016.txt",
-      "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_016.txt",
-      "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_016.wav",
-      "image_file": "/home/wl26/project/media_en_news/resource/images/news_016.png",
-      "status": "ok"
-    },
-    {
-      "index": 17,
-      "text": "However, The Wall Street Journal reported on September 25 that Trump rejected Iran's proposal and told his aides that he may resume bombing Iran after the US midterm elections in November.",
-      "text_file": "/home/wl26/project/media_en_news/resource/text/news_017.txt",
-      "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_017.txt",
-      "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_017.wav",
-      "image_file": "/home/wl26/project/media_en_news/resource/images/news_017.png",
-      "status": "ok"
-    },
-    {
-      "index": 18,
-      "text": "Araghchi clarified that the mediation party has not yet conveyed the US's formal rejection to Tehran.",
-      "text_file": "/home/wl26/project/media_en_news/resource/text/news_018.txt",
-      "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_018.txt",
-      "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_018.wav",
-      "image_file": "/home/wl26/project/media_en_news/resource/images/news_018.png",
-      "status": "ok"
-    },
-    {
-      "index": 19,
-      "text": "He stated that only negotiations can break the deadlock; as for reopening the Hormuz Strait, Iran insists that the US must first meet its conditions.",
-      "text_file": "/home/wl26/project/media_en_news/resource/text/news_019.txt",
-      "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_019.txt",
-      "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_019.wav",
-      "image_file": "/home/wl26/project/media_en_news/resource/images/news_019.png",
-      "status": "ok"
-    },
-    {
-      "index": 20,
-      "text": "Araghchi reiterated that as part of the agreement to end the conflict, Iran is willing to reopen the Strait.",
-      "text_file": "/home/wl26/project/media_en_news/resource/text/news_020.txt",
-      "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_020.txt",
-      "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_020.wav",
-      "image_file": "/home/wl26/project/media_en_news/resource/images/news_020.png",
-      "status": "ok"
-    },
-    {
-      "index": 21,
-      "text": "As a condition, \"We demand the release of frozen funds and assets, and we hope to sell oil.\"",
-      "text_file": "/home/wl26/project/media_en_news/resource/text/news_021.txt",
-      "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_021.txt",
-      "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_021.wav",
-      "image_file": "/home/wl26/project/media_en_news/resource/images/news_021.png",
-      "status": "ok"
-    },
-    {
-      "index": 22,
-      "text": "US Ambassador to the UN, Michael Waltz, criticized Iran's latest proposal as a \"false gesture\" that the US cannot accept.",
-      "text_file": "/home/wl26/project/media_en_news/resource/text/news_022.txt",
-      "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_022.txt",
-      "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_022.wav",
-      "image_file": "/home/wl26/project/media_en_news/resource/images/news_022.png",
-      "status": "ok"
-    },
-    {
-      "index": 23,
-      "text": "He stated that Trump will retain all options.",
-      "text_file": "/home/wl26/project/media_en_news/resource/text/news_023.txt",
-      "prompt_file": "/home/wl26/project/media_en_news/resource/image_prompt/news_023.txt",
-      "audio_file": "/home/wl26/project/media_en_news/resource/audio/news_023.wav",
-      "image_file": "/home/wl26/project/media_en_news/resource/images/news_023.png",
-      "status": "ok"
     }
   ],
-  "errors": [
-    "summarize attempt 2: the reply is not English (1% Latin letters)",
-    "summarize attempt 3: the reply is not English (2% Latin letters)"
-  ]
+  "errors": []
 }

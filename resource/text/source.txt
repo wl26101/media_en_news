@@ -1,31 +1,31 @@
-据美国全国广播公司（NBC）9月27日报道，伊朗外交部长阿拉格齐当天表示，在美国总统特朗普公开拒绝伊朗提出的霍尔木兹海峡方案后，伊朗已为与美国重新开战做好充分准备，但仍未放弃外交途径。
+A health care company announced Monday that it has received authorization for a pilot program in Utah allowing artificial intelligence to issue initial prescriptions, including acne treatment.
 
-当天接受NBC节目“与媒体见面”采访时，被问及美国可能在中期选举后恢复轰炸伊朗的报道，阿拉格齐表示：“我们已经为战争重新开始的时刻做好充分准备。”他强调，如果再次遭到攻击，伊朗将坚决应对，“即使这意味着一场末日战争”。
+Nolla Health, which is based in New York City, introduced the program in a blog post announcing the "AI-powered prescriptions," its acne treatment prescription process, which will roll out in three stages.
 
-不过，阿拉格齐同时表示，伊朗仍准备通过外交方式解决问题，“现在由特朗普总统作出选择”。
+The company said the pilot is the first in the US authorized by a state regulator to allow AI to issue initial prescriptions, and that it was authorized after working with the Utah Office of Artificial Intelligence Policy.
 
-伊朗上周通过卡塔尔向美国转交一项方案，提出作为结束冲突协议的一部分，在7天内重新开放霍尔木兹海峡，恢复这一全球关键石油运输通道的正常航运。特朗普26日表示已经拒绝该方案，并声称伊朗急于达成协议，是因为“他们输得太惨了”。
+The company says the program is designed to close "the access gap" to healthcare, in this case, by avoiding the appointment wait times and costs associated with visiting a dermatologist. 
 
-阿拉格齐则称，尽管特朗普已经公开表态，但伊朗尚未通过斡旋方收到美方正式拒绝方案的通知。他重申，伊朗愿意通过协议重新开放霍尔木兹海峡，但作为交换，美方应释放被冻结的伊朗资金和资产，并允许伊朗出售石油。
+The company said the Nolla Derm application "will prescribe effective acne treatment from $5 a month" and require "no office visit."
 
-他还表示，这些并非伊朗提出的新条件，而是美国此前已经承诺过的内容。美伊今年6月曾签署一份包含临时停火安排的谅解备忘录，但协议仅维持数日便因双方再次相互发动袭击而破裂。
+The post said Utah residents 18 and older can download the app and begin the process at a discounted rate of $4.99 per month.
 
-对于特朗普声称伊朗可能在等待美国中期选举结果，阿拉格齐回应称：“我们不关心美国中期选举，我们关心的是自己的国家利益。”
+After verifying their identity, providing informed consent and filling out an intake questionnaire, patients take a "quick five-angle face scan."
 
-据伊朗迈赫尔通讯社27日报道，伊朗外长阿拉格齐表示，伊朗已做好与美国重新开战的准备，但尚未放弃通过外交途径进行接触。
+"In about 10--15 minutes, this generates a personalized treatment plan and, if appropriate, an initial prescription," the post said.
 
-阿拉格齐（Abbas Araghchi）当地时间27日在联合国大会后、上美国国家广播公司（NBC）节目《会晤新闻界》（Meet the Press）时说，伊朗已准备好与美国打一场“末日之战”，但仍会尝试外交途径，以免错过任何和平机会。
+The pilot will roll out in three stages with physician involvement in each, according to the company.
 
-阿拉格齐说：“如果问我们，我们没有理由重回外交，但我仍在尝试外交，因为我认为不该错过任何和平机会。”
+In the first stage, which includes the first 100 patients, "two licensed physicians independently review and approve every AI-generated prescription before it reaches the patient."
 
-他强调，伊朗既愿意谈判，也愿意面对任何挑战，“即使冲突演变成末日战争，也会坚定抵抗侵略。”
+In the second stage, which will include up to 500 patients, "Nolla Derm issues prescriptions directly, and a physician reviews every case after the fact, at least weekly."
 
-伊朗革命卫队同日声称，在霍尔木兹海峡扣押一艘美军水下无人机（UUV）。塔斯尼姆通讯社在Telegram引述革命卫队，指其为Remus 600型，已交由专家提取数据。美军未立即回应置评请求。
+In the third stage of the pilot, a 10% sample of prescriptions each month will be reviewed by a physician. A physician will also review "every case involving an escalation or a side effect."
 
-此前，阿拉格齐25日在纽约联合国总部举行的记者会上宣布，伊朗已通过卡塔尔向美国转达一个有关重新开放霍尔木兹海峡的计划，如果美方据此采取必要行动，霍尔木兹海峡可以在七日内重新开放，恢复正常海运。不过，美国《华尔街日报》25日报道称，特朗普拒绝了伊方的相关提议，并告诉其助手他可能在今年11月美国国会中期选举后恢复对伊朗的轰炸。
+The company said stages one and two would last at least four and eight weeks, respectively.
 
-但阿拉格齐表示，斡旋方尚未向德黑兰转达美方的正式回复。他指称，只有谈判才能打破僵局；至于重开霍尔木兹海峡，伊朗仍坚持美方须先满足其条件。阿拉格齐重申，作为结束冲突协议的一部分，伊朗准备重新开放海峡。作为交换条件，“我们要求解冻被非法扣押的资金和资产，并希望能够出售石油”。
+"Moving to the next stage requires meeting safety targets, including 95% agreement with physicians and zero serious adverse events, and written approval from the state," the post said.
 
-美国驻联合国大使沃兹（Michael Waltz）则在NBC另一场访问中批评，伊朗最新提议是“明知美方无法接受却仍拿出来谈的假姿态”。他说特朗普会保留所有选项。
+The post continued, "Patients can message a licensed physician through the app at any time, at no extra cost."
 
-针对美国可能对伊朗发动的袭击，伊朗军方发言人阿克拉米尼亚27日表示，伊朗武装部队已做好充分准备，将竭尽全力进行对抗。
+The company said acne treatment was a viable starting point for the technology because it is "well understood, low risk, and backed by decades of clinical evidence."

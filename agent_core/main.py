@@ -38,7 +38,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--keep-models", action="store_true", help="do not stop the model servers when done")
     parser.add_argument("--keep-files", action="store_true", help="keep the artifacts of the previous run")
     parser.add_argument("--fps", type=int, default=config.VIDEO_FPS, help="frames per second for the still images")
-    parser.add_argument("--recursion-limit", type=int, default=25, help="langgraph step budget")
+    parser.add_argument("--recursion-limit", type=int, default=100, help="langgraph step budget")
     return parser.parse_args()
 
 
